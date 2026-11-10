@@ -1,0 +1,4 @@
+interface:
+  display_name: "Revisar agenda CUP&CAKE"
+  short_description: "Evalúa capacidad y revisión humana"
+  default_prompt: "Use $cupcake-review-capacity para evaluar una fecha sin confirmarla automáticamente."

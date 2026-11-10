@@ -1,0 +1,4 @@
+interface:
+  display_name: "Capturar diseño CUP&CAKE"
+  short_description: "Recopila requisitos y consulta Kyte"
+  default_prompt: "Use $cupcake-capture-design para recopilar y validar un pedido personalizado."

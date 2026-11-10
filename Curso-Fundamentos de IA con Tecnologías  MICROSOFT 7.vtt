@@ -1,0 +1,5508 @@
+WEBVTT
+
+8f3dffe0-7877-4754-9380-44d91763a288-0
+00:00:02.240 --> 00:00:07.512
+Es que es el teams ahora sí es el TEAM,
+ni siquiera en mi Internet es el teams
+
+8f3dffe0-7877-4754-9380-44d91763a288-1
+00:00:07.512 --> 00:00:11.182
+como están entrando,
+así como de bonches para admitir,
+
+8f3dffe0-7877-4754-9380-44d91763a288-2
+00:00:11.182 --> 00:00:14.519
+para entrar a admitir como que TEAM se se
+truena,
+
+8f3dffe0-7877-4754-9380-44d91763a288-3
+00:00:14.519 --> 00:00:18.923
+se cuelga cuando entran así de a 5 de a
+10 al mismo tiempo. Bien,
+
+8f3dffe0-7877-4754-9380-44d91763a288-4
+00:00:18.923 --> 00:00:24.262
+entonces de nuevo hoy vamos a ver la base
+de su proyecto o K independientemente
+
+8f3dffe0-7877-4754-9380-44d91763a288-5
+00:00:24.262 --> 00:00:28.400
+ahorita vas a ver la la arquitectura que
+pues yo voy a hacer.
+
+be203a88-54c7-4af4-af20-6bdbe1d7a307-0
+00:00:28.600 --> 00:00:36.211
+Ajá no quiere decir que tú la sigas si tú
+la quieres seguir adelante. ¿Pero bueno,
+
+be203a88-54c7-4af4-af20-6bdbe1d7a307-1
+00:00:36.211 --> 00:00:41.805
+una arquitectura, sí,
+una arquitectura ahí está arqui es que
+
+be203a88-54c7-4af4-af20-6bdbe1d7a307-2
+00:00:41.805 --> 00:00:45.840
+esta la compu se esta tomando
+arquitectura?
+
+96d0aacf-be38-41b3-94c8-e0dc8e538e91-0
+00:03:05.320 --> 00:03:10.087
+Listo, creo que ya me escuchan, sí,
+ya me escuchan,
+
+96d0aacf-be38-41b3-94c8-e0dc8e538e91-1
+00:03:10.087 --> 00:03:15.770
+ya ya me deberían de escuchar,
+entonces este micro no, ya no,
+
+96d0aacf-be38-41b3-94c8-e0dc8e538e91-2
+00:03:15.770 --> 00:03:20.812
+ya ya se fue, ahí está.
+Es que también es teams teams,
+
+96d0aacf-be38-41b3-94c8-e0dc8e538e91-3
+00:03:20.812 --> 00:03:26.680
+me está consumiendo cuatro gigas de RAM.
+Ay Dios, no vean esto.
+
+bef5ff53-cfd4-49fc-a4c3-6edce79cb2b4-0
+00:03:29.240 --> 00:03:34.798
+¿Voy a cerrar el WhatsApp también, no?
+Y aparte de todo, o sea,
+
+bef5ff53-cfd4-49fc-a4c3-6edce79cb2b4-1
+00:03:34.798 --> 00:03:39.749
+como que cuando entran los los de admitir,
+se traba. Sí,
+
+bef5ff53-cfd4-49fc-a4c3-6edce79cb2b4-2
+00:03:39.749 --> 00:03:45.308
+cuando entran todos los que quieren
+admitir, se traba el teams,
+
+bef5ff53-cfd4-49fc-a4c3-6edce79cb2b4-3
+00:03:45.308 --> 00:03:51.909
+porque los tengo que admitir manualmente.
+Qué raro. O sea, ahí está, bueno,
+
+bef5ff53-cfd4-49fc-a4c3-6edce79cb2b4-4
+00:03:51.909 --> 00:03:56.599
+ahí está ya ya ya ya ya listo,
+perfecto o k muy bien.
+
+b96c8bf2-9c7d-45cc-8748-17f43995d660-0
+00:03:57.280 --> 00:04:02.821
+Vamos a empezar ahora, sí,
+con nuestra bonita, hermosa,
+
+b96c8bf2-9c7d-45cc-8748-17f43995d660-1
+00:04:02.821 --> 00:04:10.639
+maravillosa clase que dice más o menos
+espero me deje compartir pantalla más o
+
+b96c8bf2-9c7d-45cc-8748-17f43995d660-2
+00:04:10.639 --> 00:04:16.477
+menos así. ¿Bueno,
+vamos a ver arquitectura primero qué es
+
+b96c8bf2-9c7d-45cc-8748-17f43995d660-3
+00:04:16.477 --> 00:04:21.920
+la arquitectura?
+La arquitectura es cuando tú diseñas.
+
+4c92f194-ebef-4e72-846d-05ae607da3ee-0
+00:04:23.120 --> 00:04:29.987
+La forma en la que se conectan los
+diferentes elementos de una aplicación y
+
+4c92f194-ebef-4e72-846d-05ae607da3ee-1
+00:04:29.987 --> 00:04:34.144
+justo eso hace que funcione o k,
+por ejemplo.
+
+4c92f194-ebef-4e72-846d-05ae607da3ee-2
+00:04:34.144 --> 00:04:41.734
+Eso eso lo puedes trasladar a edificios,
+no edificio a ver al plano arquitecto, no,
+
+4c92f194-ebef-4e72-846d-05ae607da3ee-3
+00:04:41.734 --> 00:04:48.601
+por ejemplo. Plano arquitectónico,
+aquí tienes un plano arquitectónico. No,
+
+4c92f194-ebef-4e72-846d-05ae607da3ee-4
+00:04:48.601 --> 00:04:50.680
+no, yo tengo 32 de RAM.
+
+cfa0dc37-f5d7-4ced-a428-73ea9e234512-0
+00:04:51.880 --> 00:04:59.068
+Hazme el favor, es en serio,
+tengo 32 de RAM, Imagínate, ni con eso.
+
+cfa0dc37-f5d7-4ced-a428-73ea9e234512-1
+00:04:59.068 --> 00:05:05.424
+Ay, no, pero bueno,
+este esto es un plano arquitectónico o k
+
+cfa0dc37-f5d7-4ced-a428-73ea9e234512-2
+00:05:05.424 --> 00:05:11.050
+pues sabes,
+un plano arquitectónico es pues como está
+
+cfa0dc37-f5d7-4ced-a428-73ea9e234512-3
+00:05:11.050 --> 00:05:17.197
+diciendo una casa,
+no como se conectan entre sí para hacer
+
+cfa0dc37-f5d7-4ced-a428-73ea9e234512-4
+00:05:17.197 --> 00:05:18.759
+algo armonioso.
+
+4d8e4b41-476e-4af6-a233-2a61681ec1fd-0
+00:05:19.600 --> 00:05:23.502
+Para que por ejemplo,
+entres acá y sea la sala y esté
+
+4d8e4b41-476e-4af6-a233-2a61681ec1fd-1
+00:05:23.502 --> 00:05:28.126
+suficientemente lejos el el baño para que
+no manden los olores,
+
+4d8e4b41-476e-4af6-a233-2a61681ec1fd-2
+00:05:28.126 --> 00:05:33.835
+pero al mismo tiempo este esté cerca el
+baño de las habitaciones para que vaya
+
+4d8e4b41-476e-4af6-a233-2a61681ec1fd-3
+00:05:33.835 --> 00:05:37.376
+rápido,
+no por si te paras de noche y no camines
+
+4d8e4b41-476e-4af6-a233-2a61681ec1fd-4
+00:05:37.376 --> 00:05:40.700
+eso.
+¿Es un plano arquitectónico en software?
+
+4d8e4b41-476e-4af6-a233-2a61681ec1fd-5
+00:05:40.700 --> 00:05:43.880
+En general de software es algo muy
+similar.
+
+96e43e85-ac48-41c7-a5fb-4f4756ee086a-0
+00:05:44.440 --> 00:05:52.409
+¿Qué qué pasa cuando conectas punto a
+punto B, computadora, a computadora, B,
+
+96e43e85-ac48-41c7-a5fb-4f4756ee086a-1
+00:05:52.409 --> 00:06:00.889
+inteligencia artificial con x, cosa o KY?
+Normalmente nosotros vamos a poner lo de
+
+96e43e85-ac48-41c7-a5fb-4f4756ee086a-2
+00:06:00.889 --> 00:06:06.508
+un color moradito tenemos aquí nuestro
+pequeño cuadro,
+
+96e43e85-ac48-41c7-a5fb-4f4756ee086a-3
+00:06:06.508 --> 00:06:10.799
+ahí está que dice Microsoft. Ajá, foundry.
+
+2e906672-9e67-434c-90cc-b47c8da47d90-0
+00:06:12.160 --> 00:06:18.220
+Ya lo conoces,
+dónde haces la inteligencia artificial y
+
+2e906672-9e67-434c-90cc-b47c8da47d90-1
+00:06:18.220 --> 00:06:27.311
+todo esto o K Este va a tener adentro ajá.
+Un agente que dentro de andsure lo vamos
+
+2e906672-9e67-434c-90cc-b47c8da47d90-2
+00:06:27.311 --> 00:06:35.320
+a poner así dentro de azure que está
+dentro de azure. Ahí está azure. Sí,
+
+2e906672-9e67-434c-90cc-b47c8da47d90-3
+00:06:35.320 --> 00:06:39.000
+tiene un modelo, un modelo de I a.
+
+1b79f080-4a41-489d-90fd-799aca0f1803-0
+00:06:39.560 --> 00:06:45.152
+Ese modelo de ya lo consume la gente.
+¿Ajá, y este va a ser un GPT,
+
+1b79f080-4a41-489d-90fd-799aca0f1803-1
+00:06:45.152 --> 00:06:51.238
+supongamos el 5, no un GPT 5 supongamos,
+no, o sea, puede ser cualquiera,
+
+1b79f080-4a41-489d-90fd-799aca0f1803-2
+00:06:51.238 --> 00:06:56.830
+no puede ser un un dipsi este un cloud,
+lo que tú quieras o k bien,
+
+1b79f080-4a41-489d-90fd-799aca0f1803-3
+00:06:56.830 --> 00:07:01.847
+sí va a requerir un documento,
+no de ingeniería de software,
+
+1b79f080-4a41-489d-90fd-799aca0f1803-4
+00:07:01.847 --> 00:07:07.440
+pero sí va requerir un documento dentro
+de Asure voy a borrar esto?
+
+680f3cf5-53fc-461b-834c-451503436a3a-0
+00:07:08.880 --> 00:07:18.278
+Y se borró todo dentro de asure. Sí,
+vamos a ponerlo más hacia acá, ahí está.
+
+680f3cf5-53fc-461b-834c-451503436a3a-1
+00:07:18.278 --> 00:07:26.472
+Existe algo llamado ajá.
+Creo que muy este traza parcial, ahí está,
+
+680f3cf5-53fc-461b-834c-451503436a3a-2
+00:07:26.472 --> 00:07:32.738
+lo ahorras de acá, Pum, listo,
+lo borré desde aquí,
+
+680f3cf5-53fc-461b-834c-451503436a3a-3
+00:07:32.738 --> 00:07:38.040
+ya ahorré de más listo. Algo así,
+ahí está.
+
+0eec2036-16d5-4561-8a3b-9241617c5de4-0
+00:07:38.400 --> 00:07:43.543
+O K bien,
+dentro de asure existe un servicio que lo
+
+0eec2036-16d5-4561-8a3b-9241617c5de4-1
+00:07:43.543 --> 00:07:50.763
+vamos a poner en azul también,
+pero en azul cielito vamos a ponerle azul
+
+0eec2036-16d5-4561-8a3b-9241617c5de4-2
+00:07:50.763 --> 00:07:55.708
+cielito.
+Este es otro servicio que se va a llamar
+
+0eec2036-16d5-4561-8a3b-9241617c5de4-3
+00:07:55.708 --> 00:08:00.851
+APP Service,
+ASURE APP Service o K Este servicio lo
+
+0eec2036-16d5-4561-8a3b-9241617c5de4-4
+00:08:00.851 --> 00:08:07.280
+que va a hacer es mostrar la página o K
+yo lo voy a manejar con.
+
+719c4f5e-7321-4f50-be47-cbc21a3519c2-0
+00:08:07.760 --> 00:08:14.589
+Node. JS, ajá.
+Un Linux y algo que se llama Express o K
+
+719c4f5e-7321-4f50-be47-cbc21a3519c2-1
+00:08:14.589 --> 00:08:20.077
+va perfecto. Ahora bien,
+una vez hecho esto,
+
+719c4f5e-7321-4f50-be47-cbc21a3519c2-2
+00:08:20.077 --> 00:08:28.980
+yo creo mi APP service, ese APP service.
+¿Para qué? ¿Qué me va a servir?
+
+719c4f5e-7321-4f50-be47-cbc21a3519c2-3
+00:08:28.980 --> 00:08:35.200
+Esta es la página,
+la página y esta es la I a o K.
+
+400f4c62-d2b2-4687-af12-e2876224b5c3-0
+00:08:36.960 --> 00:08:46.934
+La página tiene un chatbot o un servicio
+que consume a través de algo que se llama
+
+400f4c62-d2b2-4687-af12-e2876224b5c3-1
+00:08:46.934 --> 00:08:56.187
+Responses a PI hacia la I a y la I a le
+devuelve el texto el output o k aquí
+
+400f4c62-d2b2-4687-af12-e2876224b5c3-2
+00:08:56.187 --> 00:09:05.080
+abajo. Para que esto pueda surgir,
+necesitamos otra cosa dentro de asure.
+
+1c89573a-20ed-41c7-b848-dd6f6e1e60e7-0
+00:09:06.480 --> 00:09:13.168
+Que se llama entra ID.
+Este entra ID es el que se encarga de
+
+1c89573a-20ed-41c7-b848-dd6f6e1e60e7-1
+00:09:13.168 --> 00:09:22.268
+hacer de decirle, Oye, esta página es mía.
+Sí, sí, sí, es mía, es mía, te lo juro.
+
+1c89573a-20ed-41c7-b848-dd6f6e1e60e7-2
+00:09:22.268 --> 00:09:29.066
+Juradito es segura y le dice a la I a Ah,
+perfecto, muy bien,
+
+1c89573a-20ed-41c7-b848-dd6f6e1e60e7-3
+00:09:29.066 --> 00:09:33.999
+ya por fuera de asure o K está el
+navegador.
+
+4f225b84-bdd4-4ed4-a965-764336503d71-0
+00:09:34.960 --> 00:09:45.241
+Navegador ahí está que le manda por medio
+sí de un post de HTTP ajá a la página una
+
+4f225b84-bdd4-4ed4-a965-764336503d71-1
+00:09:45.241 --> 00:09:55.032
+petición y le devuelve la petición en un
+jason. Este navegador es el que tiene,
+
+4f225b84-bdd4-4ed4-a965-764336503d71-2
+00:09:55.032 --> 00:10:02.865
+es el que es tu Chrome,
+es el que entra todo esto o K es el que
+
+4f225b84-bdd4-4ed4-a965-764336503d71-3
+00:10:02.865 --> 00:10:03.600
+entra.
+
+1f65ae5c-19bb-4b74-b0cb-0eec2707c29c-0
+00:10:04.240 --> 00:10:08.793
+A la página es el que te permite hacer
+todo eso va,
+
+1f65ae5c-19bb-4b74-b0cb-0eec2707c29c-1
+00:10:08.793 --> 00:10:15.623
+esto es un diagrama de arquitectura,
+es cómo se comunican todos los elementos
+
+1f65ae5c-19bb-4b74-b0cb-0eec2707c29c-2
+00:10:15.623 --> 00:10:19.739
+entre sí.
+Obviamente lo hizo muy simplificado,
+
+1f65ae5c-19bb-4b74-b0cb-0eec2707c29c-3
+00:10:19.739 --> 00:10:26.657
+un diagrama de arquitectura más pesado,
+pero esto es lo que vamos a hacer hoy.
+
+1f65ae5c-19bb-4b74-b0cb-0eec2707c29c-4
+00:10:26.657 --> 00:10:33.400
+O K esto es lo que vamos a hacer hoy y es
+básicamente un agente de I a pues.
+
+5c4e1e12-7485-4af9-b497-b478786f7ef8-0
+00:10:34.160 --> 00:10:37.754
+Desde cero y lo voy a hacer todo aquí.
+¿Ajá,
+
+5c4e1e12-7485-4af9-b497-b478786f7ef8-1
+00:10:37.754 --> 00:10:44.225
+esto es lo que vamos a tratar de emular,
+te parece bien? Sí, perfecto, muy bien,
+
+5c4e1e12-7485-4af9-b497-b478786f7ef8-2
+00:10:44.225 --> 00:10:48.699
+yo no sé programar,
+yo no sé absolutamente nada de eso,
+
+5c4e1e12-7485-4af9-b497-b478786f7ef8-3
+00:10:48.699 --> 00:10:53.013
+no te preocupes,
+yo te voy a ir ayudando poco a poco,
+
+5c4e1e12-7485-4af9-b497-b478786f7ef8-4
+00:10:53.013 --> 00:10:59.324
+paso a paso qué vamos a hacer y qué vamos
+a hacer primero los pasos, paso uno,
+
+5c4e1e12-7485-4af9-b497-b478786f7ef8-5
+00:10:59.324 --> 00:11:02.840
+foundring primero vamos a crear a la
+gente.
+
+e9eb410b-bd61-4c8d-8770-b4bc41f6ee96-0
+00:11:03.600 --> 00:11:09.993
+Luego vamos a preparar nuestro copile,
+luego vamos a construir el proyecto y
+
+e9eb410b-bd61-4c8d-8770-b4bc41f6ee96-1
+00:11:09.993 --> 00:11:16.636
+después lo vamos a desplegar en el APP
+Service. Si te parece bien, va perfecto,
+
+e9eb410b-bd61-4c8d-8770-b4bc41f6ee96-2
+00:11:16.636 --> 00:11:22.863
+ya ya habiendo instalado todo y ya
+necesitas todo y demás, ya tienes todo.
+
+e9eb410b-bd61-4c8d-8770-b4bc41f6ee96-3
+00:11:22.863 --> 00:11:29.589
+Suponiendo que ya tienes todo o K vamos a
+nuestro Microsoft Foundry o K va bien,
+
+e9eb410b-bd61-4c8d-8770-b4bc41f6ee96-4
+00:11:29.589 --> 00:11:32.080
+vamos a hacer esto, aquí está.
+
+4196cefc-a6e9-40da-a439-a17a6c53b147-0
+00:11:33.320 --> 00:11:41.776
+Nosotros ahora nos se mostró ahí,
+se mostró ajá, explotó el TEAM. Sí,
+
+4196cefc-a6e9-40da-a439-a17a6c53b147-1
+00:11:41.776 --> 00:11:52.046
+explotó teams, sí, vamos a aai.asher.com.
+Se acuerdan a ai.azure.com, a i.asure.com,
+
+4196cefc-a6e9-40da-a439-a17a6c53b147-2
+00:11:52.046 --> 00:11:58.690
+a i.asher.com, a i.asher. ¿om? Sí,
+ahí está, ahí está.
+
+4196cefc-a6e9-40da-a439-a17a6c53b147-3
+00:11:58.690 --> 00:12:03.040
+Entonces iniciar sesión, ya se sabe.
+
+56da9a65-110f-453a-815f-a79f65ab93da-0
+00:12:27.400 --> 00:12:37.484
+Jesús, estás en mute, no se escucha nada,
+no sigue sin escucharse ahí, a ver,
+
+56da9a65-110f-453a-815f-a79f65ab93da-1
+00:12:37.484 --> 00:12:45.630
+allá me escuchan, sí, ya sí,
+es que se me desconecta el micro,
+
+56da9a65-110f-453a-815f-a79f65ab93da-2
+00:12:45.630 --> 00:12:53.258
+qué raro, nada de audio, si no, no sé,
+no sé qué qué esté,
+
+56da9a65-110f-453a-815f-a79f65ab93da-3
+00:12:53.258 --> 00:13:02.049
+qué está pasando ahí se me está,
+se me está desconectando el micro.
+
+d4023300-a82b-4091-b2e6-fe27616a24dc-0
+00:13:02.400 --> 00:13:09.370
+O sea, yo no lo silencié,
+lo lo silenció el teams, pero bueno,
+
+d4023300-a82b-4091-b2e6-fe27616a24dc-1
+00:13:09.370 --> 00:13:16.450
+déjenme quitar algo acá, a ver si es esto,
+dejamos de escuchar,
+
+d4023300-a82b-4091-b2e6-fe27616a24dc-2
+00:13:16.450 --> 00:13:21.761
+ya ya me escuchan esto ahí está,
+entonces bien,
+
+d4023300-a82b-4091-b2e6-fe27616a24dc-3
+00:13:21.761 --> 00:13:30.280
+vamos a hacer nosotros lo siguiente,
+prestan mucha atención o k sólo véanlo.
+
+9371e403-1f0f-407e-b579-15b6733c4f87-0
+00:13:31.080 --> 00:13:36.161
+Y después la tarden de de replicar,
+porque no lo vamos a poder hacer todos al
+
+9371e403-1f0f-407e-b579-15b6733c4f87-1
+00:13:36.161 --> 00:13:41.047
+mismo tiempo. Ya saben por qué,
+porque se va a a pagar todo, aunque bueno,
+
+9371e403-1f0f-407e-b579-15b6733c4f87-2
+00:13:41.047 --> 00:13:45.152
+esto sí lo van a poder hacer.
+Chéquense si ya tienen un modelo
+
+9371e403-1f0f-407e-b579-15b6733c4f87-3
+00:13:45.152 --> 00:13:50.429
+desplegado y todo lo que ya vimos, ajá.
+¿Se acuerdan que desplegamos el modelo y
+
+9371e403-1f0f-407e-b579-15b6733c4f87-4
+00:13:50.429 --> 00:13:55.184
+demás? ¿Sí se van aquí a operar,
+le voy a dar 2 pesos de zoom, ahí está,
+
+9371e403-1f0f-407e-b579-15b6733c4f87-5
+00:13:55.184 --> 00:13:57.400
+se van aquí a operar, se acuerdan?
+
+8f7414a1-fea2-4a3f-9e2d-9f137f4984a0-0
+00:13:58.680 --> 00:14:04.028
+Y aquí pueden ver cuánto han consumido
+los agentes y cuántos agentes tenemos en
+
+8f7414a1-fea2-4a3f-9e2d-9f137f4984a0-1
+00:14:04.028 --> 00:14:07.705
+ejecución. ¿Ahorita tenemos 2,
+uno que ya había hecho,
+
+8f7414a1-fea2-4a3f-9e2d-9f137f4984a0-2
+00:14:07.705 --> 00:14:12.854
+el que ya había hecho de ahorita me
+acuerdo este el certificador y el agente
+
+8f7414a1-fea2-4a3f-9e2d-9f137f4984a0-3
+00:14:12.854 --> 00:14:16.598
+de bienes raíces,
+te parece si hacemos otro o usamos el
+
+8f7414a1-fea2-4a3f-9e2d-9f137f4984a0-4
+00:14:16.598 --> 00:14:22.147
+certificador? Si quieres puede ser, vamos,
+yo voy a eliminar el certificador. Ajá,
+
+8f7414a1-fea2-4a3f-9e2d-9f137f4984a0-5
+00:14:22.147 --> 00:14:26.560
+voy a eliminar el agente certificador y
+lo vamos a hacer de cero.
+
+f68f60a2-ac63-4cfe-a69b-4ba40efa77fa-0
+00:14:27.120 --> 00:14:32.151
+¿Te parece bien uno nuevo, perfecto,
+vamos a hacer de nuevo el agente
+
+f68f60a2-ac63-4cfe-a69b-4ba40efa77fa-1
+00:14:32.151 --> 00:14:36.608
+certificador o no? ¿Sí,
+vamos a hacer el agente certificador,
+
+f68f60a2-ac63-4cfe-a69b-4ba40efa77fa-2
+00:14:36.608 --> 00:14:42.215
+te parece bien? Vamos a darle aquí,
+en la pestaña de compilación, en agentes,
+
+f68f60a2-ac63-4cfe-a69b-4ba40efa77fa-3
+00:14:42.215 --> 00:14:48.038
+crear nuestro nuevo agente, crear agente.
+¿Ah, el tamaño del Cursor, sí, cierto,
+
+f68f60a2-ac63-4cfe-a69b-4ba40efa77fa-4
+00:14:48.038 --> 00:14:52.351
+ya habíamos quedado así, verdad?
+Aguantenme, eso es rápido,
+
+f68f60a2-ac63-4cfe-a69b-4ba40efa77fa-5
+00:14:52.351 --> 00:14:56.880
+nada más que abra mi sistema o k a ver,
+accesibilidad, cursor.
+
+92936f1f-776a-4b8d-a277-9d37ed1c6303-0
+00:14:58.800 --> 00:15:04.358
+No cursor de textos, no, eso no es,
+no es está puntero color y así,
+
+92936f1f-776a-4b8d-a277-9d37ed1c6303-1
+00:15:04.358 --> 00:15:10.489
+pero tampoco es que es muy grande,
+es que así no me acomodo güey en verde,
+
+92936f1f-776a-4b8d-a277-9d37ed1c6303-2
+00:15:10.489 --> 00:15:16.702
+sí, ahí está perfecto, muy bien.
+Entonces le vamos a picar aquí en agentes,
+
+92936f1f-776a-4b8d-a277-9d37ed1c6303-3
+00:15:16.702 --> 00:15:20.298
+ahí está.
+Le vamos a picar aquí en agentes,
+
+92936f1f-776a-4b8d-a277-9d37ed1c6303-4
+00:15:20.298 --> 00:15:25.040
+crear un agente ajá,
+listo una vez que creamos el agente.
+
+aaa495a1-4742-4c36-a1c3-5b583253abbc-0
+00:15:25.920 --> 00:15:29.597
+Vamos a ponerle,
+vamos a hacer el de nuevo el agente
+
+aaa495a1-4742-4c36-a1c3-5b583253abbc-1
+00:15:29.597 --> 00:15:33.413
+certificador,
+agente certificador o k este va a ser de
+
+aaa495a1-4742-4c36-a1c3-5b583253abbc-2
+00:15:33.413 --> 00:15:38.339
+modo texto, nada más modo texto.
+Si tú lo quieres hacer de modo voz se
+
+aaa495a1-4742-4c36-a1c3-5b583253abbc-3
+00:15:38.339 --> 00:15:41.808
+puede,
+pero necesitas otras cosas para programar.
+
+aaa495a1-4742-4c36-a1c3-5b583253abbc-4
+00:15:41.808 --> 00:15:47.082
+Le vamos a dar Clic aquí en crear el
+agente y abrir el área de juegos. Ajá,
+
+aaa495a1-4742-4c36-a1c3-5b583253abbc-5
+00:15:47.082 --> 00:15:52.077
+aquí primero lo vamos a calar,
+primero vamos a probar primero saber qué
+
+aaa495a1-4742-4c36-a1c3-5b583253abbc-6
+00:15:52.077 --> 00:15:55.200
+show, qué pedo Tranza.
+Vamos a ver todo eso.
+
+e5a152db-d68f-4e56-aad9-40901e3729b4-0
+00:15:55.600 --> 00:16:01.841
+O K es lo primero que vamos a hacer
+calarlo o K va y ahí está nuestra gente
+
+e5a152db-d68f-4e56-aad9-40901e3729b4-1
+00:16:01.841 --> 00:16:08.247
+certificador menos 1 porque se ve raro,
+ahí está, luego aquí en herramientas,
+
+e5a152db-d68f-4e56-aad9-40901e3729b4-2
+00:16:08.247 --> 00:16:12.106
+acuérdate que teníamos una de Microsoft
+learn,
+
+e5a152db-d68f-4e56-aad9-40901e3729b4-3
+00:16:12.106 --> 00:16:16.705
+si no te aparece le puedes dar en agregar
+herramientas,
+
+e5a152db-d68f-4e56-aad9-40901e3729b4-4
+00:16:16.705 --> 00:16:23.275
+ahí está sí y aquí le buscas learn sí,
+y es esta M zip remoto es este de aquí o
+
+e5a152db-d68f-4e56-aad9-40901e3729b4-5
+00:16:23.275 --> 00:16:23.440
+k.
+
+47c0bc2b-9a5e-45ab-80f2-14229a48ff0c-0
+00:16:23.920 --> 00:16:30.757
+Le DAS en agregar herramientas y si no te
+deja, le DAS en agregar herramientas. Ajá,
+
+47c0bc2b-9a5e-45ab-80f2-14229a48ff0c-1
+00:16:30.757 --> 00:16:35.583
+perdón, le DAS aquí.
+Si no te deja agregar una herramienta,
+
+47c0bc2b-9a5e-45ab-80f2-14229a48ff0c-2
+00:16:35.583 --> 00:16:41.696
+te tienes que ir aquí a aquí. Ah,
+le voy a dar en guardar siempre le doy en
+
+47c0bc2b-9a5e-45ab-80f2-14229a48ff0c-3
+00:16:41.696 --> 00:16:47.326
+guardar. Agregar herramientas,
+conectar una herramienta ajá y aquí le
+
+47c0bc2b-9a5e-45ab-80f2-14229a48ff0c-4
+00:16:47.326 --> 00:16:53.439
+puedes poner chécate conectar una
+herramienta. Perdón aquí en herramientas.
+
+3cd5224e-0209-4b9e-93e4-e9712f34dfe3-0
+00:16:53.960 --> 00:16:59.320
+Aquí nada más le puedes poner MCP o
+catálogo. Estas ya son las configuradas,
+
+3cd5224e-0209-4b9e-93e4-e9712f34dfe3-1
+00:16:59.320 --> 00:17:03.219
+pero en en personalizado,
+aquí puedes poner tus propias
+
+3cd5224e-0209-4b9e-93e4-e9712f34dfe3-2
+00:17:03.219 --> 00:17:07.188
+herramientas, perdón,
+es aquí en model context protocol,
+
+3cd5224e-0209-4b9e-93e4-e9712f34dfe3-3
+00:17:07.188 --> 00:17:12.549
+ajá y nada más tienes que buscar el URL
+del Microsoft learn que se lo puedes
+
+3cd5224e-0209-4b9e-93e4-e9712f34dfe3-4
+00:17:12.549 --> 00:17:18.327
+buscar MCPURL Microsoft learn eso seguro
+te lo da, ahí está, no, no es este, mira,
+
+3cd5224e-0209-4b9e-93e4-e9712f34dfe3-5
+00:17:18.327 --> 00:17:21.600
+ahí está introducción al servidor de MCP,
+ajá.
+
+d5837341-008c-460e-8964-8ac729588a6c-0
+00:17:22.720 --> 00:17:26.715
+Qué hago si no me deja el el proyecto
+llama soporte porque sí,
+
+d5837341-008c-460e-8964-8ac729588a6c-1
+00:17:26.715 --> 00:17:31.154
+este necesitas hacer eso y si no puedes
+hacerlo en equipo, acuérdate,
+
+d5837341-008c-460e-8964-8ac729588a6c-2
+00:17:31.154 --> 00:17:34.325
+le das Clic aquí,
+este lo copias y este lo pegas.
+
+d5837341-008c-460e-8964-8ac729588a6c-3
+00:17:34.325 --> 00:17:37.877
+Esto es por si no te deja.
+Aquí le pones un nombre y en
+
+d5837341-008c-460e-8964-8ac729588a6c-4
+00:17:37.877 --> 00:17:42.823
+autenticación le pones sin autenticar,
+este no necesita autenticación y ya le
+
+d5837341-008c-460e-8964-8ac729588a6c-5
+00:17:42.823 --> 00:17:46.375
+das en crear va,
+pero como nosotros ya lo tenemos no es
+
+d5837341-008c-460e-8964-8ac729588a6c-6
+00:17:46.375 --> 00:17:48.975
+necesario.
+Entonces nos vamos a la gente
+
+d5837341-008c-460e-8964-8ac729588a6c-7
+00:17:48.975 --> 00:17:49.800
+certificador.
+
+1199fbe0-dce4-4ce8-9d6a-feba4fbc6714-0
+00:17:51.000 --> 00:17:56.554
+Yo le voy a quitar la búsqueda web para
+que solo se base en Microsoft learn,
+
+1199fbe0-dce4-4ce8-9d6a-feba4fbc6714-1
+00:17:56.554 --> 00:18:01.459
+nada más, no me interesa nada más. Ajá.
+Ya tenemos Microsoft learn,
+
+1199fbe0-dce4-4ce8-9d6a-feba4fbc6714-2
+00:18:01.459 --> 00:18:07.158
+ya tenemos quitar búsqueda web modelo,
+vamos a ponerle un GPT 56 Luna para que
+
+1199fbe0-dce4-4ce8-9d6a-feba4fbc6714-3
+00:18:07.158 --> 00:18:10.981
+sea mejor y vamos a escribirle el
+maravilloso promp.
+
+1199fbe0-dce4-4ce8-9d6a-feba4fbc6714-4
+00:18:10.981 --> 00:18:15.309
+La cuenta de AI asure se iniciaba con la
+cuenta de lab. Sí,
+
+1199fbe0-dce4-4ce8-9d6a-feba4fbc6714-5
+00:18:15.309 --> 00:18:20.720
+eso es con la cuenta de la todo es con la
+cuenta de la o K si no escuchas.
+
+d7b43c8f-67a2-4bdb-932d-95e33a79478b-0
+00:18:21.200 --> 00:18:25.985
+Este reinicia la aplicación de teams,
+pues a veces teams falla, o sea,
+
+d7b43c8f-67a2-4bdb-932d-95e33a79478b-1
+00:18:25.985 --> 00:18:29.624
+a mí por ejemplo,
+yo no desconecté nada y me quita el
+
+d7b43c8f-67a2-4bdb-932d-95e33a79478b-2
+00:18:29.624 --> 00:18:34.881
+micrófono por alguna razón se fue el
+profe, no, no sé, este aquí estoy yo sí,
+
+d7b43c8f-67a2-4bdb-932d-95e33a79478b-3
+00:18:34.881 --> 00:18:37.982
+pero bueno,
+es que el chat también está raro,
+
+d7b43c8f-67a2-4bdb-932d-95e33a79478b-4
+00:18:37.982 --> 00:18:41.756
+si no aparecen,
+si piden las herramientas en ninguno de
+
+d7b43c8f-67a2-4bdb-932d-95e33a79478b-5
+00:18:41.756 --> 00:18:46.878
+los lados hay que contar el servicio
+técnico, sí, porque debería estar acá,
+
+d7b43c8f-67a2-4bdb-932d-95e33a79478b-6
+00:18:46.878 --> 00:18:49.440
+no lo voy a guardar, no he hecho nada.
+
+780e46b0-d27d-402a-8f9b-f9aac83bbc3b-0
+00:18:50.160 --> 00:18:55.316
+Debería estar acá herramientas conectar
+una herramienta personalizado y aquí está
+
+780e46b0-d27d-402a-8f9b-f9aac83bbc3b-1
+00:18:55.316 --> 00:18:59.969
+modo context protocol o k aquí está
+personalizado model context protocol,
+
+780e46b0-d27d-402a-8f9b-f9aac83bbc3b-2
+00:18:59.969 --> 00:19:02.736
+ahí está,
+en herramientas agregas un nuevo,
+
+780e46b0-d27d-402a-8f9b-f9aac83bbc3b-3
+00:19:02.736 --> 00:19:07.263
+una nueva herramienta. ¿Perdón,
+ya estaba agregando un nuevo agente ajá
+
+780e46b0-d27d-402a-8f9b-f9aac83bbc3b-4
+00:19:07.263 --> 00:19:10.345
+personalizado y aquí está modo context
+protocol,
+
+780e46b0-d27d-402a-8f9b-f9aac83bbc3b-5
+00:19:10.345 --> 00:19:15.375
+luego vamos a ver este cuando queramos
+hacer 2 agentes no me sale la página del
+
+780e46b0-d27d-402a-8f9b-f9aac83bbc3b-6
+00:19:15.375 --> 00:19:18.960
+MCP, yo te mando el link del MCP,
+el MCP es este de acá?
+
+f900e55a-55d4-45f6-97ad-ab034e4730fe-0
+00:19:20.040 --> 00:19:23.594
+Ajá.
+Esto se agrega ese esa es buena pregunta.
+
+f900e55a-55d4-45f6-97ad-ab034e4730fe-1
+00:19:23.594 --> 00:19:28.435
+Estas herramientas digamos que quedan
+como en tu catálogo, ajá,
+
+f900e55a-55d4-45f6-97ad-ab034e4730fe-2
+00:19:28.435 --> 00:19:32.520
+pero tú las tienes que agregar por por
+agente, o sea,
+
+f900e55a-55d4-45f6-97ad-ab034e4730fe-3
+00:19:32.520 --> 00:19:36.831
+eso se agrega a cada agente manual 1:1.
+Ajá. Bien, bien,
+
+f900e55a-55d4-45f6-97ad-ab034e4730fe-4
+00:19:36.831 --> 00:19:42.730
+entonces para crear la herramienta es
+conectar la herramienta personalizado y
+
+f900e55a-55d4-45f6-97ad-ab034e4730fe-5
+00:19:42.730 --> 00:19:46.285
+aquí está model contex protocol o KY nada
+más,
+
+f900e55a-55d4-45f6-97ad-ab034e4730fe-6
+00:19:46.285 --> 00:19:49.160
+le copio en el model context protocol.
+
+6422da25-9148-4ce6-b709-caddcd8c32c5-0
+00:19:49.880 --> 00:19:54.567
+Ahí está conectar una herramienta
+personalizado model context protocol.
+
+6422da25-9148-4ce6-b709-caddcd8c32c5-1
+00:19:54.567 --> 00:19:58.474
+Le DAS en crear,
+aquí pones el link que te acabo de mandar,
+
+6422da25-9148-4ce6-b709-caddcd8c32c5-2
+00:19:58.474 --> 00:20:03.292
+que es este de aquí le pones un nombre,
+le pones sin autenticar porque no
+
+6422da25-9148-4ce6-b709-caddcd8c32c5-3
+00:20:03.292 --> 00:20:08.306
+necesita autenticación y le das en
+conectar y listo, ajá. Ya nuestro agente.
+
+6422da25-9148-4ce6-b709-caddcd8c32c5-4
+00:20:08.306 --> 00:20:13.580
+Una interacción es el calco del área bajo
+la curva cualesquiera ya nuestra gente
+
+6422da25-9148-4ce6-b709-caddcd8c32c5-5
+00:20:13.580 --> 00:20:18.984
+aquí yo le voy a dejar en Microsoft learn
+y le voy a quitar la búsqueda web porque
+
+6422da25-9148-4ce6-b709-caddcd8c32c5-6
+00:20:18.984 --> 00:20:19.440
+quiero.
+
+3bb40948-f452-47d5-99df-aad3d3c8911d-0
+00:20:20.000 --> 00:20:25.440
+Que solo esté en la búsqueda web en el
+Microsoft learn,
+
+3bb40948-f452-47d5-99df-aad3d3c8911d-1
+00:20:25.440 --> 00:20:32.142
+no en la búsqueda o k le cambio el modelo
+uno que tenía GPT 56 Luna.
+
+3bb40948-f452-47d5-99df-aad3d3c8911d-2
+00:20:32.142 --> 00:20:38.942
+Ya sabes cómo implementar modelos y
+entonces aquí le vamos a poner lo
+
+3bb40948-f452-47d5-99df-aad3d3c8911d-3
+00:20:38.942 --> 00:20:44.965
+siguiente, ahí te va.
+Eres un agente que ayuda a las personas
+
+3bb40948-f452-47d5-99df-aad3d3c8911d-4
+00:20:44.965 --> 00:20:49.239
+para certificarse en tecnologías
+Microsoft.
+
+6ee0a895-f6fb-4ba9-8878-e041e56ad4bc-0
+00:20:50.720 --> 00:21:05.709
+Debes responder de manera clara,
+concisa y siempre con ejemplos de uso.
+
+6ee0a895-f6fb-4ba9-8878-e041e56ad4bc-1
+00:21:05.709 --> 00:21:18.200
+También consultar el MCP de Microsoft le
+para este obtener.
+
+55855c23-7680-45b7-8572-0bd1bb668035-0
+00:21:19.120 --> 00:21:23.450
+La información ahí está,
+podemos mejorar las instrucciones aquí
+
+55855c23-7680-45b7-8572-0bd1bb668035-1
+00:21:23.450 --> 00:21:27.713
+con I a la I a nos va a mejorar y
+optimizar las instrucciones,
+
+55855c23-7680-45b7-8572-0bd1bb668035-2
+00:21:27.713 --> 00:21:31.367
+vamos a darle,
+vamos a ver quién más la optimice para
+
+55855c23-7680-45b7-8572-0bd1bb668035-3
+00:21:31.367 --> 00:21:34.479
+que este quede un poquito más bonito.
+¿Mm HM,
+
+55855c23-7680-45b7-8572-0bd1bb668035-4
+00:21:34.479 --> 00:21:39.351
+vamos a esperar tantito a que se quede
+más chido, a que sea más exacto,
+
+55855c23-7680-45b7-8572-0bd1bb668035-5
+00:21:39.351 --> 00:21:44.087
+tal vez este promp, o sea,
+hay varias formas que podemos optimizarlo,
+
+55855c23-7680-45b7-8572-0bd1bb668035-6
+00:21:44.087 --> 00:21:48.080
+ya se escucha nuevamente, no? Sí, sí,
+se sigue escuchando.
+
+17ef2c31-f02e-4393-a815-a851e1bb71b4-0
+00:21:48.480 --> 00:21:54.063
+Yo aquí estoy monitoreando el audio,
+sí se puede saber qué estamos haciendo un
+
+17ef2c31-f02e-4393-a815-a851e1bb71b4-1
+00:21:54.063 --> 00:21:59.646
+agente y después integrarlo a nuestra
+página y todo eso le vamos a dar usar la
+
+17ef2c31-f02e-4393-a815-a851e1bb71b4-2
+00:21:59.646 --> 00:22:05.301
+indicación si ya nos gustó pum o usar la
+indicación. ¿Y aquí está todo nuestro,
+
+17ef2c31-f02e-4393-a815-a851e1bb71b4-3
+00:22:05.301 --> 00:22:09.753
+nuestra instrucción,
+nuestro system prom o K hasta ahora no le
+
+17ef2c31-f02e-4393-a815-a851e1bb71b4-4
+00:22:09.753 --> 00:22:14.913
+vamos a dejar nada más mas que
+simplemente guardarlo listo y luego vamos
+
+17ef2c31-f02e-4393-a815-a851e1bb71b4-5
+00:22:14.913 --> 00:22:16.679
+a poner en qué me puedes?
+
+4b256769-35e1-407a-bb40-2de310e04a97-0
+00:22:17.960 --> 00:22:21.719
+¿Ayuda?
+¿Pues para probarlo no vamos a ver,
+
+4b256769-35e1-407a-bb40-2de310e04a97-1
+00:22:21.719 --> 00:22:27.357
+ahí está, ve, ya viste?
+Dame Tips para la certificación básica de
+
+4b256769-35e1-407a-bb40-2de310e04a97-2
+00:22:27.357 --> 00:22:31.629
+I a por ejemplo, no se puede guardar, no,
+no, no,
+
+4b256769-35e1-407a-bb40-2de310e04a97-3
+00:22:31.629 --> 00:22:38.805
+no este si no se te guarda tiene que ser
+guardado. ¿El agente quiere llamar al MCP,
+
+4b256769-35e1-407a-bb40-2de310e04a97-4
+00:22:38.805 --> 00:22:43.675
+le DAS en aprobar?
+Si yo le voy a poner a probar siempre
+
+4b256769-35e1-407a-bb40-2de310e04a97-5
+00:22:43.675 --> 00:22:47.520
+esta herramienta,
+le vamos a dar click aquí.
+
+8790a61f-0607-47a1-8560-31f737f97eb6-0
+00:22:48.040 --> 00:22:52.778
+Para que no tengamos problemas,
+después ya consulta la herramienta,
+
+8790a61f-0607-47a1-8560-31f737f97eb6-1
+00:22:52.778 --> 00:22:58.282
+consulta el MCPY, lo que hace es esto,
+mira detectó cuál es el básico I a 900,
+
+8790a61f-0607-47a1-8560-31f737f97eb6-2
+00:22:58.282 --> 00:23:02.114
+que debería ser el 901 está
+desactualizado y ahí está,
+
+8790a61f-0607-47a1-8560-31f737f97eb6-3
+00:23:02.114 --> 00:23:07.061
+te da como todo lo que tienes que
+estudiar y todo eso, pues muy chido,
+
+8790a61f-0607-47a1-8560-31f737f97eb6-4
+00:23:07.061 --> 00:23:11.590
+no está chido, está bueno.
+¿Aquí puedes ver el gasto de Tokens y
+
+8790a61f-0607-47a1-8560-31f737f97eb6-5
+00:23:11.590 --> 00:23:16.120
+todo lo que ya hemos visto anteriormente,
+verdad? Entonces bien.
+
+d3daf861-8b50-4349-aa8c-9651bd813800-0
+00:23:17.080 --> 00:23:23.183
+Ahora ya que tenemos esto,
+ya que creamos nuestro,
+
+d3daf861-8b50-4349-aa8c-9651bd813800-1
+00:23:23.183 --> 00:23:28.927
+si nuestro repositorio, nuestro agente,
+perdón,
+
+d3daf861-8b50-4349-aa8c-9651bd813800-2
+00:23:28.927 --> 00:23:38.501
+vamos a darle aquí en publicar desde aquí
+yo le puedo dar en vista previa de la
+
+d3daf861-8b50-4349-aa8c-9651bd813800-3
+00:23:38.501 --> 00:23:46.519
+aplicación web ajá y desde aquí ya me me
+da como una paginita ajá.
+
+10ee5687-336e-474d-b225-bda3953768d9-0
+00:23:46.880 --> 00:23:53.883
+El MCP es model context protocol.
+Es un conjunto de herramientas que puede
+
+10ee5687-336e-474d-b225-bda3953768d9-1
+00:23:53.883 --> 00:24:00.886
+usar la I a para para hacer una acción,
+por ejemplo a BB el MCP ahí te va,
+
+10ee5687-336e-474d-b225-bda3953768d9-2
+00:24:00.886 --> 00:24:07.609
+aquí lo tengo seguro, aquí está,
+aquí está chécate voy a quitar mi para
+
+10ee5687-336e-474d-b225-bda3953768d9-3
+00:24:07.609 --> 00:24:13.305
+que lo entiendan,
+mejor voy a quitar mi pantalla y ahí está.
+
+10ee5687-336e-474d-b225-bda3953768d9-4
+00:24:13.305 --> 00:24:15.640
+Esta es una navaja Suiza.
+
+1716e661-545b-4d78-bbe2-d87c04c3af43-0
+00:24:16.360 --> 00:24:24.780
+De Suiza esta es una navaja Suiza o K va
+esta tan ahora espérate,
+
+1716e661-545b-4d78-bbe2-d87c04c3af43-1
+00:24:24.780 --> 00:24:31.796
+va un el tron base, no,
+yo estoy haciendo mi proyecto,
+
+1716e661-545b-4d78-bbe2-d87c04c3af43-2
+00:24:31.796 --> 00:24:40.344
+no háganlo ustedes, sí, sí, sí, sí, sí,
+sí, este es un desarmador,
+
+1716e661-545b-4d78-bbe2-d87c04c3af43-3
+00:24:40.344 --> 00:24:45.320
+no es una herramienta, una herramienta.
+
+462a0062-7d09-4f0f-8e9b-2d668c7df60e-0
+00:24:46.520 --> 00:24:51.388
+O K una herramienta,
+una tool o herramienta de la I a es algo
+
+462a0062-7d09-4f0f-8e9b-2d668c7df60e-1
+00:24:51.388 --> 00:24:57.435
+que puedo usar la I a para generar una
+acción o generar una este o consultar
+
+462a0062-7d09-4f0f-8e9b-2d668c7df60e-2
+00:24:57.435 --> 00:25:02.147
+algo. Por ejemplo,
+la acción aquí con esta yo soy la I a yo
+
+462a0062-7d09-4f0f-8e9b-2d668c7df60e-3
+00:25:02.147 --> 00:25:06.781
+tengo mi herramienta.
+La acción con esta herramienta sería
+
+462a0062-7d09-4f0f-8e9b-2d668c7df60e-4
+00:25:06.781 --> 00:25:12.356
+aflojar un tornillo o apretar un tornillo,
+no, esa es una herramienta.
+
+462a0062-7d09-4f0f-8e9b-2d668c7df60e-5
+00:25:12.356 --> 00:25:14.320
+El MCP es toda la navaja.
+
+aa017842-a1c7-4f3d-ae6b-eb3236a8f6b3-0
+00:25:15.680 --> 00:25:22.854
+Toda la navaja Suiza es el MCP porque
+tiene varias herramientas y la I es capaz
+
+aa017842-a1c7-4f3d-ae6b-eb3236a8f6b3-1
+00:25:22.854 --> 00:25:28.145
+de usarlas. Ah,
+ahora quieres destapar un corcho perfecto,
+
+aa017842-a1c7-4f3d-ae6b-eb3236a8f6b3-2
+00:25:28.145 --> 00:25:35.498
+pum listo o k ahora quieres por ejemplo
+destapar una una botella de cerveza ya lo
+
+aa017842-a1c7-4f3d-ae6b-eb3236a8f6b3-3
+00:25:35.498 --> 00:25:39.713
+tienes aquí.
+¿Eso es el MCP o K eso es el MCP,
+
+aa017842-a1c7-4f3d-ae6b-eb3236a8f6b3-4
+00:25:39.713 --> 00:25:43.479
+ahora quieres presumir que fuiste a Suiza?
+
+ff9acf31-c660-497f-b398-32a6cb0ac0e5-0
+00:25:44.400 --> 00:25:49.057
+Ahí está,
+dice souvenir of Sutherland Sutherland,
+
+ff9acf31-c660-497f-b398-32a6cb0ac0e5-1
+00:25:49.057 --> 00:25:53.902
+Ay algo así, no sé.
+En en Suiza hablan raro, bueno,
+
+ff9acf31-c660-497f-b398-32a6cb0ac0e5-2
+00:25:53.902 --> 00:26:01.168
+hablan y este hablan alemán YE italiano y
+varias cosas, pero bueno, muy bien,
+
+ff9acf31-c660-497f-b398-32a6cb0ac0e5-3
+00:26:01.168 --> 00:26:06.198
+va perfecto.
+Entonces vamos bien ahora ya que sabemos
+
+ff9acf31-c660-497f-b398-32a6cb0ac0e5-4
+00:26:06.198 --> 00:26:12.067
+eso, eso es un MCP.
+El MCP es un conjunto de herramientas, uh,
+
+ff9acf31-c660-497f-b398-32a6cb0ac0e5-5
+00:26:12.067 --> 00:26:12.720
+uh, sí.
+
+3dcca363-b6f2-495e-9e80-5a37fe030e94-0
+00:26:13.320 --> 00:26:18.927
+Este sí, ya ya vi sí,
+qué bueno que vieron la la este sí,
+
+3dcca363-b6f2-495e-9e80-5a37fe030e94-1
+00:26:18.927 --> 00:26:26.372
+ya me tocó presumir. ¿Entonces bien,
+ahí lo ahí lo tenemos o K desde aquí le
+
+3dcca363-b6f2-495e-9e80-5a37fe030e94-2
+00:26:26.372 --> 00:26:33.914
+podemos preguntar en qué me puedes ayudar?
+No sé a quién va pensando y listo,
+
+3dcca363-b6f2-495e-9e80-5a37fe030e94-3
+00:26:33.914 --> 00:26:38.555
+pero ojo,
+si yo intento acceder como ventana de
+
+3dcca363-b6f2-495e-9e80-5a37fe030e94-4
+00:26:38.555 --> 00:26:42.520
+incógnito me va a decir Nelson, no puedo.
+
+1686f8dc-2f02-414c-8e01-827fc20f8146-0
+00:26:43.280 --> 00:26:46.217
+Porque pues necesito primero iniciar
+sesión.
+
+1686f8dc-2f02-414c-8e01-827fc20f8146-1
+00:26:46.217 --> 00:26:50.918
+Si ustedes me entregan eso y yo inicio
+sesión en su proyecto, está mal.
+
+1686f8dc-2f02-414c-8e01-827fc20f8146-2
+00:26:50.918 --> 00:26:53.790
+Yo no debo de iniciar sesión con
+Microsoft.
+
+1686f8dc-2f02-414c-8e01-827fc20f8146-3
+00:26:53.790 --> 00:26:57.772
+Si ustedes le quieren poner un login a su
+proyecto, háganlo,
+
+1686f8dc-2f02-414c-8e01-827fc20f8146-4
+00:26:57.772 --> 00:27:02.016
+pero no se centren en eso.
+La verdad es que el login no importa,
+
+1686f8dc-2f02-414c-8e01-827fc20f8146-5
+00:27:02.016 --> 00:27:06.520
+es lo último que deberían hacer.
+Lo que intento es que hagan un MVP,
+
+1686f8dc-2f02-414c-8e01-827fc20f8146-6
+00:27:06.520 --> 00:27:10.960
+un mínimo value, Project Product, o sea,
+un producto mínimo viable.
+
+789a371a-11f8-450f-8d69-c936c16c9784-0
+00:27:11.360 --> 00:27:17.634
+Lo mínimo que necesitas para jalar. Ajá.
+Si nos optimizan la instrucción en inglés,
+
+789a371a-11f8-450f-8d69-c936c16c9784-1
+00:27:17.634 --> 00:27:23.535
+cómo lo cambiamos a español le puedes
+pedir al mismo agente que te lo traduzca
+
+789a371a-11f8-450f-8d69-c936c16c9784-2
+00:27:23.535 --> 00:27:27.195
+y ya y también lo puedes cambiar de esta
+manera.
+
+789a371a-11f8-450f-8d69-c936c16c9784-3
+00:27:27.195 --> 00:27:32.946
+Mira si la optimización está en inglés,
+aquí en mejorar las instrucciones le
+
+789a371a-11f8-450f-8d69-c936c16c9784-4
+00:27:32.946 --> 00:27:37.278
+pones un cambio,
+las instrucciones deben ser en español y
+
+789a371a-11f8-450f-8d69-c936c16c9784-5
+00:27:37.278 --> 00:27:40.640
+listo,
+así lo y le DAS en optimizar y ya va.
+
+b1361d94-61cb-44f4-96ca-293922086531-0
+00:27:42.360 --> 00:27:47.161
+Perfecto me sale esta pantalla
+configuración de aplicación in site
+
+b1361d94-61cb-44f4-96ca-293922086531-1
+00:27:47.161 --> 00:27:52.751
+necesaria, no sé dónde se están metiendo,
+pero tú ponle la indicación acá no,
+
+b1361d94-61cb-44f4-96ca-293922086531-2
+00:27:52.751 --> 00:27:57.910
+no sé dónde se están metiendo.
+¿Crea una ejecución de optimización, no,
+
+b1361d94-61cb-44f4-96ca-293922086531-3
+00:27:57.910 --> 00:28:01.852
+eso no ignóralo,
+solo lo vamos a hacer porque no hemos
+
+b1361d94-61cb-44f4-96ca-293922086531-4
+00:28:01.852 --> 00:28:06.725
+hecho una aplicación Inside,
+podemos usar a la gente de servicio de
+
+b1361d94-61cb-44f4-96ca-293922086531-5
+00:28:06.725 --> 00:28:09.520
+Studio Code? Sí no, ahorita te explico.
+
+528600ef-e987-4679-8f11-9737091e2436-0
+00:28:10.040 --> 00:28:18.932
+O K bien, ya está nuestra gente.
+¿Si yo tengo que iniciar sesión, ya viste,
+
+528600ef-e987-4679-8f11-9737091e2436-1
+00:28:18.932 --> 00:28:28.176
+cómo no? ¿Eso va a estar mal? Ajá, bien,
+perfecto. Ahora vamos a lo siguiente,
+
+528600ef-e987-4679-8f11-9737091e2436-2
+00:28:28.176 --> 00:28:35.898
+chécate nada más, ahí te va,
+presta mucha atención o k aquí debes
+
+528600ef-e987-4679-8f11-9737091e2436-3
+00:28:35.898 --> 00:28:39.759
+decir versión activa en publicar.
+
+896ced7f-71d8-4486-a929-5c4571172a05-0
+00:28:40.360 --> 00:28:46.554
+Yo lo puedo mandar a teams o a Microsoft.
+365 Copilot y si quieres probarla el
+
+896ced7f-71d8-4486-a929-5c4571172a05-1
+00:28:46.554 --> 00:28:52.984
+teams chécate nada más le picas aquí en
+Microsoft y 365 y aquí le pones a gente y
+
+896ced7f-71d8-4486-a929-5c4571172a05-2
+00:28:52.984 --> 00:28:58.395
+todo esto necesitas un servicio de Bot de
+Asher, no lo hemos creado,
+
+896ced7f-71d8-4486-a929-5c4571172a05-3
+00:28:58.395 --> 00:29:03.570
+eso lo vamos a crear después,
+pero necesitas seleccionar uno ajá,
+
+896ced7f-71d8-4486-a929-5c4571172a05-4
+00:29:03.570 --> 00:29:08.040
+por ahora no tenemos uno,
+entonces no nos lo va a crear.
+
+ae330190-b438-4aa0-a68f-8186a6baffd5-0
+00:29:08.880 --> 00:29:16.224
+Pero nosotros lo vamos a hacer después.
+Lo que nos interesa es que nos vamos a
+
+ae330190-b438-4aa0-a68f-8186a6baffd5-1
+00:29:16.224 --> 00:29:21.244
+detalles o k aquí en detalles,
+publicar detalles, sí,
+
+ae330190-b438-4aa0-a68f-8186a6baffd5-2
+00:29:21.244 --> 00:29:27.844
+publicar detalles o también aquí abajo
+del nombre, detalles. Ahí debe.
+
+ae330190-b438-4aa0-a68f-8186a6baffd5-3
+00:29:27.844 --> 00:29:31.935
+Ahí debemos de ir o k va publicar
+detalles.
+
+ae330190-b438-4aa0-a68f-8186a6baffd5-4
+00:29:31.935 --> 00:29:35.840
+Luego una vez que estamos ahí en detalles.
+
+1b23cd7b-18df-4871-bab4-57761767980c-0
+00:29:37.280 --> 00:29:42.994
+Tenemos esto, puntos de conexión,
+las personas con permiso de rebagreation
+
+1b23cd7b-18df-4871-bab4-57761767980c-1
+00:29:42.994 --> 00:29:47.795
+pueden acceder. Eso no está chido.
+Vamos a hacer lo siguiente,
+
+1b23cd7b-18df-4871-bab4-57761767980c-2
+00:29:47.795 --> 00:29:54.195
+aquí está el punto de conexión y le vamos
+a dar Clic en estos 3 puntos y considerar
+
+1b23cd7b-18df-4871-bab4-57761767980c-3
+00:29:54.195 --> 00:29:57.471
+acceso.
+Y aquí podemos conceder acceso a x
+
+1b23cd7b-18df-4871-bab4-57761767980c-4
+00:29:57.471 --> 00:30:02.500
+cantidad de personas más.
+¿O K eso me va a permitir poder usar mi
+
+1b23cd7b-18df-4871-bab4-57761767980c-5
+00:30:02.500 --> 00:30:05.319
+este mi inteligencia artificial? Ajá.
+
+f787c7ff-d782-4514-8364-f78a81f27071-0
+00:30:06.040 --> 00:30:10.803
+A otras personas.
+Pero eso todavía no es digamos la punta
+
+f787c7ff-d782-4514-8364-f78a81f27071-1
+00:30:10.803 --> 00:30:15.156
+de al iceberg. Bueno,
+esta es la punta de Aliceberg.
+
+f787c7ff-d782-4514-8364-f78a81f27071-2
+00:30:15.156 --> 00:30:21.317
+Si yo le doy en continuar en código,
+aquí está el punto de conexión y todo
+
+f787c7ff-d782-4514-8364-f78a81f27071-3
+00:30:21.317 --> 00:30:25.013
+esto.
+Este es el código que me va a permitir
+
+f787c7ff-d782-4514-8364-f78a81f27071-4
+00:30:25.013 --> 00:30:31.173
+conectarme por lo menos para iniciar mi
+proyecto. Pero aun así todavía no.
+
+f787c7ff-d782-4514-8364-f78a81f27071-5
+00:30:31.173 --> 00:30:35.280
+Esto porque porque esto de puntos de de
+conexión.
+
+49774b09-a91b-4e9d-826a-b5810c9ee7d1-0
+00:30:36.080 --> 00:30:43.569
+Las respuestas siguen así así, nada más.
+Sí, siguen, pues sin sin poder entrar.
+
+49774b09-a91b-4e9d-826a-b5810c9ee7d1-1
+00:30:43.569 --> 00:30:50.777
+Y lo que va a pasar es que cuando yo
+entre a la aplicación o intente hacerle
+
+49774b09-a91b-4e9d-826a-b5810c9ee7d1-2
+00:30:50.777 --> 00:30:56.488
+un mensaje al chat,
+va a tronar o más bien no va a dar nada,
+
+49774b09-a91b-4e9d-826a-b5810c9ee7d1-3
+00:30:56.488 --> 00:31:02.480
+va a decir como Ah, sí, sí,
+aquí está el chat, qué bonito y ya.
+
+120ba8ca-3b78-4f75-97ed-cb8ef0daa08f-0
+00:31:03.640 --> 00:31:08.018
+Eso es todo, o sea,
+no va a dar absolutamente nada y eso no
+
+120ba8ca-3b78-4f75-97ed-cb8ef0daa08f-1
+00:31:08.018 --> 00:31:11.521
+es lo que quiero o k entonces aquí en
+detalles,
+
+120ba8ca-3b78-4f75-97ed-cb8ef0daa08f-2
+00:31:11.521 --> 00:31:16.556
+si nos deja que creo que no nos va a
+dejar, no tenemos los permisos,
+
+120ba8ca-3b78-4f75-97ed-cb8ef0daa08f-3
+00:31:16.556 --> 00:31:20.424
+Ahorita Ahorita vas a ver cómo lo voy a
+resolver yo,
+
+120ba8ca-3b78-4f75-97ed-cb8ef0daa08f-4
+00:31:20.424 --> 00:31:24.511
+si nos deja o k Yo puedo copiar este
+punto de conexión,
+
+120ba8ca-3b78-4f75-97ed-cb8ef0daa08f-5
+00:31:24.511 --> 00:31:30.276
+pero todavía aquí no necesito hacer mucho,
+simplemente si yo ya puedo entrar y
+
+120ba8ca-3b78-4f75-97ed-cb8ef0daa08f-6
+00:31:30.276 --> 00:31:32.320
+mandar preguntas y todo eso.
+
+ab2cff22-e611-4f20-9b10-2cf7d10f4553-0
+00:31:33.080 --> 00:31:39.790
+Con eso es suficiente, pero necesito esto,
+el punto de conexión aquí,
+
+ab2cff22-e611-4f20-9b10-2cf7d10f4553-1
+00:31:39.790 --> 00:31:47.652
+este es lo que necesito o k esto es lo
+que necesito ahora en nuestra computadora,
+
+ab2cff22-e611-4f20-9b10-2cf7d10f4553-2
+00:31:47.652 --> 00:31:54.746
+vamos a crear, voy a dar acá ahí está,
+vamos a crear una carpeta donde tú
+
+ab2cff22-e611-4f20-9b10-2cf7d10f4553-3
+00:31:54.746 --> 00:32:00.498
+quieras, no importa,
+vamos a crear una carpeta que se llame
+
+ab2cff22-e611-4f20-9b10-2cf7d10f4553-4
+00:32:00.498 --> 00:32:02.320
+proyecto, proyecto.
+
+6dd0207d-c36e-40f5-a0d5-f41cfd6b6e71-0
+00:32:03.240 --> 00:32:07.030
+Sí,
+así proyecto nada más o K vas a abrir tu
+
+6dd0207d-c36e-40f5-a0d5-f41cfd6b6e71-1
+00:32:07.030 --> 00:32:12.001
+visual Studio Code,
+déjame ver si no tiene tengo algo ahí.
+
+6dd0207d-c36e-40f5-a0d5-f41cfd6b6e71-2
+00:32:12.001 --> 00:32:17.139
+Rarillo no todo bien,
+vas a abrir tu visual Studio Code y lo
+
+6dd0207d-c36e-40f5-a0d5-f41cfd6b6e71-3
+00:32:17.139 --> 00:32:23.963
+único que vas a hacer es abrir tu nueva
+carpeta en tu visual Studio Code o K vas
+
+6dd0207d-c36e-40f5-a0d5-f41cfd6b6e71-4
+00:32:23.963 --> 00:32:30.197
+abrir tu nueva carpeta en tu visual
+Studio Code como ya lo habíamos hecho
+
+6dd0207d-c36e-40f5-a0d5-f41cfd6b6e71-5
+00:32:30.197 --> 00:32:32.639
+anteriormente. Ajá, muy bien.
+
+c7acfff1-e2e1-4140-bc86-83be9fa624e1-0
+00:32:33.080 --> 00:32:38.649
+¿Perfecto, ahora qué necesitamos?
+Ajá en la terminal es Code punto,
+
+c7acfff1-e2e1-4140-bc86-83be9fa624e1-1
+00:32:38.649 --> 00:32:44.218
+si si estás en una carpeta en la terminal
+te vas a con la terminal,
+
+c7acfff1-e2e1-4140-bc86-83be9fa624e1-2
+00:32:44.218 --> 00:32:49.132
+le pones code punto y ya asunto resuelto
+o K bien perfecto,
+
+c7acfff1-e2e1-4140-bc86-83be9fa624e1-3
+00:32:49.132 --> 00:32:54.455
+aquí le damos en los 3 puntos de arriba
+terminal nueva terminal,
+
+c7acfff1-e2e1-4140-bc86-83be9fa624e1-4
+00:32:54.455 --> 00:33:01.007
+ahí está y le vamos a poner git y nit,
+necesitamos hacer un gidinit o k ya está
+
+c7acfff1-e2e1-4140-bc86-83be9fa624e1-5
+00:33:01.007 --> 00:33:02.400
+el punto gidinit.
+
+bd50c883-e432-4711-90da-32800f200ace-0
+00:33:03.120 --> 00:33:08.397
+Perfecto es lo que yo necesito para
+empezar a funcionar. Ah,
+
+bd50c883-e432-4711-90da-32800f200ace-1
+00:33:08.397 --> 00:33:12.462
+para empezar a jalar,
+para empezar a movernos.
+
+bd50c883-e432-4711-90da-32800f200ace-2
+00:33:12.462 --> 00:33:18.605
+¿Y yo me voy a crear aquí en esta parte
+donde dice proyecto, ya viste?
+
+bd50c883-e432-4711-90da-32800f200ace-3
+00:33:18.605 --> 00:33:25.958
+Yo voy a crear un nuevo archivo que se va
+a llamar punto M el punto m es tu secreto,
+
+bd50c883-e432-4711-90da-32800f200ace-4
+00:33:25.958 --> 00:33:32.360
+el punto M no se lo debes de mandar ni a
+copilo ni a nada o k el punto m.
+
+16009155-bff6-48c7-a22e-3b1507cac128-0
+00:33:32.840 --> 00:33:39.567
+Debe de estar secreto y nunca debe de
+estar en verde como lo verde.
+
+16009155-bff6-48c7-a22e-3b1507cac128-1
+00:33:39.567 --> 00:33:47.877
+Creas un nuevo proyecto, un nuevo archivo,
+perdón, que se llame control secundario,
+
+16009155-bff6-48c7-a22e-3b1507cac128-2
+00:33:47.877 --> 00:33:54.605
+aquí control este derecho,
+aquí en esta parte vacía, nuevo archivo.
+
+16009155-bff6-48c7-a22e-3b1507cac128-3
+00:33:54.605 --> 00:33:59.551
+Git ignore,
+ahí está y aquí le vas a poner punto.
+
+16009155-bff6-48c7-a22e-3b1507cac128-4
+00:33:59.551 --> 00:34:00.639
+Em guardas.
+
+0d9bdea5-626c-44af-bef3-bf38cf3d8ebb-0
+00:34:01.680 --> 00:34:07.449
+Y en después de un de un ratito este ya
+va a aparecer en gris ajá.
+
+0d9bdea5-626c-44af-bef3-bf38cf3d8ebb-1
+00:34:07.449 --> 00:34:13.907
+También le puedes pedir a la I a que te
+haga un guirignor adecuado para tu
+
+0d9bdea5-626c-44af-bef3-bf38cf3d8ebb-2
+00:34:13.907 --> 00:34:20.709
+proyecto. También lo puedes hacer o K,
+pero este ya va a estar en gris como yo
+
+0d9bdea5-626c-44af-bef3-bf38cf3d8ebb-3
+00:34:20.709 --> 00:34:27.511
+lo necesito ahora ya ya que tengo estos 2
+yo voy a hacer algo muy interesante.
+
+0d9bdea5-626c-44af-bef3-bf38cf3d8ebb-4
+00:34:27.511 --> 00:34:29.320
+Vamos a escribir ajá.
+
+e7b2bc55-036e-4591-9138-feadbdf218d8-0
+00:34:31.600 --> 00:34:35.531
+Aquí en nuevo archivo nueva carpeta
+perdón,
+
+e7b2bc55-036e-4591-9138-feadbdf218d8-1
+00:34:35.531 --> 00:34:40.625
+vamos a crear una nueva carpeta en la
+raíz del proyecto,
+
+e7b2bc55-036e-4591-9138-feadbdf218d8-2
+00:34:40.625 --> 00:34:47.685
+así en donde está la la pues sí donde
+está nuestro proyecto y le vamos a poner
+
+e7b2bc55-036e-4591-9138-feadbdf218d8-3
+00:34:47.685 --> 00:34:52.242
+punto github,
+esa va a ser nuestra carpeta y luego
+
+e7b2bc55-036e-4591-9138-feadbdf218d8-4
+00:34:52.242 --> 00:34:59.034
+dentro de esa carpeta vamos a generar un
+archivo que se llame Copilot guion
+
+e7b2bc55-036e-4591-9138-feadbdf218d8-5
+00:34:59.034 --> 00:35:01.000
+instructions. MD, ajá.
+
+22a29255-7778-4da4-ad2b-b75afde0e74d-0
+00:35:01.960 --> 00:35:06.958
+Ahí está punto. MD, perfecto.
+Estas van a ser las instrucciones
+
+22a29255-7778-4da4-ad2b-b75afde0e74d-1
+00:35:06.958 --> 00:35:10.864
+generales de mi proyecto,
+como ya lo hemos hecho,
+
+22a29255-7778-4da4-ad2b-b75afde0e74d-2
+00:35:10.864 --> 00:35:15.550
+porque a veces se quita el verdad aunque
+esté en git ignor.
+
+22a29255-7778-4da4-ad2b-b75afde0e74d-3
+00:35:15.550 --> 00:35:21.877
+A veces eso es un tema de visual Studio
+Code, este sí, muchas veces es eso, ajá.
+
+22a29255-7778-4da4-ad2b-b75afde0e74d-4
+00:35:21.877 --> 00:35:28.047
+En otras ocasiones muy pocas es porque
+git creció y esto lo estoy tomando como
+
+22a29255-7778-4da4-ad2b-b75afde0e74d-5
+00:35:28.047 --> 00:35:28.359
+que.
+
+e61e9ad8-3655-4ed0-9e1f-9ec4cbdec4be-0
+00:35:28.840 --> 00:35:35.031
+Como que no lo está,
+no está haciendo cambios y cuando no hay
+
+e61e9ad8-3655-4ed0-9e1f-9ec4cbdec4be-1
+00:35:35.031 --> 00:35:39.525
+cambios no se pone en verde o K va
+perfecto.
+
+e61e9ad8-3655-4ed0-9e1f-9ec4cbdec4be-2
+00:35:39.525 --> 00:35:44.717
+Entonces desde aquí yo voy a escribir lo
+siguiente,
+
+e61e9ad8-3655-4ed0-9e1f-9ec4cbdec4be-3
+00:35:44.717 --> 00:35:49.710
+este punto MD aprovecho para decirles
+este punto,
+
+e61e9ad8-3655-4ed0-9e1f-9ec4cbdec4be-4
+00:35:49.710 --> 00:35:57.400
+MD es un formato que se llama Mark Down o
+K el Mark Down lo que nos permite.
+
+edf55682-fdce-4a67-8793-c1323254ab68-0
+00:35:58.600 --> 00:36:03.236
+¿Estrenar un formato que se vea como Word
+ahorita lo vas a ver,
+
+edf55682-fdce-4a67-8793-c1323254ab68-1
+00:36:03.236 --> 00:36:08.669
+pero que pueda leer una inteligencia
+artificial rápido es muy importante y
+
+edf55682-fdce-4a67-8793-c1323254ab68-2
+00:36:08.669 --> 00:36:14.682
+todos los agentes y demás usan Mark Down
+porque lo la guía lo puede leer mucho más
+
+edf55682-fdce-4a67-8793-c1323254ab68-3
+00:36:14.682 --> 00:36:18.956
+fácil rápidamente,
+por eso se hace ajá por ahí preguntaba,
+
+edf55682-fdce-4a67-8793-c1323254ab68-4
+00:36:18.956 --> 00:36:24.100
+no nos va enseñar Mark Down,
+este es el momento o k entonces qué vamos
+
+edf55682-fdce-4a67-8793-c1323254ab68-5
+00:36:24.100 --> 00:36:24.680
+a hacer?
+
+e24018f3-95aa-4dc8-8141-cce3a9fe9918-0
+00:36:25.480 --> 00:36:32.016
+Mi Copilot instructions tiene las
+instrucciones de todo mi proyecto.
+
+e24018f3-95aa-4dc8-8141-cce3a9fe9918-1
+00:36:32.016 --> 00:36:39.784
+El agente de Copilot lo que va hacer es
+leer el Copilot Instruction primero antes
+
+e24018f3-95aa-4dc8-8141-cce3a9fe9918-2
+00:36:39.784 --> 00:36:46.889
+de iniciar con otra cosa y esto es como
+lo general, ajá. Chécate nada más.
+
+e24018f3-95aa-4dc8-8141-cce3a9fe9918-3
+00:36:46.889 --> 00:36:51.909
+¿Yo le pongo un #el #significa este
+título? Chécate,
+
+e24018f3-95aa-4dc8-8141-cce3a9fe9918-4
+00:36:51.909 --> 00:36:55.320
+Ahorita te voy a enseñar título uno.
+
+e72faff2-caf4-4979-b249-76790f3fb016-0
+00:36:55.680 --> 00:37:05.388
+Éste es más grande si le pongo doble
+#título 2, si le pongo triple #Título 3,
+
+e72faff2-caf4-4979-b249-76790f3fb016-1
+00:37:05.388 --> 00:37:13.105
+Si le pongo cuádruple #título cuatro,
+si le pongo 5 hashtags,
+
+e72faff2-caf4-4979-b249-76790f3fb016-2
+00:37:13.105 --> 00:37:23.560
+ahí está título 5 si le pongo 6 hashtags.
+Aja sí, está bien si le pongo 6 hashtags.
+
+1b064723-ccb9-4842-82e4-5d598aeb88db-0
+00:37:24.000 --> 00:37:31.019
+123456 título 6 llega hasta el 6 o K ya
+no hay título #ya no hay título 7,
+
+1b064723-ccb9-4842-82e4-5d598aeb88db-1
+00:37:31.019 --> 00:37:37.851
+o sea de tamaño 7 o k ahí está,
+ya no existe título 7 que te das cuenta.
+
+1b064723-ccb9-4842-82e4-5d598aeb88db-2
+00:37:37.851 --> 00:37:44.776
+Ahora aparecen los puros hashtags,
+eso ya no existe o k sólo esta está el
+
+1b064723-ccb9-4842-82e4-5d598aeb88db-3
+00:37:44.776 --> 00:37:49.362
+título 6 sí,
+y entonces mientras menos hashtags,
+
+1b064723-ccb9-4842-82e4-5d598aeb88db-4
+00:37:49.362 --> 00:37:53.200
+más grande es el título y más importante.
+
+9b39933a-0642-489f-bd0d-f60ea438f9d2-0
+00:37:53.720 --> 00:38:02.238
+Ajá, tú lo ves más grande,
+pero de ahí ya le ve importancia. O sea,
+
+9b39933a-0642-489f-bd0d-f60ea438f9d2-1
+00:38:02.238 --> 00:38:11.758
+entonces yo aquí le pongo con un #nada
+más me voy a poner instrucciones del
+
+9b39933a-0642-489f-bd0d-f60ea438f9d2-2
+00:38:11.758 --> 00:38:19.400
+proyecto y le vamos a poner chat Bot
+Foundring certificador.
+
+d380e178-950b-40c7-be9c-5524a3d79952-0
+00:38:21.160 --> 00:38:25.915
+En APP Service aquí vamos a hacer todo,
+ahí está.
+
+d380e178-950b-40c7-be9c-5524a3d79952-1
+00:38:25.915 --> 00:38:33.524
+Este es el título principal del proyecto.
+Luego le pongo doble #para ponerle un
+
+d380e178-950b-40c7-be9c-5524a3d79952-2
+00:38:33.524 --> 00:38:40.563
+subtítulo que es este proyecto.
+Vamos a ponerle una descripción de que es
+
+d380e178-950b-40c7-be9c-5524a3d79952-3
+00:38:40.563 --> 00:38:45.318
+este proyecto ajá.
+Y yo voy a hacer lo siguiente,
+
+d380e178-950b-40c7-be9c-5524a3d79952-4
+00:38:45.318 --> 00:38:50.359
+página web de una sola vista con un
+chatbot con I a.
+
+63a9308e-730d-44fc-b1d7-8910dbbf29d1-0
+00:38:51.920 --> 00:38:58.695
+Ajá,
+todo este aquí le vamos a poner el Front
+
+63a9308e-730d-44fc-b1d7-8910dbbf29d1-1
+00:38:58.695 --> 00:39:08.270
+end. Sí, aquí le vamos a poner. Ah,
+no vamos a ponerle nada más.
+
+63a9308e-730d-44fc-b1d7-8910dbbf29d1-2
+00:39:08.270 --> 00:39:19.760
+Llama está el Front End HTML CCSYJS no
+hagas caso a la a las recomendaciones.
+
+812174ec-efae-4416-ad0e-8e0a6a44e695-0
+00:39:20.640 --> 00:39:30.250
+¿O si quieres puedes intentarlo, no? Ajá,
+vamos a hacerlo sin Frameworks pero más
+
+812174ec-efae-4416-ad0e-8e0a6a44e695-1
+00:39:30.250 --> 00:39:37.283
+rápido o k ahí ya lo hago más rápido sin
+framework. Uh, uh,
+
+812174ec-efae-4416-ad0e-8e0a6a44e695-2
+00:39:37.283 --> 00:39:44.549
+o con frameworks podemos usarlo sin
+framework por ahora, ajá,
+
+812174ec-efae-4416-ad0e-8e0a6a44e695-3
+00:39:44.549 --> 00:39:47.480
+llama Yama a un back end.
+
+f755df2c-e3ac-4a66-8efd-208d032a2a90-0
+00:39:48.360 --> 00:40:03.258
+Node JS con Express, ahí está, sí,
+y el backend conversa con un agente de
+
+f755df2c-e3ac-4a66-8efd-208d032a2a90-1
+00:40:03.258 --> 00:40:12.520
+Microsoft Foundry,
+ahí está o k se despliega.
+
+e05c3bf9-fce1-4959-a983-c3ae1b089f9a-0
+00:40:17.640 --> 00:40:24.207
+En este en Asure Azure APP Service Sí y
+ya listo,
+
+e05c3bf9-fce1-4959-a983-c3ae1b089f9a-1
+00:40:24.207 --> 00:40:34.847
+aquí le podemos poner tal vez el la las
+especificaciones de la del APP service y
+
+e05c3bf9-fce1-4959-a983-c3ae1b089f9a-2
+00:40:34.847 --> 00:40:43.910
+doble n envaque. Ah, no importa,
+realmente no importa la I a lo va a
+
+e05c3bf9-fce1-4959-a983-c3ae1b089f9a-3
+00:40:43.910 --> 00:40:46.800
+detectar o K entonces.
+
+2292f5bc-4639-4b03-bb08-c1ec8da2925b-0
+00:40:48.640 --> 00:40:55.188
+Una vez hecho esto,
+ya tenemos nuestro service y le puedo
+
+2292f5bc-4639-4b03-bb08-c1ec8da2925b-1
+00:40:55.188 --> 00:41:02.640
+poner algo más específico.
+No puedo poner que es una instancia de
+
+2292f5bc-4639-4b03-bb08-c1ec8da2925b-2
+00:41:02.640 --> 00:41:09.075
+Linux de no de 24 LTS.
+Esto significa que esle el stack,
+
+2292f5bc-4639-4b03-bb08-c1ec8da2925b-3
+00:41:09.075 --> 00:41:16.640
+las herramientas que yo estoy usando para
+este proyecto o k listo.
+
+1667a531-c2bc-4ac0-973d-6b66ec4f73e3-0
+00:41:17.000 --> 00:41:24.001
+¿Aquí ya le estoy dando más contexto y
+luego le puedo poner entorno de
+
+1667a531-c2bc-4ac0-973d-6b66ec4f73e3-1
+00:41:24.001 --> 00:41:32.382
+desarrollo y aquí ya va ahí diferente, no?
+¿Ya le puedes meter que Windows 11 que el
+
+1667a531-c2bc-4ac0-973d-6b66ec4f73e3-2
+00:41:32.382 --> 00:41:38.397
+powershell qué no,
+o IIS cosas así o k ya podemos seguir con
+
+1667a531-c2bc-4ac0-973d-6b66ec4f73e3-3
+00:41:38.397 --> 00:41:43.920
+esto, pero vamos a ponerle,
+vamos a seguirle no? O IIS.
+
+ffb9a396-6545-4ba0-b0bf-713a5fc18923-0
+00:41:45.440 --> 00:41:49.950
+Entonces, de desarrollo no,
+esto es como un tutorial,
+
+ffb9a396-6545-4ba0-b0bf-713a5fc18923-1
+00:41:49.950 --> 00:41:56.631
+al parecer en el entorno de desarrollo
+que yo estoy usando es Windows 11 11 con
+
+ffb9a396-6545-4ba0-b0bf-713a5fc18923-2
+00:41:56.631 --> 00:42:02.227
+powershell. Sí, vamos a dejarle,
+vamos a dejarle la cita nada más,
+
+ffb9a396-6545-4ba0-b0bf-713a5fc18923-3
+00:42:02.227 --> 00:42:08.909
+así nada más. Entonces es decirle, Ah,
+vamos a usar esto para que lo consideres
+
+ffb9a396-6545-4ba0-b0bf-713a5fc18923-4
+00:42:08.909 --> 00:42:12.000
+o KY desde aquí le puedo poner todos.
+
+936a8254-9a73-4a42-ae70-4af9e0cf8677-0
+00:42:17.280 --> 00:42:21.533
+No,
+mejor así por si quieren hacer otra cosa.
+
+936a8254-9a73-4a42-ae70-4af9e0cf8677-1
+00:42:21.533 --> 00:42:25.971
+La gente listo 2 o es más,
+no le puedo poner 2,
+
+936a8254-9a73-4a42-ae70-4af9e0cf8677-2
+00:42:25.971 --> 00:42:31.334
+puedo ponerle nada más guioncitos checate,
+ahí está, ajá,
+
+936a8254-9a73-4a42-ae70-4af9e0cf8677-3
+00:42:31.334 --> 00:42:37.159
+nada más guioncitos porque no tiene
+ninguna jerarquía ni nada.
+
+936a8254-9a73-4a42-ae70-4af9e0cf8677-4
+00:42:37.159 --> 00:42:42.800
+No llegué a ese 24 LTS aquí le voy a
+poner NPM, por ejemplo.
+
+74272492-b671-49ac-8146-785bf2e66b60-0
+00:42:43.840 --> 00:42:54.326
+¿No vamos a hacer nada loco aquí les voy
+a poner nada de este de Typescript ni
+
+74272492-b671-49ac-8146-785bf2e66b60-1
+00:42:54.326 --> 00:43:04.415
+bilders nada de esto así puro puro
+Vanilla Java script todo solito directo,
+
+74272492-b671-49ac-8146-785bf2e66b60-2
+00:43:04.415 --> 00:43:10.920
+cómo va? Vámonos eso, ajá. Bien,
+perfecto ahora.
+
+f2a17a7b-eb3e-4305-afc5-a1bcc4867b4f-0
+00:43:11.320 --> 00:43:18.834
+Ya que tenemos como nuestro entorno de
+desarrollo ajá, que no es mucho por ahora,
+
+f2a17a7b-eb3e-4305-afc5-a1bcc4867b4f-1
+00:43:18.834 --> 00:43:24.974
+ni siquiera sabemos qué qué bibliotecas
+va a querer usar la gente.
+
+f2a17a7b-eb3e-4305-afc5-a1bcc4867b4f-2
+00:43:24.974 --> 00:43:30.839
+Luego lo vamos a hacer,
+le vamos a poner otros 2 guiones y aquí
+
+f2a17a7b-eb3e-4305-afc5-a1bcc4867b4f-3
+00:43:30.839 --> 00:43:38.353
+normalmente va stack y veriones el stack
+y Veriones nos sirve para decirle a la I
+
+f2a17a7b-eb3e-4305-afc5-a1bcc4867b4f-4
+00:43:38.353 --> 00:43:38.720
+a a.
+
+8e4a4c88-8dc9-4152-a5ac-1faffae93ed5-0
+00:43:38.960 --> 00:43:45.468
+Si ya están en esta versión,
+ni le muevas ni le actualizas o ajústate
+
+8e4a4c88-8dc9-4152-a5ac-1faffae93ed5-1
+00:43:45.468 --> 00:43:52.442
+a esta versión nos va ayudar. Ajá.
+¿Podemos hacer cualquier stack, verdad?
+
+8e4a4c88-8dc9-4152-a5ac-1faffae93ed5-2
+00:43:52.442 --> 00:43:56.626
+Sí, sí,
+puedes usar cualquier este stack sin
+
+8e4a4c88-8dc9-4152-a5ac-1faffae93ed5-3
+00:43:56.626 --> 00:44:03.134
+problemas o k sin problemas,
+puedes usar cualquier stack va perfecto.
+
+8e4a4c88-8dc9-4152-a5ac-1faffae93ed5-4
+00:44:03.134 --> 00:44:07.040
+Yo aquí tengo algo chécate y ahí está Pum.
+
+97e4d4c0-3fba-4d6a-92aa-1a1b202a8111-0
+00:44:07.680 --> 00:44:11.189
+Es que si me pongo a definir todo esto,
+Uy,
+
+97e4d4c0-3fba-4d6a-92aa-1a1b202a8111-1
+00:44:11.189 --> 00:44:17.809
+no va a ser un dolor de cabeza y ahí está.
+Básicamente aquí les estoy diciendo que
+
+97e4d4c0-3fba-4d6a-92aa-1a1b202a8111-2
+00:44:17.809 --> 00:44:24.190
+esta que estamos usando y aquí le vamos a
+poner la arquitectura y todavía no lo
+
+97e4d4c0-3fba-4d6a-92aa-1a1b202a8111-3
+00:44:24.190 --> 00:44:29.295
+cambies sin preguntar,
+o sea como para ser más simfáticos, ajá.
+
+97e4d4c0-3fba-4d6a-92aa-1a1b202a8111-4
+00:44:29.295 --> 00:44:34.320
+¿Y aquí le ponemos varias reglas,
+cómo sí los pego si quieren?
+
+9fe6e17f-c041-4729-ab88-aa697290dee0-0
+00:44:36.560 --> 00:44:42.662
+Sí, sí, sí, sí, sí,
+también les puedo pegar todo este sí,
+
+9fe6e17f-c041-4729-ab88-aa697290dee0-1
+00:44:42.662 --> 00:44:48.028
+ahí está ya todo bonito o k se me cerró
+el visual.
+
+9fe6e17f-c041-4729-ab88-aa697290dee0-2
+00:44:48.028 --> 00:44:55.288
+Están hackeando para modos como yo,
+para modos es este, este es eso,
+
+9fe6e17f-c041-4729-ab88-aa697290dee0-3
+00:44:55.288 --> 00:45:00.760
+es lo mismo.
+Lo único que tienes que hacer es este.
+
+e8add982-af9c-4f53-a957-972b817b7580-0
+00:45:01.640 --> 00:45:08.910
+Pues ponerlo con conciencia,
+a ver qué reglas necesita todo eso o K va
+
+e8add982-af9c-4f53-a957-972b817b7580-1
+00:45:08.910 --> 00:45:13.415
+perfecto,
+pues te das cuenta todo el texto,
+
+e8add982-af9c-4f53-a957-972b817b7580-2
+00:45:13.415 --> 00:45:19.559
+pues no requiere algún este.
+Cómo se llama alguna sintaxis,
+
+e8add982-af9c-4f53-a957-972b817b7580-3
+00:45:19.559 --> 00:45:26.829
+sólo esta como apóstrofe normal,
+lo que va a hacer es generar el este,
+
+e8add982-af9c-4f53-a957-972b817b7580-4
+00:45:26.829 --> 00:45:30.720
+estas visualizaciones que se vean así.
+
+57f96899-c0ff-4a80-a150-c424810c0c79-0
+00:45:31.600 --> 00:45:36.776
+O K va perfecto esto,
+un guión y un espacio significa listas
+
+57f96899-c0ff-4a80-a150-c424810c0c79-1
+00:45:36.776 --> 00:45:43.140
+para que puedas hacer listas. Ajá.
+También puedes hacerlo con números uno,
+
+57f96899-c0ff-4a80-a150-c424810c0c79-2
+00:45:43.140 --> 00:45:48.061
+punto, espacio,
+te generen una lista ordenada o numerada,
+
+57f96899-c0ff-4a80-a150-c424810c0c79-3
+00:45:48.061 --> 00:45:51.710
+sí,
+y así ya puedes seguir con tu proyecto
+
+57f96899-c0ff-4a80-a150-c424810c0c79-4
+00:45:51.710 --> 00:45:56.038
+poco a poco.
+Este construyéndolo va muy bien hasta
+
+57f96899-c0ff-4a80-a150-c424810c0c79-5
+00:45:56.038 --> 00:46:00.960
+aquí, alguna duda, algún tema, situación,
+comentario, no.
+
+cfc93b5c-8a42-4ca4-8c09-5c8e7f957174-0
+00:46:02.280 --> 00:46:09.553
+¿Ahora vamos a poner las demás,
+les voy a mandar todo hasta ahorita
+
+cfc93b5c-8a42-4ca4-8c09-5c8e7f957174-1
+00:46:09.553 --> 00:46:14.902
+porque tenemos aquí ajá, no,
+ese es otro cálculo,
+
+cfc93b5c-8a42-4ca4-8c09-5c8e7f957174-2
+00:46:14.902 --> 00:46:21.855
+tenemos aquí seguridad,
+ahí está estilo de código y cómo validar
+
+cfc93b5c-8a42-4ca4-8c09-5c8e7f957174-3
+00:46:21.855 --> 00:46:27.631
+sí es código látex?
+Sí se parece un poquito. Ajá, sí,
+
+cfc93b5c-8a42-4ca4-8c09-5c8e7f957174-4
+00:46:27.631 --> 00:46:30.519
+se parece un poquito ahora.
+
+f69ba84f-748a-44c0-a058-c50b506b1f58-0
+00:46:33.560 --> 00:46:40.137
+Aquí podemos ver cosas como seguridad,
+cosas como no escribas, llaves,
+
+f69ba84f-748a-44c0-a058-c50b506b1f58-1
+00:46:40.137 --> 00:46:47.733
+todo en variable de entorno este válida
+de entrada todo eso y ya está o k toda la
+
+f69ba84f-748a-44c0-a058-c50b506b1f58-2
+00:46:47.733 --> 00:46:54.496
+validar, ahí está la obligación.
+Básicamente es lo que le estamos dando.
+
+f69ba84f-748a-44c0-a058-c50b506b1f58-3
+00:46:54.496 --> 00:47:00.240
+Agrego algo en Git Ignor,
+aquí agregas el punto EM este aquí.
+
+f8d38c3c-f54a-4117-b2c2-affd6b6e4ed0-0
+00:47:00.760 --> 00:47:12.719
+Ajá, gracias, sí, listo, listo, ya quedó.
+¿O K bien, entonces qué sigue? Ya tenemos,
+
+f8d38c3c-f54a-4117-b2c2-affd6b6e4ed0-1
+00:47:12.719 --> 00:47:21.302
+digamos, nuestra base de proyecto.
+Falta que la I a lo haga,
+
+f8d38c3c-f54a-4117-b2c2-affd6b6e4ed0-2
+00:47:21.302 --> 00:47:28.760
+pero vamos a un descanso. Sí,
+regresamos a las 6:00.
+
+ce1cca97-fae4-4515-a832-4b62cda0c3a1-0
+00:47:29.480 --> 00:47:33.484
+Con 7 PM aquí tengo sed también
+regresamos 6.
+
+ce1cca97-fae4-4515-a832-4b62cda0c3a1-1
+00:47:33.484 --> 00:47:40.186
+7 PMY volvemos o k vámonos a un descanso
+y ahora si volvemos pero ya tenemos
+
+ce1cca97-fae4-4515-a832-4b62cda0c3a1-2
+00:47:40.186 --> 00:47:44.277
+nuestra base,
+ya les pasé la base por aquí o K
+
+ce1cca97-fae4-4515-a832-4b62cda0c3a1-3
+00:47:44.277 --> 00:47:46.280
+regresamos es con 7 PM.
+
+b813ca90-b52e-43f2-bde1-d381a815ae0f-0
+00:57:32.280 --> 00:57:37.290
+Que dice ufas,
+llegué al Break ahora entonces pues sí,
+
+b813ca90-b52e-43f2-bde1-d381a815ae0f-1
+00:57:37.290 --> 00:57:43.302
+pues andamos en descanso. ¿Ey,
+este llega al Break ya es temprano
+
+b813ca90-b52e-43f2-bde1-d381a815ae0f-2
+00:57:43.302 --> 00:57:49.315
+pregunta la parte de versiones,
+entonces salario de arquitectura,
+
+b813ca90-b52e-43f2-bde1-d381a815ae0f-3
+00:57:49.315 --> 00:57:55.691
+dejamos tal cual? Sanz, sí,
+si quieres puedes dejarla así tal cual no
+
+b813ca90-b52e-43f2-bde1-d381a815ae0f-4
+00:57:55.691 --> 00:58:00.520
+pasa nada. Mm hm bien seguridad,
+esta es importante.
+
+928a68be-456e-4583-b0d6-f90db18216da-0
+00:58:01.400 --> 00:58:06.124
+Todo sale de variables de entorno,
+es decir,
+
+928a68be-456e-4583-b0d6-f90db18216da-1
+00:58:06.124 --> 00:58:14.942
+estas van aquí en el EM le pones un igual
+y aquí le pones otro igual o K si me hace
+
+928a68be-456e-4583-b0d6-f90db18216da-2
+00:58:14.942 --> 00:58:22.816
+los toquen de Copilot, pues ni modo.
+Luego vamos a hacer algo interesante,
+
+928a68be-456e-4583-b0d6-f90db18216da-3
+00:58:22.816 --> 00:58:28.799
+chécate chécate nada más más pidos, Eh,
+vamos a ponerle.
+
+0ba92478-7965-42f7-b81a-f47f190ed8f0-0
+00:58:29.800 --> 00:58:34.479
+Ah, esto guardar. Sí, ahí está,
+aquí en el Github. Ajá.
+
+0ba92478-7965-42f7-b81a-f47f190ed8f0-1
+00:58:34.479 --> 00:58:41.164
+Tenemos este ojo de no haber vamos en
+tenemos el el copille Instructions que es
+
+0ba92478-7965-42f7-b81a-f47f190ed8f0-2
+00:58:41.164 --> 00:58:45.677
+como el general,
+pero podemos aquí dentro de la de la
+
+0ba92478-7965-42f7-b81a-f47f190ed8f0-3
+00:58:45.677 --> 00:58:49.520
+carpeta.
+Github agregarle otra carpeta que se
+
+0ba92478-7965-42f7-b81a-f47f190ed8f0-4
+00:58:49.520 --> 00:58:56.205
+llame instructions. Sí, se emocionaron,
+sabía que iba a pasar eso y aquí dentro
+
+0ba92478-7965-42f7-b81a-f47f190ed8f0-5
+00:58:56.205 --> 00:58:58.880
+de esta carpeta instructions sí.
+
+8bd2db72-2f28-4d1b-9a7b-acd7105e4a5d-0
+00:58:59.640 --> 00:59:09.714
+Vamos a agregar otro archivo que se llame
+Backend. Instructions instructions.
+
+8bd2db72-2f28-4d1b-9a7b-acd7105e4a5d-1
+00:59:09.714 --> 00:59:18.238
+MD o KY aquí tengo mis instrucciones,
+ahí está, ah, se las popas,
+
+8bd2db72-2f28-4d1b-9a7b-acd7105e4a5d-2
+00:59:18.238 --> 00:59:27.280
+así que estas son las instrucciones o k
+ahí está, va perfecto, listo.
+
+ad69b7fb-8c52-4397-b1b4-6b01121cf263-0
+00:59:27.760 --> 00:59:32.283
+Ahí está,
+hasta con el nombre del archivo y todo
+
+ad69b7fb-8c52-4397-b1b4-6b01121cf263-1
+00:59:32.283 --> 00:59:39.298
+este es el Copilot instructions,
+pero ese nombre de archivo no va ahí. Ajá.
+
+ad69b7fb-8c52-4397-b1b4-6b01121cf263-2
+00:59:39.298 --> 00:59:44.929
+¿Ese nada más así, mira, ya viste?
+Reglas del backend listo,
+
+ad69b7fb-8c52-4397-b1b4-6b01121cf263-3
+00:59:44.929 --> 00:59:50.006
+estas son las reglas del backend,
+esto va así y listo.
+
+ad69b7fb-8c52-4397-b1b4-6b01121cf263-4
+00:59:50.006 --> 00:59:56.560
+¿Cuáles son las reglas para decirle
+exactamente qué quiero? Y también.
+
+bb525ae7-5912-4caa-8c6c-b7631fad545d-0
+00:59:56.840 --> 01:00:05.515
+El backend es lo del servidor,
+pero el Front Front. Instructions. MD,
+
+bb525ae7-5912-4caa-8c6c-b7631fad545d-1
+01:00:05.515 --> 01:00:16.049
+el front end instructions van a hacer las,
+o sea de lo visual de que quiero que la I
+
+bb525ae7-5912-4caa-8c6c-b7631fad545d-2
+01:00:16.049 --> 01:00:25.096
+a haga. En cuanto a lo visual,
+el diseño los colorcitos todo ese tipo de
+
+bb525ae7-5912-4caa-8c6c-b7631fad545d-3
+01:00:25.096 --> 01:00:25.839
+cosas.
+
+59e7b4e0-a7b9-4025-b071-a9f51d2bbf94-0
+01:00:26.240 --> 01:00:39.388
+O K todo ese tipo de cosas.
+Esto que estás viendo si te das cuenta
+
+59e7b4e0-a7b9-4025-b071-a9f51d2bbf94-1
+01:00:39.388 --> 01:00:55.285
+parece no existir en el archivo es porque
+estos son, se te volvió a ir el audio.
+
+59e7b4e0-a7b9-4025-b071-a9f51d2bbf94-2
+01:00:55.285 --> 01:01:05.490
+Jesús, no estás en mute,
+pero sigue sin escucharse.
+
+4b4516b9-24fe-443d-a4cb-7ebcaef1114f-0
+01:01:16.360 --> 01:01:29.955
+Otra vez estás en mute no no se oye ya
+quitaste el mute pero no se oye no otra
+
+4b4516b9-24fe-443d-a4cb-7ebcaef1114f-1
+01:01:29.955 --> 01:01:41.314
+vez aparece el mute otra vez lo quitaste
+vemos tu video perfecto,
+
+4b4516b9-24fe-443d-a4cb-7ebcaef1114f-2
+01:01:41.314 --> 01:01:50.780
+dejaste compartir pantalla ya la volviste
+a compartir.
+
+b1ae0860-1f42-4244-8e1b-bb3cf077d478-0
+01:01:56.240 --> 01:02:05.233
+Ya se oye ruido, sólo ruido,
+haber ahí ahí está perfecto ahí qué raro,
+
+b1ae0860-1f42-4244-8e1b-bb3cf077d478-1
+01:02:05.233 --> 01:02:14.480
+se desconecta, solo extraño, pero bueno,
+gracias, ya ya quedó, ya quedó.
+
+b1ae0860-1f42-4244-8e1b-bb3cf077d478-2
+01:02:14.480 --> 01:02:24.360
+Entonces bien, este es en el frontend,
+este de aquí es el micro, no a stimes.
+
+1e8e1a0d-0dc8-4912-bfd6-4a739faa5def-0
+01:02:24.560 --> 01:02:32.091
+Porque hace rato lo usé bastante y stinps,
+ese es el del front y ese es el del back
+
+1e8e1a0d-0dc8-4912-bfd6-4a739faa5def-1
+01:02:32.091 --> 01:02:39.085
+o k esos son las instrucciones, va,
+te parece bien y ahora te voy a enseñar a
+
+1e8e1a0d-0dc8-4912-bfd6-4a739faa5def-2
+01:02:39.085 --> 01:02:44.734
+programar con I a pero chido.
+Ya no vamos a hacer bike Coding,
+
+1e8e1a0d-0dc8-4912-bfd6-4a739faa5def-3
+01:02:44.734 --> 01:02:48.858
+Bike Coding era lo que hicimos
+anteriormente,
+
+1e8e1a0d-0dc8-4912-bfd6-4a739faa5def-4
+01:02:48.858 --> 01:02:53.880
+de a escribirle a Tantito y a ver qué qué
+se te ocurre.
+
+79417e74-a896-4a5d-8e6e-ea34c270e2da-0
+01:02:54.080 --> 01:02:58.152
+No,
+esto que estamos haciendo se le llama
+
+79417e74-a896-4a5d-8e6e-ea34c270e2da-1
+01:02:58.152 --> 01:03:03.291
+Jarnes el Harnes Haz de cuenta que es
+como el arnés.
+
+79417e74-a896-4a5d-8e6e-ea34c270e2da-2
+01:03:03.291 --> 01:03:11.145
+De hecho eso significa para hacer nuestra
+I a más segura o k ya tenemos nuestras
+
+79417e74-a896-4a5d-8e6e-ea34c270e2da-3
+01:03:11.145 --> 01:03:18.902
+instructions o K aquí dentro del GITHUB
+vamos a crear otra carpeta que se llame
+
+79417e74-a896-4a5d-8e6e-ea34c270e2da-4
+01:03:18.902 --> 01:03:21.520
+agents, agentes agents o k.
+
+b019b5f3-ac14-4468-b1b6-c7d6c3b539cc-0
+01:03:22.400 --> 01:03:28.050
+Y aquí voy a crear un archivo que se
+llame te lo voy a hacer con blazer C
+
+b019b5f3-ac14-4468-b1b6-c7d6c3b539cc-1
+01:03:28.050 --> 01:03:32.861
+sharp CQL montado en docker de de a WS Si
+quieres, ajá. Bueno,
+
+b019b5f3-ac14-4468-b1b6-c7d6c3b539cc-2
+01:03:32.861 --> 01:03:37.672
+en a doble s ya te diría que no,
+porque tiene que ser Ash. Sí,
+
+b019b5f3-ac14-4468-b1b6-c7d6c3b539cc-3
+01:03:37.672 --> 01:03:41.338
+si es una página que no se tarde para la
+clase,
+
+b019b5f3-ac14-4468-b1b6-c7d6c3b539cc-4
+01:03:41.338 --> 01:03:45.538
+si se hace una página que no se trabe
+para las clases,
+
+b019b5f3-ac14-4468-b1b6-c7d6c3b539cc-5
+01:03:45.538 --> 01:03:50.120
+no estaría mal un server inter server
+vamos a ponerle aquí.
+
+f84389f1-46c8-453c-be33-188419f42567-0
+01:03:51.320 --> 01:03:56.055
+Arquitecto. Agent.
+MD vamos a hacer con esto,
+
+f84389f1-46c8-453c-be33-188419f42567-1
+01:03:56.055 --> 01:04:01.922
+pondrás en anuncio las reglas del
+frontend y el backend.
+
+f84389f1-46c8-453c-be33-188419f42567-2
+01:04:01.922 --> 01:04:10.260
+Esto lo voy a subir a un repositorio para
+que lo puedan ver y basarse en el mío.
+
+f84389f1-46c8-453c-be33-188419f42567-3
+01:04:10.260 --> 01:04:18.804
+Ustedes modifíquenle o K Este va a ser el
+arquitecto, aquí lo tengo mi arquitecto.
+
+f84389f1-46c8-453c-be33-188419f42567-4
+01:04:18.804 --> 01:04:20.760
+Sí va a tener esto.
+
+c61271af-4777-4607-91d5-8b0b0a761445-0
+01:04:21.960 --> 01:04:30.165
+¿Ajá, ahora qué pasó? Ah,
+este está como raro. Bueno, ajá,
+
+c61271af-4777-4607-91d5-8b0b0a761445-1
+01:04:30.165 --> 01:04:37.120
+sangría sangría.
+Es que este va así con más este.
+
+7d9ec1d0-80c5-4f3b-9253-d39e232fae37-0
+01:04:50.080 --> 01:05:04.050
+Otra vez perdimos audio Jesús, Jesús,
+estás en mute, sigues en mute.
+
+e880478b-f24b-4a90-993a-0aae91c75e93-0
+01:05:44.120 --> 01:05:49.140
+Sí no se escucha,
+seguramente está haciendo algo nuestro
+
+e880478b-f24b-4a90-993a-0aae91c75e93-1
+01:05:49.140 --> 01:05:55.305
+profesor para reconectarse cambio de
+audífonos, estás en mute, listo,
+
+e880478b-f24b-4a90-993a-0aae91c75e93-2
+01:05:55.305 --> 01:06:02.703
+justo esto cambié de audífonos porque los
+otros pues no sé, pero bueno ya ahí está,
+
+e880478b-f24b-4a90-993a-0aae91c75e93-3
+01:06:02.703 --> 01:06:06.667
+ya está así la interfaz de audio, no sé,
+no,
+
+e880478b-f24b-4a90-993a-0aae91c75e93-4
+01:06:06.667 --> 01:06:12.480
+no lo no voy a ver ahorita que está
+pasando, pero bueno ya quedó.
+
+86328854-5462-4d6c-86ed-fbbae1aefd6b-0
+01:06:13.160 --> 01:06:16.957
+Entonces este es un agente.
+¿Qué es un agente?
+
+86328854-5462-4d6c-86ed-fbbae1aefd6b-1
+01:06:16.957 --> 01:06:21.078
+Un agente es sí tenemos nuestro agente de
+Copilot,
+
+86328854-5462-4d6c-86ed-fbbae1aefd6b-2
+01:06:21.078 --> 01:06:26.977
+pero puede llamar un subagente como este
+de aquí cuando necesite algo en
+
+86328854-5462-4d6c-86ed-fbbae1aefd6b-3
+01:06:26.977 --> 01:06:30.936
+específico tipo hacer un plan de
+implementación.
+
+86328854-5462-4d6c-86ed-fbbae1aefd6b-4
+01:06:30.936 --> 01:06:37.319
+Este arquitecto lo que va a hacer es
+hacer primero el plan de implementación o
+
+86328854-5462-4d6c-86ed-fbbae1aefd6b-5
+01:06:37.319 --> 01:06:41.359
+K se los voy a pasar. Se llama arquitecto.
+Agent.
+
+038a2f03-2d92-4f15-a423-0a2d85646ca5-0
+01:06:41.800 --> 01:06:49.143
+Sí, espérame, ahí voy, ahí voy.
+Este es el que va a ser el plan ajá,
+
+038a2f03-2d92-4f15-a423-0a2d85646ca5-1
+01:06:49.143 --> 01:06:55.422
+este solo va a ser el plan,
+nada más no va a meter código,
+
+038a2f03-2d92-4f15-a423-0a2d85646ca5-2
+01:06:55.422 --> 01:07:02.020
+el que va a meter código es nuevo.
+Archivo, ajá, constructor.
+
+038a2f03-2d92-4f15-a423-0a2d85646ca5-3
+01:07:02.020 --> 01:07:10.960
+Agent básicamente internamente lo que va
+a ser el Copilot. Ah, aquí se me fue algo.
+
+e54dda2f-13d8-4ae3-a5f2-3b5b749ca52f-0
+01:07:11.960 --> 01:07:17.125
+Cambiando el nombre, ahí está.
+Lo que va a hacer el Copilot es que
+
+e54dda2f-13d8-4ae3-a5f2-3b5b749ca52f-1
+01:07:17.125 --> 01:07:21.366
+cuando requiere un plan y requiere usar
+al arquitecto,
+
+e54dda2f-13d8-4ae3-a5f2-3b5b749ca52f-2
+01:07:21.366 --> 01:07:25.453
+lo va a usar cuando requiera.
+El agent lo va a usar.
+
+e54dda2f-13d8-4ae3-a5f2-3b5b749ca52f-3
+01:07:25.453 --> 01:07:30.002
+Esto es sólo un system prom es sólo un
+prom. Así nada más.
+
+e54dda2f-13d8-4ae3-a5f2-3b5b749ca52f-4
+01:07:30.002 --> 01:07:36.247
+O K es como para afinar sus habilidades
+de código o lo que necesites o k es eso.
+
+e54dda2f-13d8-4ae3-a5f2-3b5b749ca52f-5
+01:07:36.247 --> 01:07:39.640
+Eso es lo que hace nuestra gama de
+agentes.
+
+643f6547-3c53-451e-ae54-de657a42d0e6-0
+01:07:39.960 --> 01:07:43.368
+¿Y pues tenemos de varios, no?
+Por ejemplo,
+
+643f6547-3c53-451e-ae54-de657a42d0e6-1
+01:07:43.368 --> 01:07:46.932
+aquí está y este sería mi agente
+constructor.
+
+643f6547-3c53-451e-ae54-de657a42d0e6-2
+01:07:46.932 --> 01:07:52.975
+Con mis reglas trabaja paso a paso,
+un paso a la vez y di qué archivo tocas y
+
+643f6547-3c53-451e-ae54-de657a42d0e6-3
+01:07:52.975 --> 01:07:58.708
+por qué sigue las instrucciones.
+Después de cada paso corre la validación
+
+643f6547-3c53-451e-ae54-de657a42d0e6-4
+01:07:58.708 --> 01:08:04.054
+indicada. Ajá. Si un paso falla 2 veces,
+detente y explica el error,
+
+643f6547-3c53-451e-ae54-de657a42d0e6-5
+01:08:04.054 --> 01:08:09.400
+en lugar de improvisar, ves,
+ya le estamos dando reglas específicas.
+
+63d71f44-d995-4d84-8b40-b94eba64d2cd-0
+01:08:10.160 --> 01:08:17.196
+Para poder hacerlo.
+Y aquí yo le voy a poner en elgents otro
+
+63d71f44-d995-4d84-8b40-b94eba64d2cd-1
+01:08:17.196 --> 01:08:25.732
+que se llama Desplegador. Agent.
+MD este va a ser un agente especializado
+
+63d71f44-d995-4d84-8b40-b94eba64d2cd-2
+01:08:25.732 --> 01:08:33.345
+en mandar esto al este a nuestro.
+¿Cómo se llama a nuestro Asher?
+
+63d71f44-d995-4d84-8b40-b94eba64d2cd-3
+01:08:33.345 --> 01:08:37.960
+Les voy a pasar. El constructor ya está.
+
+5609de5b-aa00-4385-9238-ece7961ac084-0
+01:08:38.680 --> 01:08:45.541
+Si yo creo que era el driver el que me
+estaba jugando mal porque ahorita con los
+
+5609de5b-aa00-4385-9238-ece7961ac084-1
+01:08:45.541 --> 01:08:52.064
+de con estos de cable no tengo ningún
+problema y el desplegado básicamente a
+
+5609de5b-aa00-4385-9238-ece7961ac084-2
+01:08:52.064 --> 01:08:59.180
+ver es la misma. I a es el mismo agente,
+lo que le estamos mandando son diferentes.
+
+5609de5b-aa00-4385-9238-ece7961ac084-3
+01:08:59.180 --> 01:09:05.872
+Proms para ajustar sus acciones o K va
+perfecto, muy bien. ¿Y ahora qué sigue?
+
+5609de5b-aa00-4385-9238-ece7961ac084-4
+01:09:05.872 --> 01:09:06.720
+¿Qué dice?
+
+009967e5-5b9a-4726-a098-07ac17d99931-0
+01:09:07.640 --> 01:09:12.174
+Este es el verdadero agente,
+no los de copa.
+
+009967e5-5b9a-4726-a098-07ac17d99931-1
+01:09:12.174 --> 01:09:17.917
+Esto son agentes ya directo.
+Vamos a hacer lo siguiente,
+
+009967e5-5b9a-4726-a098-07ac17d99931-2
+01:09:17.917 --> 01:09:22.854
+control shift P,
+abres esto y aquí le pones open
+
+009967e5-5b9a-4726-a098-07ac17d99931-3
+01:09:22.854 --> 01:09:30.311
+customizations o personalizaciones
+control shift p o coman shift p en MAC
+
+009967e5-5b9a-4726-a098-07ac17d99931-4
+01:09:30.311 --> 01:09:36.760
+control shift p o coman shift p en MAC Yo
+les voy a pasar esto.
+
+7a081f5e-6fc9-4a1e-ae7d-3a1f1e3affd4-0
+01:09:37.160 --> 01:09:44.295
+O K vamos a abrirlo aquí y aquí ya tengo
+mis personalizaciones. Bueno,
+
+7a081f5e-6fc9-4a1e-ae7d-3a1f1e3affd4-1
+01:09:44.295 --> 01:09:51.932
+voy a poder poner mis personalizaciones
+de mis agentes o K desde aquí puedo
+
+7a081f5e-6fc9-4a1e-ae7d-3a1f1e3affd4-2
+01:09:51.932 --> 01:09:59.972
+manipular los servidores, habilidades,
+todo lo que yo necesite o k aquí en aquí
+
+7a081f5e-6fc9-4a1e-ae7d-3a1f1e3affd4-3
+01:09:59.972 --> 01:10:05.600
+en instrucciones debe de aparecer esto
+back en Express.
+
+1c8c81c9-7263-49ba-a823-46df74c2cbb7-0
+01:10:05.840 --> 01:10:13.980
+Copyle, Instructions y Frontend del chat,
+que son los mismos que tengo aquí back en
+
+1c8c81c9-7263-49ba-a823-46df74c2cbb7-1
+01:10:13.980 --> 01:10:18.922
+Express,
+Frontend del Chat y Copylon Instructions.
+
+1c8c81c9-7263-49ba-a823-46df74c2cbb7-2
+01:10:18.922 --> 01:10:26.190
+Este no trae nombre porque es directo al
+Copylon Instructions o k control,
+
+1c8c81c9-7263-49ba-a823-46df74c2cbb7-3
+01:10:26.190 --> 01:10:31.520
+shift p personalizaciones o customs y
+aquí en agentes.
+
+8b72f415-2222-449f-acb1-a7e426419dcd-0
+01:10:32.680 --> 01:10:41.492
+En área de trabajo deben de estar estos 3,
+arquitecto, constructor y desplegador,
+
+8b72f415-2222-449f-acb1-a7e426419dcd-1
+01:10:41.492 --> 01:10:47.081
+ahí están,
+eso es lo que necesito o k eso es lo que
+
+8b72f415-2222-449f-acb1-a7e426419dcd-2
+01:10:47.081 --> 01:10:54.604
+necesito, va perfecto, muy bien.
+¿Procedamos qué vamos a hacer ahora?
+
+8b72f415-2222-449f-acb1-a7e426419dcd-3
+01:10:54.604 --> 01:11:01.160
+Sí yo aquí ya le voy a escribir mi plan y
+yo le puedo poner.
+
+955646ab-ff94-4851-91e2-b99967c72afb-0
+01:11:01.920 --> 01:11:08.343
+Diagonal plan ajá. Oye,
+vete a hacer un plan aunque no le ponga
+
+955646ab-ff94-4851-91e2-b99967c72afb-1
+01:11:08.343 --> 01:11:16.572
+aquí el Copilot instructions de inmediato
+lo va a empezar a jalar y este va a ser
+
+955646ab-ff94-4851-91e2-b99967c72afb-2
+01:11:16.572 --> 01:11:21.791
+mi plan,
+ahí les va chéquense este es el plan. Ajá,
+
+955646ab-ff94-4851-91e2-b99967c72afb-3
+01:11:21.791 --> 01:11:27.010
+ahí te va.
+Construye desde hacer una página web con
+
+955646ab-ff94-4851-91e2-b99967c72afb-4
+01:11:27.010 --> 01:11:29.720
+tu chat con un chatbot ajá.
+
+e8201095-fabd-44d1-a847-f9bc2d32e901-0
+01:11:30.400 --> 01:11:36.635
+Con con un chatbot contexto lee si ah
+control shift p de nuevo otra vez de
+
+e8201095-fabd-44d1-a847-f9bc2d32e901-1
+01:11:36.635 --> 01:11:43.452
+nuevo control shift PY yo aquí le doy en
+abrir personalizaciones o customizations
+
+e8201095-fabd-44d1-a847-f9bc2d32e901-2
+01:11:43.452 --> 01:11:49.937
+este de acá el primero o K si no te
+parece le pones custom y debe de ser chat
+
+e8201095-fabd-44d1-a847-f9bc2d32e901-3
+01:11:49.937 --> 01:11:56.338
+open customizations o K aquí debo de
+verificar que los 3 agentes que hice el
+
+e8201095-fabd-44d1-a847-f9bc2d32e901-4
+01:11:56.338 --> 01:12:00.080
+arquitecto,
+el constructor y el desplegador.
+
+76b02882-4e39-4743-a973-c20b9c68b8b1-0
+01:12:00.520 --> 01:12:05.854
+Estén disponibles y que aquí en
+instrucciones Packer Express,
+
+76b02882-4e39-4743-a973-c20b9c68b8b1-1
+01:12:05.854 --> 01:12:12.136
+fronter del Chat y Copilo Instructions
+Instructions. Si está bien hecho,
+
+76b02882-4e39-4743-a973-c20b9c68b8b1-2
+01:12:12.136 --> 01:12:19.019
+estén disponibles aquí están o k luego ya
+les pasé el plan y vamos a revisarlo.
+
+76b02882-4e39-4743-a973-c20b9c68b8b1-3
+01:12:19.019 --> 01:12:25.387
+Construye desde cero una página con un
+chatbot contexto lee el Copilot no
+
+76b02882-4e39-4743-a973-c20b9c68b8b1-4
+01:12:25.387 --> 01:12:30.119
+trabajo en Windows con Power Reshell 7 y
+no ye ese 24.
+
+a31746c9-7b4b-41bd-9991-9e2a78b50e87-0
+01:12:30.320 --> 01:12:36.592
+¿Oye, es que yo trabajo en MAC,
+le cambias a MAC, yo trabajo en Linux,
+
+a31746c9-7b4b-41bd-9991-9e2a78b50e87-1
+01:12:36.592 --> 01:12:42.069
+le cambias a Linux?
+Yo lo estoy haciendo así porque yo lo voy
+
+a31746c9-7b4b-41bd-9991-9e2a78b50e87-2
+01:12:42.069 --> 01:12:47.104
+a trabajar aquí.
+Una compu en Windows o K Packard Jason.
+
+a31746c9-7b4b-41bd-9991-9e2a78b50e87-3
+01:12:47.104 --> 01:12:52.316
+Resultado esperado esto de acá que ya es
+más técnico, ajá,
+
+a31746c9-7b4b-41bd-9991-9e2a78b50e87-4
+01:12:52.316 --> 01:12:58.853
+el Front end donde debe de estar,
+el script donde debe de estar y esto el
+
+a31746c9-7b4b-41bd-9991-9e2a78b50e87-5
+01:12:58.853 --> 01:12:59.560
+API key.
+
+3453ef6e-baa1-4a2e-b0c8-a349a4986927-0
+01:12:59.680 --> 01:13:06.422
+Y ya un mensaje vacío es 940022 ta ta, ta,
+ta ta o K bien perfecto, aquí tengo 3.
+
+3453ef6e-baa1-4a2e-b0c8-a349a4986927-1
+01:13:06.422 --> 01:13:12.177
+¿Esto es nuevo de Copilot sí,
+tengo el modo auto que normalmente va a
+
+3453ef6e-baa1-4a2e-b0c8-a349a4986927-2
+01:13:12.177 --> 01:13:18.262
+agarrar un GPT 56 Luna una cosa así,
+oh my pero en balance esto es nuevo,
+
+3453ef6e-baa1-4a2e-b0c8-a349a4986927-3
+01:13:18.262 --> 01:13:23.524
+si no les aparece actualicen su
+aplicación de de visual Studio,
+
+3453ef6e-baa1-4a2e-b0c8-a349a4986927-4
+01:13:23.524 --> 01:13:27.800
+entonces aquí tengo 3 qué quiero hacer?
+Eficiencia.
+
+98ee334c-4636-4d0e-af88-f9a1f4288dd8-0
+01:13:28.720 --> 01:13:34.944
+¿Va inteligencia o un balance entre los 2?
+¿Inteligencia es que va a costar más,
+
+98ee334c-4636-4d0e-af88-f9a1f4288dd8-1
+01:13:34.944 --> 01:13:41.245
+te va a ganar más tokens, va a ser este,
+va a pensar más, pero va a ser más este?
+
+98ee334c-4636-4d0e-af88-f9a1f4288dd8-2
+01:13:41.245 --> 01:13:46.010
+¿Pues pues mejor no? Ahora bien,
+no me reconocen los agentes.
+
+98ee334c-4636-4d0e-af88-f9a1f4288dd8-3
+01:13:46.010 --> 01:13:50.390
+Checa tu spelling que esté dentro de la
+carpeta. Github,
+
+98ee334c-4636-4d0e-af88-f9a1f4288dd8-4
+01:13:50.390 --> 01:13:56.000
+dentro de punto e dentro de agents y
+deben de acabar en punto agent o K.
+
+3e125adf-da98-4903-b44b-32f0792a7b4c-0
+01:13:56.440 --> 01:14:00.241
+Checa,
+checa esas cosas y también checa que esto
+
+3e125adf-da98-4903-b44b-32f0792a7b4c-1
+01:14:00.241 --> 01:14:03.809
+las líneas y el agent así este todo bien.
+Sí,
+
+3e125adf-da98-4903-b44b-32f0792a7b4c-2
+01:14:03.809 --> 01:14:08.929
+así tal cual puedes tener ahí un
+errorcito como de cómo se llama,
+
+3e125adf-da98-4903-b44b-32f0792a7b4c-3
+01:14:08.929 --> 01:14:14.592
+como de como un tipo o algo así que
+también pueda ser que no se no estén
+
+3e125adf-da98-4903-b44b-32f0792a7b4c-4
+01:14:14.592 --> 01:14:18.161
+considerando o K bien,
+ahora este es el plan.
+
+3e125adf-da98-4903-b44b-32f0792a7b4c-5
+01:14:18.161 --> 01:14:24.599
+¿Cómo elijo esto y cómo elijo un modelo
+más pesado? ¿Lo ideal o en el mundo ideal?
+
+f78c2af6-cb50-48e6-b734-cadfb28208e4-0
+01:14:25.360 --> 01:14:33.270
+En el mundo este utópico lo lo chido
+sería irnos porque te gusta por el más
+
+f78c2af6-cb50-48e6-b734-cadfb28208e4-1
+01:14:33.270 --> 01:14:39.203
+pesado, no irnos por un cloud, fable, 5.
+1 o lo que sea.
+
+f78c2af6-cb50-48e6-b734-cadfb28208e4-2
+01:14:39.203 --> 01:14:47.322
+Pero realmente eso no nos va a gastar
+mucho y se nos va a acabar los tokens y
+
+f78c2af6-cb50-48e6-b734-cadfb28208e4-3
+01:14:47.322 --> 01:14:52.838
+no en balanza.
+Igual quiero más inteligencia. Órale,
+
+f78c2af6-cb50-48e6-b734-cadfb28208e4-4
+01:14:52.838 --> 01:14:54.399
+pero realmente.
+
+f20606fb-b4cf-4825-8c1d-f4c4fa28e226-0
+01:14:55.480 --> 01:15:02.442
+El balance este de acá o eficiencia o qué
+tanto quieres que piense eficiencia es
+
+f20606fb-b4cf-4825-8c1d-f4c4fa28e226-1
+01:15:02.442 --> 01:15:09.319
+cuando tú quieres el modo de eficiencia o
+que piense menos o el esfuerzo menos.
+
+f20606fb-b4cf-4825-8c1d-f4c4fa28e226-2
+01:15:09.319 --> 01:15:14.648
+Es cuando ya tienes claro,
+ya hay un plan y ya hay todo esto.
+
+f20606fb-b4cf-4825-8c1d-f4c4fa28e226-3
+01:15:14.648 --> 01:15:21.439
+Entonces te puedes dar el lujo de poner
+menos pensamiento, porque la ya no va.
+
+f20606fb-b4cf-4825-8c1d-f4c4fa28e226-4
+01:15:21.439 --> 01:15:23.760
+Digamos que inventar tanto.
+
+79a3d036-66f7-40e2-8bf7-b3069c10be29-0
+01:15:25.360 --> 01:15:29.845
+Cuando tienes inteligencia es cuando es
+más vaga la instrucción,
+
+79a3d036-66f7-40e2-8bf7-b3069c10be29-1
+01:15:29.845 --> 01:15:34.400
+resuélveme el problema o, por ejemplo,
+cuando quieres investigar,
+
+79a3d036-66f7-40e2-8bf7-b3069c10be29-2
+01:15:34.400 --> 01:15:39.299
+cuando quieres investigar un problema que
+no sabes de dónde viene ahí,
+
+79a3d036-66f7-40e2-8bf7-b3069c10be29-3
+01:15:39.299 --> 01:15:44.544
+si le pones un modelo más pesado y con
+más inteligencia o con más tiempo de
+
+79a3d036-66f7-40e2-8bf7-b3069c10be29-4
+01:15:44.544 --> 01:15:48.270
+pensamiento. ¿Por qué? Porque así pues,
+la I a puede,
+
+79a3d036-66f7-40e2-8bf7-b3069c10be29-5
+01:15:48.270 --> 01:15:52.480
+puede y puede ir escarbando aquí.
+Yo le voy a poner balance.
+
+4c0d4571-e7a1-4358-9c99-9cf368c0bf66-0
+01:15:53.720 --> 01:15:59.827
+O K así nada más. Y este plan,
+como ya está estructurado,
+
+4c0d4571-e7a1-4358-9c99-9cf368c0bf66-1
+01:15:59.827 --> 01:16:08.463
+simplemente le doy enviar y primero me va
+a construir el plan o K va a leer todo,
+
+4c0d4571-e7a1-4358-9c99-9cf368c0bf66-2
+01:16:08.463 --> 01:16:16.150
+ahí está. ¿Bueno esto no, no,
+no sé que lo mostró, va agarrar lo que es,
+
+4c0d4571-e7a1-4358-9c99-9cf368c0bf66-3
+01:16:16.150 --> 01:16:22.680
+MCP lo que necesite y va a seguir
+pensando el plan, ya viste?
+
+d1e91b41-55d0-4db5-9f9d-c55b39ecaefc-0
+01:16:23.840 --> 01:16:29.849
+Está inflexionando está haciendo
+diferentes cosas, agarra un GPT 6 Luna,
+
+d1e91b41-55d0-4db5-9f9d-c55b39ecaefc-1
+01:16:29.849 --> 01:16:35.035
+nada mal o k nada mal,
+nada mal está revisando en la memoria y
+
+d1e91b41-55d0-4db5-9f9d-c55b39ecaefc-2
+01:16:35.035 --> 01:16:39.150
+pues va a hacer su magia o K va a hacer
+su magia.
+
+d1e91b41-55d0-4db5-9f9d-c55b39ecaefc-3
+01:16:39.150 --> 01:16:44.419
+Entonces esperamos un poquito a que esto
+cargue cualquier duda,
+
+d1e91b41-55d0-4db5-9f9d-c55b39ecaefc-4
+01:16:44.419 --> 01:16:49.358
+cualquier tema ahí está.
+¿Te das cuenta ya está leyendo los
+
+d1e91b41-55d0-4db5-9f9d-c55b39ecaefc-5
+01:16:49.358 --> 01:16:50.840
+agentes, ya viste?
+
+4274ab04-90b7-40d5-9992-da3d5d3c30c1-0
+01:16:52.280 --> 01:16:57.322
+Ya está leyendo, ahora sí, los agentes,
+cierro de la carpeta, te digo,
+
+4274ab04-90b7-40d5-9992-da3d5d3c30c1-1
+01:16:57.322 --> 01:17:01.796
+es recomendable siempre hacerlo siempre
+con un plan sí, o sea,
+
+4274ab04-90b7-40d5-9992-da3d5d3c30c1-2
+01:17:01.796 --> 01:17:06.555
+para empezar un proyecto, sí, sí, sí, sí,
+porque primero la gente,
+
+4274ab04-90b7-40d5-9992-da3d5d3c30c1-3
+01:17:06.555 --> 01:17:12.165
+la gente como que rummea la idea y ya
+después que tiene algo específico. ¿Pum,
+
+4274ab04-90b7-40d5-9992-da3d5d3c30c1-4
+01:17:12.165 --> 01:17:17.421
+qué debe hacer el chatbot y qué
+instrucciones vas a tener el agente prom?
+
+4274ab04-90b7-40d5-9992-da3d5d3c30c1-5
+01:17:17.421 --> 01:17:20.119
+Ah, mira, chécate, aquí es importante.
+
+2ffe842e-e29e-44e3-9565-073ee624d25a-0
+01:17:20.520 --> 01:17:24.434
+El nombre del proyecto sugiere
+certificación,
+
+2ffe842e-e29e-44e3-9565-073ee624d25a-1
+01:17:24.434 --> 01:17:31.583
+pero no asumiré el dominio ni el alcance
+importante. Podría irme con certificación,
+
+2ffe842e-e29e-44e3-9565-073ee624d25a-2
+01:17:31.583 --> 01:17:38.561
+pero aquí lo que va a pasar es que este
+proyecto le va a agregar un system prom a
+
+2ffe842e-e29e-44e3-9565-073ee624d25a-3
+01:17:38.561 --> 01:17:45.114
+mi agente arriba, cosa que pues no,
+yo le puedo escribir ninguna de estas me
+
+2ffe842e-e29e-44e3-9565-073ee624d25a-4
+01:17:45.114 --> 01:17:45.880
+convence.
+
+d169130d-abec-473e-8484-ee1187f8913a-0
+01:17:47.760 --> 01:17:54.378
+Podríamos autorizar instrucciones
+neutrales de asistente general.
+
+d169130d-abec-473e-8484-ee1187f8913a-1
+01:17:54.378 --> 01:18:01.999
+Esto lo que va a hacer es modificar el
+system prom como para mandarlo en la
+
+d169130d-abec-473e-8484-ee1187f8913a-2
+01:18:01.999 --> 01:18:07.514
+petición, cosa que pues no,
+porque ya lo tengo arriba.
+
+d169130d-abec-473e-8484-ee1187f8913a-3
+01:18:07.514 --> 01:18:14.032
+Entonces yo le voy a poner el system prom
+es para certificación,
+
+d169130d-abec-473e-8484-ee1187f8913a-4
+01:18:14.032 --> 01:18:16.839
+pero el system prom ya está.
+
+e7e8a983-dfee-40ef-95e0-742d96eba5d6-0
+01:18:17.160 --> 01:18:32.181
+En el agente de Microsoft Ondre por ende
+no debes por parte por ello lo mandamos y
+
+e7e8a983-dfee-40ef-95e0-742d96eba5d6-1
+01:18:32.181 --> 01:18:43.040
+de nuevo help a ver,
+ah ahí si pone el recomendado Claudia.
+
+d0f08102-1985-4c07-8ede-6c21221f5033-0
+01:18:44.480 --> 01:18:49.343
+Ya existe el foundr,
+un deployment de modelo para la gente del
+
+d0f08102-1985-4c07-8ede-6c21221f5033-1
+01:18:49.343 --> 01:18:54.514
+prop. Sí, ya existe. Sí,
+ajá encuentra ya un agente con ese nombre
+
+d0f08102-1985-4c07-8ede-6c21221f5033-2
+01:18:54.514 --> 01:19:00.535
+que debe de hacer fallar sin modificar.
+Listo, vamos a darle, está razonando,
+
+d0f08102-1985-4c07-8ede-6c21221f5033-3
+01:19:00.535 --> 01:19:06.016
+nos da las primeras preguntas,
+ya se lo mandamos. Si algo no te gustó,
+
+d0f08102-1985-4c07-8ede-6c21221f5033-4
+01:19:06.016 --> 01:19:07.560
+lo puedes modificar.
+
+a46c5d6c-4810-4cc7-8074-5d04635df56a-0
+01:19:08.160 --> 01:19:12.253
+Ahí está ta ta, ta,
+ta ta dices que el system prom,
+
+a46c5d6c-4810-4cc7-8074-5d04635df56a-1
+01:19:12.253 --> 01:19:16.031
+el agente de fondry cuyo system prom ya
+existe,
+
+a46c5d6c-4810-4cc7-8074-5d04635df56a-2
+01:19:16.031 --> 01:19:20.597
+es el mismo que usará la APP bajo sí,
+es el mismo agente,
+
+a46c5d6c-4810-4cc7-8074-5d04635df56a-3
+01:19:20.597 --> 01:19:24.375
+recomiendo una variable nueva model
+deployment.
+
+a46c5d6c-4810-4cc7-8074-5d04635df56a-4
+01:19:24.375 --> 01:19:27.996
+Sí es se me olvidó esa la vamos a poner y
+sí,
+
+a46c5d6c-4810-4cc7-8074-5d04635df56a-5
+01:19:27.996 --> 01:19:33.349
+efectivamente necesito model deployment,
+vamos a hacerlo, ahí está,
+
+a46c5d6c-4810-4cc7-8074-5d04635df56a-6
+01:19:33.349 --> 01:19:35.160
+va haciendo la el plan.
+
+f697651a-f6f8-4db2-9778-ec061eee3457-0
+01:19:36.080 --> 01:19:41.448
+Va a leer el git Ignor, el en va,
+o sea está está haciendo todo lo
+
+f697651a-f6f8-4db2-9778-ec061eee3457-1
+01:19:41.448 --> 01:19:47.056
+necesario para poder ejecutarlo.
+Vamos a ver cómo va nuestro consumo,
+
+f697651a-f6f8-4db2-9778-ec061eee3457-2
+01:19:47.056 --> 01:19:52.264
+ahí está nuestro consumo listo.
+Ya vieron le picas aquí al en el
+
+f697651a-f6f8-4db2-9778-ec061eee3457-3
+01:19:52.264 --> 01:19:58.593
+simbolito de abajo de Github Compilot
+aquí nos pide este una herramienta es va
+
+f697651a-f6f8-4db2-9778-ec061eee3457-4
+01:19:58.593 --> 01:20:02.840
+a leer ahí una página,
+vamos a darle permitir listo.
+
+d29a492e-7b9f-4680-ac04-18d37500d1bf-0
+01:20:03.520 --> 01:20:07.783
+¿No tengo problema con eso va a leer una
+página externa,
+
+d29a492e-7b9f-4680-ac04-18d37500d1bf-1
+01:20:07.783 --> 01:20:13.618
+entonces con eso puedes este seguirle?
+Ajá, chécate, ahí está. ¿Ah, espérame,
+
+d29a492e-7b9f-4680-ac04-18d37500d1bf-2
+01:20:13.618 --> 01:20:18.556
+qué contrato tendrá? Ajá.
+Considerando que el agente operativo ya
+
+d29a492e-7b9f-4680-ac04-18d37500d1bf-3
+01:20:18.556 --> 01:20:22.520
+existe y su prom viven,
+pondré crea crear sin falta,
+
+d29a492e-7b9f-4680-ac04-18d37500d1bf-4
+01:20:22.520 --> 01:20:27.832
+sin tocar existente o k igual los
+recomendados en algunas ocasiones sí
+
+d29a492e-7b9f-4680-ac04-18d37500d1bf-5
+01:20:27.832 --> 01:20:30.600
+sirven y en otras puedes malterar el.
+
+66d8b2be-377f-4afd-8d24-445d7e4a0e4b-0
+01:20:31.040 --> 01:20:35.795
+El comportamiento del plan o de la gente
+que está generando el código.
+
+66d8b2be-377f-4afd-8d24-445d7e4a0e4b-1
+01:20:35.795 --> 01:20:41.087
+Pero es importante que primero generes el
+plan para después empezar a hacer el
+
+66d8b2be-377f-4afd-8d24-445d7e4a0e4b-2
+01:20:41.087 --> 01:20:43.967
+código,
+porque si no la I a va a empezar a
+
+66d8b2be-377f-4afd-8d24-445d7e4a0e4b-3
+01:20:43.967 --> 01:20:48.857
+inventar y hacer cosas y hacer por otro
+lado y eso va a requerir. O sea,
+
+66d8b2be-377f-4afd-8d24-445d7e4a0e4b-4
+01:20:48.857 --> 01:20:52.206
+aquí suena que estamos gastando mucho
+token y sí,
+
+66d8b2be-377f-4afd-8d24-445d7e4a0e4b-5
+01:20:52.206 --> 01:20:57.230
+pero si no lo haces de esta manera,
+luego la I a va a gastar más tokens en
+
+66d8b2be-377f-4afd-8d24-445d7e4a0e4b-6
+01:20:57.230 --> 01:20:59.240
+retrabajo, o sea muchas cosas.
+
+62bc3321-ceed-499d-9c02-822af4cadf73-0
+01:20:59.720 --> 01:21:05.697
+¿Esto les digo, es un jarnes,
+es la forma en la que le decimos a la I a
+
+62bc3321-ceed-499d-9c02-822af4cadf73-1
+01:21:05.697 --> 01:21:09.598
+Oye,
+Este tienes reglas que no se te olviden o
+
+62bc3321-ceed-499d-9c02-822af4cadf73-2
+01:21:09.598 --> 01:21:14.911
+K siempre lee estas reglas,
+por eso los agentes fueron creados,
+
+62bc3321-ceed-499d-9c02-822af4cadf73-3
+01:21:14.911 --> 01:21:21.220
+por eso tenemos el instructions,
+no hemos visto los contratos, no? Y bueno,
+
+62bc3321-ceed-499d-9c02-822af4cadf73-4
+01:21:21.220 --> 01:21:26.035
+vamos a esperar a que se cree el plan TA,
+ta, ta, ta, ta.
+
+62bc3321-ceed-499d-9c02-822af4cadf73-5
+01:21:26.035 --> 01:21:28.360
+Empezamos pensando ahí está.
+
+c25dd96d-8dd9-4ec6-b1ca-0170e97d2550-0
+01:21:28.800 --> 01:21:36.398
+Plat chat Bot foundery D cero ahí está el
+plan, ya me terminó el plan. Sí, a ver,
+
+c25dd96d-8dd9-4ec6-b1ca-0170e97d2550-1
+01:21:36.398 --> 01:21:42.885
+eso va a depender de muchas factores,
+o sea, te puede terminar antes,
+
+c25dd96d-8dd9-4ec6-b1ca-0170e97d2550-2
+01:21:42.885 --> 01:21:49.094
+te puede terminar después, pero ahí está.
+Ajá, listo. Vamos a ver,
+
+c25dd96d-8dd9-4ec6-b1ca-0170e97d2550-3
+01:21:49.094 --> 01:21:54.839
+no he cambiado nada la verificación,
+supongamos que me gustó.
+
+d01bf862-b7f5-4d41-ab3e-534ed44321f6-0
+01:21:55.160 --> 01:22:00.657
+¿Repositorios solo con tiene solo con
+tiene configuración la invocará a la
+
+d01bf862-b7f5-4d41-ab3e-534ed44321f6-1
+01:22:00.657 --> 01:22:06.741
+gente describe que es existente conservar
+el contexto entre turnos, lo modificará?
+
+d01bf862-b7f5-4d41-ab3e-534ed44321f6-2
+01:22:06.741 --> 01:22:09.966
+Ajá, ajá,
+ajá o K me agrada si yo le quiero
+
+d01bf862-b7f5-4d41-ab3e-534ed44321f6-3
+01:22:09.966 --> 01:22:15.244
+modificar puedo decirle a la I a
+literalmente Oye Modifícame esto, oye,
+
+d01bf862-b7f5-4d41-ab3e-534ed44321f6-4
+01:22:15.244 --> 01:22:18.909
+haz esto,
+oye esto no puedo abrirle en el editor,
+
+d01bf862-b7f5-4d41-ab3e-534ed44321f6-5
+01:22:18.909 --> 01:22:24.920
+ahí está opening editor create plan y lo
+que va a hacer es generarme un punto MD.
+
+1023327f-66f2-43d5-b634-d24580b81bfa-0
+01:22:25.560 --> 01:22:29.661
+Un archivo.
+MD para este que yo lo pueda editar o KY
+
+1023327f-66f2-43d5-b634-d24580b81bfa-1
+01:22:29.661 --> 01:22:34.459
+este plan por aquí ya va a aparecer. ¿Sí,
+yo lo puedo editar,
+
+1023327f-66f2-43d5-b634-d24580b81bfa-2
+01:22:34.459 --> 01:22:40.572
+lo puedo homificar esto no me gustó,
+esto sí me gustó siempre lean lo que va a
+
+1023327f-66f2-43d5-b634-d24580b81bfa-3
+01:22:40.572 --> 01:22:47.150
+pasar siempre lean lo que va a hacer, sí,
+entonces aquí va a leer la memoria no? Ah,
+
+1023327f-66f2-43d5-b634-d24580b81bfa-4
+01:22:47.150 --> 01:22:52.413
+no puede crear el documento,
+no importa y si ya me gustó ejecuta el
+
+1023327f-66f2-43d5-b634-d24580b81bfa-5
+01:22:52.413 --> 01:22:52.799
+plan.
+
+9f20a06d-5579-41f0-ae39-04a3bf09d3fe-0
+01:22:54.960 --> 01:23:01.385
+Esto no sé por qué está pineado
+ejecutamos el plan por alguna razón la
+
+9f20a06d-5579-41f0-ae39-04a3bf09d3fe-1
+01:23:01.385 --> 01:23:07.719
+opinión, pero bueno, ahí está,
+de hecho igual y lo vamos a quitar por
+
+9f20a06d-5579-41f0-ae39-04a3bf09d3fe-2
+01:23:07.719 --> 01:23:13.058
+cualquier cosa para que no tenga ahí
+algún tema. Ah, mira,
+
+9f20a06d-5579-41f0-ae39-04a3bf09d3fe-3
+01:23:13.058 --> 01:23:20.298
+ahí está el plan a no vista previa de
+backend o K vamos a quitar todo esto para
+
+9f20a06d-5579-41f0-ae39-04a3bf09d3fe-4
+01:23:20.298 --> 01:23:24.280
+evitar ahí como algún inconveniente.
+Listo.
+
+de845653-e82a-4f07-ba3b-ca6ab78d51d2-0
+01:23:27.320 --> 01:23:33.554
+Y ahora sí le puedo decir que ejecute el
+plan, vamos a quitar este de aquí,
+
+de845653-e82a-4f07-ba3b-ca6ab78d51d2-1
+01:23:33.554 --> 01:23:38.230
+ejecute el plan.
+Es lo mismo darle estar implementation,
+
+de845653-e82a-4f07-ba3b-ca6ab78d51d2-2
+01:23:38.230 --> 01:23:44.054
+si es lo mismo, exactamente igual, claro,
+si le vas a hacer un cambio,
+
+de845653-e82a-4f07-ba3b-ca6ab78d51d2-3
+01:23:44.054 --> 01:23:49.797
+no le des en estar implementation chécalo
+primero o k ahí está listo.
+
+de845653-e82a-4f07-ba3b-ca6ab78d51d2-4
+01:23:49.797 --> 01:23:51.520
+Le damos en permitir.
+
+cdc692b8-f5fc-4cd1-a31c-4c4f73dde606-0
+01:23:52.480 --> 01:23:56.991
+Y listo.
+Lo que va a hacer es empezar nuestro plan
+
+cdc692b8-f5fc-4cd1-a31c-4c4f73dde606-1
+01:23:56.991 --> 01:24:02.211
+y empezar a chambear.
+Ya tenemos a nuestra ya chambeando y
+
+cdc692b8-f5fc-4cd1-a31c-4c4f73dde606-2
+01:24:02.211 --> 01:24:06.280
+ahora va a entrar este el constructor
+agente.
+
+cdc692b8-f5fc-4cd1-a31c-4c4f73dde606-3
+01:24:06.280 --> 01:24:10.350
+Este es el que se encarga de hacer el
+Código.
+
+cdc692b8-f5fc-4cd1-a31c-4c4f73dde606-4
+01:24:10.350 --> 01:24:17.339
+Entonces simplemente esperamos unos unos
+minutos que sí pueden ser hasta media
+
+cdc692b8-f5fc-4cd1-a31c-4c4f73dde606-5
+01:24:17.339 --> 01:24:21.320
+hora algo así y ya o k bien,
+perfecto ahora.
+
+0bef6919-42c3-4ed1-80a4-91e4dd8f25ed-0
+01:24:22.680 --> 01:24:29.426
+¿Cómo le vamos a hacer para la
+implementación? ¿Vamos a un cafecito?
+
+0bef6919-42c3-4ed1-80a4-91e4dd8f25ed-1
+01:24:29.426 --> 01:24:37.151
+¿No le hacen permitir esta sesión? Sí, sí,
+sí está usando el MCP de assure sí,
+
+0bef6919-42c3-4ed1-80a4-91e4dd8f25ed-2
+01:24:37.151 --> 01:24:42.137
+a veces ya los trae y si no trae el MCP
+de assure,
+
+0bef6919-42c3-4ed1-80a4-91e4dd8f25ed-3
+01:24:42.137 --> 01:24:47.124
+se van aquí en extensiones y buscan
+assure MCP sí,
+
+0bef6919-42c3-4ed1-80a4-91e4dd8f25ed-4
+01:24:47.124 --> 01:24:49.960
+y ahí está assure MCP server.
+
+af6b2d6c-8341-4eac-8581-4fd6ab65a8ea-0
+01:24:51.040 --> 01:24:56.698
+Sí, ahí está listo. Le dan en permitir,
+le dan que si a todo tienes error de
+
+af6b2d6c-8341-4eac-8581-4fd6ab65a8ea-1
+01:24:56.698 --> 01:25:00.005
+sintaxis,
+esto no necesariamente es error de
+
+af6b2d6c-8341-4eac-8581-4fd6ab65a8ea-2
+01:25:00.005 --> 01:25:05.957
+sintaxis. Es a veces que, por ejemplo,
+aquí si es un sería un error de sintaxis,
+
+af6b2d6c-8341-4eac-8581-4fd6ab65a8ea-3
+01:25:05.957 --> 01:25:11.910
+pero al final lo leyó bien y es el visual
+Studio Code diciendo que hay algo mal,
+
+af6b2d6c-8341-4eac-8581-4fd6ab65a8ea-4
+01:25:11.910 --> 01:25:17.201
+pero en realidad no está mal,
+todo está bien o K si tienes y a TI si te
+
+af6b2d6c-8341-4eac-8581-4fd6ab65a8ea-5
+01:25:17.201 --> 01:25:19.920
+aparece un error sintaxis verifícalo.
+
+0e3a52a1-8322-4059-b587-5e4964df4dbc-0
+01:25:20.840 --> 01:25:25.844
+Sí, si la gente te digo, oye,
+no puedo leer el ni otro agente,
+
+0e3a52a1-8322-4059-b587-5e4964df4dbc-1
+01:25:25.844 --> 01:25:31.165
+por ejemplo, ahí está, mira,
+vamos a ver de permitir todo todo Pum
+
+0e3a52a1-8322-4059-b587-5e4964df4dbc-2
+01:25:31.165 --> 01:25:36.408
+está leyendo la terminal,
+está leyendo todo está haciendo toda su
+
+0e3a52a1-8322-4059-b587-5e4964df4dbc-3
+01:25:36.408 --> 01:25:40.300
+chamba y si te das cuenta ahora va a
+tardar más,
+
+0e3a52a1-8322-4059-b587-5e4964df4dbc-4
+01:25:40.300 --> 01:25:46.257
+porque pues justo la I a hace eso,
+ahora vamos a hacer algo, pues digamos,
+
+0e3a52a1-8322-4059-b587-5e4964df4dbc-5
+01:25:46.257 --> 01:25:48.720
+pues más locochón, no más loco.
+
+3bf24ca5-4c54-4d19-abbd-bd6b5061507c-0
+01:25:49.560 --> 01:25:55.844
+¿Qué es lo que vamos a hacer?
+Vamos a instalar, si es que puedes,
+
+3bf24ca5-4c54-4d19-abbd-bd6b5061507c-1
+01:25:55.844 --> 01:26:03.365
+vamos a instalar algo que se llama Asure
+CLI o Asure CLI o K vamos a ver si le
+
+3bf24ca5-4c54-4d19-abbd-bd6b5061507c-2
+01:26:03.365 --> 01:26:09.078
+puedo poner todos los permisos como para
+que no me moleste.
+
+3bf24ca5-4c54-4d19-abbd-bd6b5061507c-3
+01:26:09.078 --> 01:26:14.696
+En lo que hace esto digo,
+no deberían hacerlo, pero bueno,
+
+3bf24ca5-4c54-4d19-abbd-bd6b5061507c-4
+01:26:14.696 --> 01:26:18.600
+ahí está haciendo el NPM yo voy a buscar.
+
+b03c7910-8e4d-4197-845d-28263b9860d3-0
+01:26:19.360 --> 01:26:25.932
+Aquí asher CLI o K Asher CLI va que por
+cierto,
+
+b03c7910-8e4d-4197-845d-28263b9860d3-1
+01:26:25.932 --> 01:26:33.326
+si quieren este tutorial tan ta ta tan
+aquí lo tengo,
+
+b03c7910-8e4d-4197-845d-28263b9860d3-2
+01:26:33.326 --> 01:26:42.910
+se los voy a subir con el Repo.
+Aquí les hice un PDF con un tutorial.
+
+b03c7910-8e4d-4197-845d-28263b9860d3-3
+01:26:42.910 --> 01:26:47.840
+Me estoy agarrando de este tutorial.
+
+6084c4be-9216-4617-80c9-77fa68b77de2-0
+01:26:48.400 --> 01:26:56.612
+Paso a paso o K Te Puede fallar,
+te puede hacer algo raro la I a sí que
+
+6084c4be-9216-4617-80c9-77fa68b77de2-1
+01:26:56.612 --> 01:27:02.658
+tengas el tutorial y que tengas el jarnes
+no existe,
+
+6084c4be-9216-4617-80c9-77fa68b77de2-2
+01:27:02.658 --> 01:27:12.354
+la no hace que la I a sea les voy a pasar
+aquí de ahí tengo todo o k ahí está. Mira,
+
+6084c4be-9216-4617-80c9-77fa68b77de2-3
+01:27:12.354 --> 01:27:15.320
+ahí está fase C construir.
+
+8554164a-2e28-4816-9dd4-c41f71475920-0
+01:27:15.800 --> 01:27:19.670
+Aquí está paso a paso con algunos
+conceptitos y todo eso,
+
+8554164a-2e28-4816-9dd4-c41f71475920-1
+01:27:19.670 --> 01:27:24.340
+lo que lo que tienen que hacer.
+Aquí está la arquitectura que se va a
+
+8554164a-2e28-4816-9dd4-c41f71475920-2
+01:27:24.340 --> 01:27:27.477
+hacer,
+de hecho hasta llega un poquito más con
+
+8554164a-2e28-4816-9dd4-c41f71475920-3
+01:27:27.477 --> 01:27:32.214
+el despliegue y todo eso por si no
+llegamos hoy, pues no, no hay tema,
+
+8554164a-2e28-4816-9dd4-c41f71475920-4
+01:27:32.214 --> 01:27:36.351
+ahí lo tengo, no se preocupen, miren,
+ahí está haciendo todo,
+
+8554164a-2e28-4816-9dd4-c41f71475920-5
+01:27:36.351 --> 01:27:41.489
+ya está haciendo el proyecto fuera del
+Github, Agence ya está haciendo esto,
+
+8554164a-2e28-4816-9dd4-c41f71475920-6
+01:27:41.489 --> 01:27:45.560
+el noodles va como a resolver todo esto y
+entonces ahora sí.
+
+f989ff4c-12f2-48a0-bafe-1982d3a35341-0
+01:27:46.320 --> 01:27:52.068
+Va a empezar a hacer el proyecto que es
+este o K va perfecto.
+
+f989ff4c-12f2-48a0-bafe-1982d3a35341-1
+01:27:52.068 --> 01:27:59.300
+Ahora mientras vamos nosotros instalando
+este estoy batallando el ritmo en la
+
+f989ff4c-12f2-48a0-bafe-1982d3a35341-2
+01:27:59.300 --> 01:28:06.439
+clase, esto nos lo va a enviar. Ajá.
+Parte del TRANSCRIPT el Transcript va a
+
+f989ff4c-12f2-48a0-bafe-1982d3a35341-3
+01:28:06.439 --> 01:28:10.982
+estar,
+la grabación está y el el tutorial en PDF
+
+f989ff4c-12f2-48a0-bafe-1982d3a35341-4
+01:28:10.982 --> 01:28:12.280
+va a estar sí.
+
+a69ca07d-abd4-4f46-b4a8-d4348fc6806d-0
+01:28:12.800 --> 01:28:17.237
+En tutorial en PDF está, ah,
+así iba a pasar de una vez.
+
+a69ca07d-abd4-4f46-b4a8-d4348fc6806d-1
+01:28:17.237 --> 01:28:22.686
+Si no lo buscas ahí en otro lado,
+te lo paso de una vez, mira cálale,
+
+a69ca07d-abd4-4f46-b4a8-d4348fc6806d-2
+01:28:22.686 --> 01:28:26.656
+ahí está,
+ahí está el gito contiene muchos cambios
+
+a69ca07d-abd4-4f46-b4a8-d4348fc6806d-3
+01:28:26.656 --> 01:28:29.537
+activos,
+solamente su control de las
+
+a69ca07d-abd4-4f46-b4a8-d4348fc6806d-4
+01:28:29.537 --> 01:28:35.998
+características de git serán habilitadas.
+Quieren añadir modules a Git no, sí, sí,
+
+a69ca07d-abd4-4f46-b4a8-d4348fc6806d-5
+01:28:35.998 --> 01:28:40.280
+ponle que sí Claudia,
+si el note modults este de aquí.
+
+0eac5cb1-f8b0-49ca-80de-0f8b9dff36bc-0
+01:28:40.960 --> 01:28:48.136
+Siempre van el jidic no siempre aquí lo
+si no te lo puso la I a tú se lo pones no
+
+0eac5cb1-f8b0-49ca-80de-0f8b9dff36bc-1
+01:28:48.136 --> 01:28:54.526
+de_ modules y ahora éste se va a poner en
+gris, ahí está, ahí está bien.
+
+0eac5cb1-f8b0-49ca-80de-0f8b9dff36bc-2
+01:28:54.526 --> 01:29:01.440
+Entonces esto sigue chambeando mientras
+nosotros te digo vamos a instalar algo
+
+0eac5cb1-f8b0-49ca-80de-0f8b9dff36bc-3
+01:29:01.440 --> 01:29:08.004
+que no no puede hacer la I a buscas ashur
+CLICLICLI significa command line
+
+0eac5cb1-f8b0-49ca-80de-0f8b9dff36bc-4
+01:29:08.004 --> 01:29:08.880
+interface.
+
+ad848a1c-590e-436f-9b42-9fcdaf7b54e8-0
+01:29:10.240 --> 01:29:16.450
+Interfaz de línea de comando y aquí
+tienes varias, tienes para Windows,
+
+ad848a1c-590e-436f-9b42-9fcdaf7b54e8-1
+01:29:16.450 --> 01:29:22.143
+para MAC, para Linux, para lo que quieras,
+para MAC, por ejemplo,
+
+ad848a1c-590e-436f-9b42-9fcdaf7b54e8-2
+01:29:22.143 --> 01:29:29.043
+le picas aquí en instalación en MAC y te
+guía por home Blue que es el de la la.
+
+ad848a1c-590e-436f-9b42-9fcdaf7b54e8-3
+01:29:29.043 --> 01:29:35.167
+A los de MAC les enseñé cómo instalarlo
+por Windows. Aquí está el MCI,
+
+ad848a1c-590e-436f-9b42-9fcdaf7b54e8-4
+01:29:35.167 --> 01:29:39.480
+es la forma más fácil,
+ahí está MCI o k ahí está.
+
+7d55f18f-7976-4551-97dd-13fc034d330a-0
+01:29:40.000 --> 01:29:45.788
+Y le pican, aquí ya ya hay muy pocas.
+¿Por qué van 2 modules allí? ¿Por qué?
+
+7d55f18f-7976-4551-97dd-13fc034d330a-1
+01:29:45.788 --> 01:29:51.801
+Por qué van 2 modules en el Guidicnord
+Chécate por esto son muchísimas carpetas
+
+7d55f18f-7976-4551-97dd-13fc034d330a-2
+01:29:51.801 --> 01:29:58.116
+y archivos y no tiene caso que vayan ahí,
+porque cuando lo subes a la nube o cuando
+
+7d55f18f-7976-4551-97dd-13fc034d330a-3
+01:29:58.116 --> 01:30:04.129
+o lo este lo instalas en una computadora,
+en otra computadora se van a generar,
+
+7d55f18f-7976-4551-97dd-13fc034d330a-4
+01:30:04.129 --> 01:30:08.640
+entonces no tiene caso que se suban,
+solo haces más pesado.
+
+bff325b7-e0d0-487e-beb5-d55a440bce03-0
+01:30:08.960 --> 01:30:12.614
+Todo lo que se sube y aparte puede causar
+errores,
+
+bff325b7-e0d0-487e-beb5-d55a440bce03-1
+01:30:12.614 --> 01:30:15.767
+porque el no moodle se instala en tu
+compu.
+
+bff325b7-e0d0-487e-beb5-d55a440bce03-2
+01:30:15.767 --> 01:30:21.285
+Si tú lo quieres usar para MAC y le
+mandas el no moodle va a tronar de plano
+
+bff325b7-e0d0-487e-beb5-d55a440bce03-3
+01:30:21.285 --> 01:30:25.227
+o lo quieres mandar en asure va a tronar,
+no es caché,
+
+bff325b7-e0d0-487e-beb5-d55a440bce03-4
+01:30:25.227 --> 01:30:29.598
+es toda haz de cuenta que son el es el
+system 32, es el DLL,
+
+bff325b7-e0d0-487e-beb5-d55a440bce03-5
+01:30:29.598 --> 01:30:35.403
+son todos los archivos atrás que la y que
+el archivo que la página necesita para
+
+bff325b7-e0d0-487e-beb5-d55a440bce03-6
+01:30:35.403 --> 01:30:36.119
+funcionar.
+
+cfcd70b6-393c-4d28-af7b-25df68823638-0
+01:30:36.720 --> 01:30:44.167
+Si no, no es caché, no,
+eso es otra cosa o K va, uy, ya quedó.
+
+cfcd70b6-393c-4d28-af7b-25df68823638-1
+01:30:44.167 --> 01:30:50.551
+Según esto,
+está corriendo en Localhost 3000. Veamos,
+
+cfcd70b6-393c-4d28-af7b-25df68823638-2
+01:30:50.551 --> 01:30:58.235
+ya hubo, ah, no está conectado,
+si yo le doy algo aquí, pues no,
+
+cfcd70b6-393c-4d28-af7b-25df68823638-3
+01:30:58.235 --> 01:31:05.920
+pero lo podemos conectar.
+Cómo aquí ya no voy a usar a la gente.
+
+74851d14-c9d8-492c-b78b-ba4fd92003c7-0
+01:31:06.360 --> 01:31:11.711
+Porque eso no lo puede hacer el agente
+importante,
+
+74851d14-c9d8-492c-b78b-ba4fd92003c7-1
+01:31:11.711 --> 01:31:16.642
+no le manden contraseñas a la gente a
+ninguno,
+
+74851d14-c9d8-492c-b78b-ba4fd92003c7-2
+01:31:16.642 --> 01:31:23.357
+no lo hagan o k ustedes por eso tienen el
+punto M este de aquí.
+
+74851d14-c9d8-492c-b78b-ba4fd92003c7-3
+01:31:23.357 --> 01:31:30.178
+Aquí van sus contraseñas.
+Si te das cuenta el agente ni siquiera
+
+74851d14-c9d8-492c-b78b-ba4fd92003c7-4
+01:31:30.178 --> 01:31:34.480
+tocó el de modul, el de model deployment.
+
+c302186d-c9ad-4ddb-9b32-4b0d09b01d29-0
+01:31:35.480 --> 01:31:40.977
+Ni siquiera lo hizo porque para empezar
+tiene prohibidísimo hacerlo.
+
+c302186d-c9ad-4ddb-9b32-4b0d09b01d29-1
+01:31:40.977 --> 01:31:46.077
+¿Y segunda el agente,
+o sea estos agentes por ejemplo, Copilot,
+
+c302186d-c9ad-4ddb-9b32-4b0d09b01d29-2
+01:31:46.077 --> 01:31:50.379
+están hechos para evitar el punto en los
+pueden leer,
+
+c302186d-c9ad-4ddb-9b32-4b0d09b01d29-3
+01:31:50.379 --> 01:31:55.399
+pero nos los pueden modificar? ¿Sí,
+y a veces si los modifica,
+
+c302186d-c9ad-4ddb-9b32-4b0d09b01d29-4
+01:31:55.399 --> 01:32:00.179
+pero esa es otra historia,
+entonces aquí qué vamos a poner?
+
+c302186d-c9ad-4ddb-9b32-4b0d09b01d29-5
+01:32:00.179 --> 01:32:05.119
+Aquí vamos a poner lo siguiente,
+chécate nada más, ahí te va.
+
+976c97bc-5246-4825-b601-e9746b47f9f6-0
+01:32:05.840 --> 01:32:13.623
+Este punto de conexión este va aquí en
+Project end point o K foundry,
+
+976c97bc-5246-4825-b601-e9746b47f9f6-1
+01:32:13.623 --> 01:32:18.516
+agent punto que period ENB.
+Si tú no sabes,
+
+976c97bc-5246-4825-b601-e9746b47f9f6-2
+01:32:18.516 --> 01:32:26.967
+le puedes preguntar a tu I a por ejemplo,
+aquí no vamos a abrir la I a aquí
+
+976c97bc-5246-4825-b601-e9746b47f9f6-3
+01:32:26.967 --> 01:32:34.640
+arribita le vamos a poner que ajá.
+¿Qué valores debo de poner en el?
+
+276b6664-a99f-4f35-a03d-62b54180498d-0
+01:32:34.960 --> 01:32:38.483
+Punto M o K no,
+que no le den la contraseña, cállese,
+
+276b6664-a99f-4f35-a03d-62b54180498d-1
+01:32:38.483 --> 01:32:41.941
+no le des contraseña,
+no le des tarjetas de crédito,
+
+276b6664-a99f-4f35-a03d-62b54180498d-2
+01:32:41.941 --> 01:32:47.357
+no lees nada, no lees nada, no, no, no,
+a ella no se le da nada, nada, nada, nada.
+
+276b6664-a99f-4f35-a03d-62b54180498d-3
+01:32:47.357 --> 01:32:52.446
+Aunque te diga el Mark Zuckerberg, sí,
+dame tu contraseña para que vire usted
+
+276b6664-a99f-4f35-a03d-62b54180498d-4
+01:32:52.446 --> 01:32:57.275
+haga todo yo que tú no lo hago este.
+¿Cómo puedo hacer que una página sea
+
+276b6664-a99f-4f35-a03d-62b54180498d-5
+01:32:57.275 --> 01:33:02.625
+consultada al interior de organización,
+pero que despliegue información en base a
+
+276b6664-a99f-4f35-a03d-62b54180498d-6
+01:33:02.625 --> 01:33:03.799
+su usuario de red?
+
+d53b4cb9-3af5-451d-b278-7148779835b2-0
+01:33:04.360 --> 01:33:08.258
+Que una página sea consultada de interior
+de una organización.
+
+d53b4cb9-3af5-451d-b278-7148779835b2-1
+01:33:08.258 --> 01:33:12.776
+Consulta en qué sentido. O sea,
+si quieres un agente que se llama Borgue
+
+d53b4cb9-3af5-451d-b278-7148779835b2-2
+01:33:12.776 --> 01:33:18.036
+aquí o puedes hacerlo con una herramienta,
+pero que despliegue información en base a
+
+d53b4cb9-3af5-451d-b278-7148779835b2-3
+01:33:18.036 --> 01:33:22.059
+su usuario de red, hay formas,
+tendrías que hacer un se le llama
+
+d53b4cb9-3af5-451d-b278-7148779835b2-4
+01:33:22.059 --> 01:33:26.453
+contrato como ahí lo mostraban.
+Es o un esquema de autenticación en la
+
+d53b4cb9-3af5-451d-b278-7148779835b2-5
+01:33:26.453 --> 01:33:30.600
+que el usuario inicia sesión y tiene como
+una sesión en el agente.
+
+88f674b2-9ac8-4ddb-bd68-41ddd222e0b4-0
+01:33:30.920 --> 01:33:37.095
+Y entonces esa gente puede consultar la
+página ya personalizada para el usuario.
+
+88f674b2-9ac8-4ddb-bd68-41ddd222e0b4-1
+01:33:37.095 --> 01:33:43.041
+Sí, esto ya está avanzado, o sea, literal.
+¿Sí puedes preguntarle a un cloud,
+
+88f674b2-9ac8-4ddb-bd68-41ddd222e0b4-2
+01:33:43.041 --> 01:33:48.149
+a un GPT, cómo hago esto?
+¿Porque si ya está avanzado y no me va a
+
+88f674b2-9ac8-4ddb-bd68-41ddd222e0b4-3
+01:33:48.149 --> 01:33:53.028
+dar la vida para hacerlo,
+si te das cuenta ahí, Javier lo puso,
+
+88f674b2-9ac8-4ddb-bd68-41ddd222e0b4-4
+01:33:53.028 --> 01:33:56.611
+el proyecto es muy similar, ya viste,
+por qué?
+
+88f674b2-9ac8-4ddb-bd68-41ddd222e0b4-5
+01:33:56.611 --> 01:33:59.280
+Por eso esa es la magia del Jarnes.
+
+21f69fe8-6bbd-4439-b850-ec8c953d609b-0
+01:34:00.280 --> 01:34:05.730
+El proyecto les va a salir muy similar al
+mío por una razón por estos 2,
+
+21f69fe8-6bbd-4439-b850-ec8c953d609b-1
+01:34:05.730 --> 01:34:10.808
+porque ya tienen sus instrucciones y si
+literal copiaron y pegaron.
+
+21f69fe8-6bbd-4439-b850-ec8c953d609b-2
+01:34:10.808 --> 01:34:14.466
+No va a ser igual,
+pero sí va a ser muy similar.
+
+21f69fe8-6bbd-4439-b850-ec8c953d609b-3
+01:34:14.466 --> 01:34:18.200
+¿En las sesiones me pueden compartir los
+accesos?
+
+21f69fe8-6bbd-4439-b850-ec8c953d609b-4
+01:34:18.200 --> 01:34:23.800
+Las grabaciones de todas las sesiones
+están acá. Mira, están aquí, no, no,
+
+21f69fe8-6bbd-4439-b850-ec8c953d609b-5
+01:34:23.800 --> 01:34:28.578
+no necesitas accesos ni nada,
+lo único que necesitas es irte al
+
+21f69fe8-6bbd-4439-b850-ec8c953d609b-6
+01:34:28.578 --> 01:34:29.400
+calendario.
+
+d1a9c83c-019c-4e59-9f79-98f0f69de4b6-0
+01:34:29.960 --> 01:34:36.752
+¿No irte a equipos, perdón, ahí está,
+luego te vas aquí a anuncios y aquí en
+
+d1a9c83c-019c-4e59-9f79-98f0f69de4b6-1
+01:34:36.752 --> 01:34:42.045
+compartido te vas a dejas que cargue,
+esperas a que cargue,
+
+d1a9c83c-019c-4e59-9f79-98f0f69de4b6-2
+01:34:42.045 --> 01:34:48.044
+tienes está lentito qué le pasas entonces
+te vas aquí a compartido,
+
+d1a9c83c-019c-4e59-9f79-98f0f69de4b6-3
+01:34:48.044 --> 01:34:55.278
+esperas tantito a ver Claudia qué hizo?
+Bueno, eso es otra cosa, ajá, pero a ver,
+
+d1a9c83c-019c-4e59-9f79-98f0f69de4b6-4
+01:34:55.278 --> 01:34:59.160
+todavía no hace nada todavía ni lo
+conecté.
+
+b83b6d04-b20f-4b88-86fd-7edcdca265cd-0
+01:35:00.400 --> 01:35:04.753
+Bueno, le hacen compartido,
+ahí debería estar,
+
+b83b6d04-b20f-4b88-86fd-7edcdca265cd-1
+01:35:04.753 --> 01:35:09.570
+entonces no sé por qué no carga,
+es el es el teams,
+
+b83b6d04-b20f-4b88-86fd-7edcdca265cd-2
+01:35:09.570 --> 01:35:14.665
+ve giovani le dio otra cosa,
+pueden jugar modificarle,
+
+b83b6d04-b20f-4b88-86fd-7edcdca265cd-3
+01:35:14.665 --> 01:35:21.334
+aquí está el recordings compartido
+recordings no compartido recordings,
+
+b83b6d04-b20f-4b88-86fd-7edcdca265cd-4
+01:35:21.334 --> 01:35:28.189
+aquí están las grabaciones, sí,
+ándale una short the active directory que
+
+b83b6d04-b20f-4b88-86fd-7edcdca265cd-5
+01:35:28.189 --> 01:35:28.559
+ojo.
+
+a899ac11-faa2-44f2-ae8e-3b832afd3533-0
+01:35:29.040 --> 01:35:34.067
+Ahí lo más importante a la gente es que
+le mandes un esquema de autenticación
+
+a899ac11-faa2-44f2-ae8e-3b832afd3533-1
+01:35:34.067 --> 01:35:39.029
+para que no le mandes a una sola llave y
+que solo tenga acceso a un usuario.
+
+a899ac11-faa2-44f2-ae8e-3b832afd3533-2
+01:35:39.029 --> 01:35:42.509
+Sino que digamos que la gente guarda,
+entre comillas,
+
+a899ac11-faa2-44f2-ae8e-3b832afd3533-3
+01:35:42.509 --> 01:35:47.923
+el token de autenticación de la active de
+electory y entonces a partir de eso pueda
+
+a899ac11-faa2-44f2-ae8e-3b832afd3533-4
+01:35:47.923 --> 01:35:52.693
+este autenticar al usuario. Sí,
+porque si te das cuenta el usuario ahí en
+
+a899ac11-faa2-44f2-ae8e-3b832afd3533-5
+01:35:52.693 --> 01:35:56.044
+tu solución,
+el agente va a tener que autenticar al
+
+a899ac11-faa2-44f2-ae8e-3b832afd3533-6
+01:35:56.044 --> 01:35:56.560
+usuario.
+
+8b9395a4-bb11-4c48-9abe-58cc0300ead0-0
+01:35:57.400 --> 01:36:02.325
+A a vista de la página,
+el usuario no se va a autenticar si
+
+8b9395a4-bb11-4c48-9abe-58cc0300ead0-1
+01:36:02.325 --> 01:36:08.646
+cambia un poquito la dinamita o K
+lamentablemente este curso no llega a eso,
+
+8b9395a4-bb11-4c48-9abe-58cc0300ead0-2
+01:36:08.646 --> 01:36:14.557
+eso ya sería como un de un AI 103,
+de hecho eso se ve en el AI 103. Sí,
+
+8b9395a4-bb11-4c48-9abe-58cc0300ead0-3
+01:36:14.557 --> 01:36:18.169
+bueno,
+necesitamos mandarle estos 2 Foundry
+
+8b9395a4-bb11-4c48-9abe-58cc0300ead0-4
+01:36:18.169 --> 01:36:24.572
+Project y Foundry a name o K entonces el
+Foundry Project Endpoint de dónde lo
+
+8b9395a4-bb11-4c48-9abe-58cc0300ead0-5
+01:36:24.572 --> 01:36:25.640
+obtenemos de.
+
+ba9e35b2-f263-4bad-b3ce-0fed15ee3b22-0
+01:36:26.280 --> 01:36:32.113
+Esto te digo de aquí,
+mira de la del apartado de detalles de
+
+ba9e35b2-f263-4bad-b3ce-0fed15ee3b22-1
+01:36:32.113 --> 01:36:37.564
+nuestra gente.
+Es este y el Project name está que arriba
+
+ba9e35b2-f263-4bad-b3ce-0fed15ee3b22-2
+01:36:37.564 --> 01:36:43.111
+en grande. Sí, no,
+no hay mucha ciencia en ese guardamos,
+
+ba9e35b2-f263-4bad-b3ce-0fed15ee3b22-3
+01:36:43.111 --> 01:36:48.371
+sí guardamos el proyecto,
+se va a necesitar regenerar,
+
+ba9e35b2-f263-4bad-b3ce-0fed15ee3b22-4
+01:36:48.371 --> 01:36:53.057
+por así decirlo. No le sé cómo,
+no te preocupes,
+
+ba9e35b2-f263-4bad-b3ce-0fed15ee3b22-5
+01:36:53.057 --> 01:36:55.640
+vuelve a compilar y correr.
+
+3a806356-24cc-4563-a31c-ae435dfbde72-0
+01:36:56.320 --> 01:37:03.002
+Mi solución o K Pum, ahí está,
+la gente lo va a hacer pasando esto lo
+
+3a806356-24cc-4563-a31c-ae435dfbde72-1
+01:37:03.002 --> 01:37:08.252
+hago para no marear a las personas con
+pene. PNPM Rum,
+
+3a806356-24cc-4563-a31c-ae435dfbde72-2
+01:37:08.252 --> 01:37:13.311
+no sé qué si te das cuenta, ojo,
+yo no le pedí esto,
+
+3a806356-24cc-4563-a31c-ae435dfbde72-3
+01:37:13.311 --> 01:37:20.088
+voy a validar de nuevo la sintaxis y
+comprobar esto, yo no se lo pedí.
+
+3a806356-24cc-4563-a31c-ae435dfbde72-4
+01:37:20.088 --> 01:37:24.479
+¿Cómo de dónde viene eso?
+Esto viene de aquí.
+
+50b5fdd6-9772-46d7-815b-0f63a3db7cca-0
+01:37:26.280 --> 01:37:33.165
+De la gente ahí está,
+de la gente desplegador de estos agentes
+
+50b5fdd6-9772-46d7-815b-0f63a3db7cca-1
+01:37:33.165 --> 01:37:42.237
+ahí vienen y en el Compadle Instruction.
+Yo le digo, siempre tienes que verificar.
+
+50b5fdd6-9772-46d7-815b-0f63a3db7cca-2
+01:37:42.237 --> 01:37:49.560
+Ajá, siempre tienes que verificar,
+ya te vínculo abierto aquí, ah.
+
+a9c32c28-e361-46c1-aa87-627e4e61d520-0
+01:37:54.840 --> 01:38:05.574
+Ahí está, ya me está espantando. Hola,
+vamos a ver si jala ahí va. ¿Qué pasó,
+
+a9c32c28-e361-46c1-aa87-627e4e61d520-1
+01:38:05.574 --> 01:38:12.318
+de dónde no jaló? Puedes verificar,
+vamos a ver,
+
+a9c32c28-e361-46c1-aa87-627e4e61d520-2
+01:38:12.318 --> 01:38:19.200
+puedes verificar chécate de dónde sale
+este este.
+
+d1b71d0d-ab21-4037-9e49-344925f26756-0
+01:38:20.080 --> 01:38:26.688
+A donde dice foundry model Deployment
+name es este foundry model ah no el
+
+d1b71d0d-ab21-4037-9e49-344925f26756-1
+01:38:26.688 --> 01:38:33.565
+foundry model perdón, perdón, foundry,
+model deployment name que creo que me
+
+d1b71d0d-ab21-4037-9e49-344925f26756-2
+01:38:33.565 --> 01:38:40.084
+faltó ahorita lo checo está aquí,
+mira es este así literal GPT guión, 5.
+
+d1b71d0d-ab21-4037-9e49-344925f26756-3
+01:38:40.084 --> 01:38:47.675
+6 guión Luna, ese es el creo que me faltó.
+Ese a ver vamos a ponerlo y si no ahorita
+
+d1b71d0d-ab21-4037-9e49-344925f26756-4
+01:38:47.675 --> 01:38:49.640
+checamos los logs o K.
+
+aaa7cf54-1432-4841-bc05-bde4f8c6f98b-0
+01:38:50.560 --> 01:38:56.005
+Y aquí ve model deployment.
+Este es el nombre de la gente y el
+
+aaa7cf54-1432-4841-bc05-bde4f8c6f98b-1
+01:38:56.005 --> 01:39:01.970
+deployment es el nombre del modelo que es
+GPT. Guión, 5.6 guión, Ah,
+
+aaa7cf54-1432-4841-bc05-bde4f8c6f98b-2
+01:39:01.970 --> 01:39:07.243
+ándale la dislexia Luna,
+ahí está guardamos el M tenemos que
+
+aaa7cf54-1432-4841-bc05-bde4f8c6f98b-3
+01:39:07.243 --> 01:39:12.948
+compilar esto de nuevo. Sí,
+cada vez que hagas un cambio en el m,
+
+aaa7cf54-1432-4841-bc05-bde4f8c6f98b-4
+01:39:12.948 --> 01:39:19.000
+ahí lo tienes que volver a compilar y a
+construir el archivo ni modo.
+
+c98c240d-7cf4-4646-9f05-250f19486daf-0
+01:39:19.760 --> 01:39:25.983
+Así es esto ve de nuevo va a hacer esto
+si yo se lo pido a la I a si no,
+
+c98c240d-7cf4-4646-9f05-250f19486daf-1
+01:39:25.983 --> 01:39:32.803
+pues ahí luego te enseño cuánto ahí está,
+de hecho es este NPM rundep ves él lo
+
+c98c240d-7cf4-4646-9f05-250f19486daf-2
+01:39:32.803 --> 01:39:36.810
+está ejecutando y ya desde ahí lo podemos
+ver,
+
+c98c240d-7cf4-4646-9f05-250f19486daf-3
+01:39:36.810 --> 01:39:43.545
+pues ahorita pues lo podemos hacer aquí
+en la terminal deja bajo este ya está,
+
+c98c240d-7cf4-4646-9f05-250f19486daf-4
+01:39:43.545 --> 01:39:48.320
+el servidor está escuchando,
+está analizando o k listo.
+
+99309d93-8edd-41d9-aca8-de195390e079-0
+01:39:48.840 --> 01:39:54.232
+Ese faltó ahí está,
+lo abrimos a veces hay toca esperar
+
+99309d93-8edd-41d9-aca8-de195390e079-1
+01:39:54.232 --> 01:40:01.839
+también unos segunditos a que cargue y
+aquí la vamos a poner. Hola, esperamos,
+
+99309d93-8edd-41d9-aca8-de195390e079-2
+01:40:01.839 --> 01:40:09.927
+esperamos, esperamos más y no es posible.
+¿Y qué tenemos que hacer en DPM Run? Dep,
+
+99309d93-8edd-41d9-aca8-de195390e079-3
+01:40:09.927 --> 01:40:17.727
+aquí ya vamos a poder lo que está bien,
+vamos a poder ver lo que está fallando o
+
+99309d93-8edd-41d9-aca8-de195390e079-4
+01:40:17.727 --> 01:40:17.920
+K.
+
+00ad3e20-ac81-4aa0-94e1-c1509fccb3c9-0
+01:40:19.000 --> 01:40:24.977
+Está escuchando al puerto,
+aquí le ponemos otra pregunta y en y si y
+
+00ad3e20-ac81-4aa0-94e1-c1509fccb3c9-1
+01:40:24.977 --> 01:40:30.434
+si la y si esto lo hizo bien,
+aquí van a aparecer los errores,
+
+00ad3e20-ac81-4aa0-94e1-c1509fccb3c9-2
+01:40:30.434 --> 01:40:35.285
+no lo hizo bien.
+Esto qué quiere decir que no me o sea,
+
+00ad3e20-ac81-4aa0-94e1-c1509fccb3c9-3
+01:40:35.285 --> 01:40:39.183
+ves la I a todavía no,
+no lo tiene completo.
+
+00ad3e20-ac81-4aa0-94e1-c1509fccb3c9-4
+01:40:39.183 --> 01:40:46.373
+La I a todavía le dice a Waiting for File
+Change donde dice completa running no sé
+
+00ad3e20-ac81-4aa0-94e1-c1509fccb3c9-5
+01:40:46.373 --> 01:40:46.720
+qué.
+
+dd3ea289-601f-43eb-b3f7-6f9102914d2c-0
+01:40:47.280 --> 01:40:54.040
+Ah, bueno, ya está corriendo,
+pero la IAS no tiene pruebas, ahorita ajá,
+
+dd3ea289-601f-43eb-b3f7-6f9102914d2c-1
+01:40:54.040 --> 01:41:00.708
+no tiene pruebas, no tienen nada,
+falta la versión, espérame, espérame,
+
+dd3ea289-601f-43eb-b3f7-6f9102914d2c-2
+01:41:00.708 --> 01:41:06.821
+vamos a ver qué nos falta, pues sí no,
+todo está aquí al parecer,
+
+dd3ea289-601f-43eb-b3f7-6f9102914d2c-3
+01:41:06.821 --> 01:41:13.766
+entonces lo podemos agregar tal vez y
+vamos a ver qué más tenemos, no, no,
+
+dd3ea289-601f-43eb-b3f7-6f9102914d2c-4
+01:41:13.766 --> 01:41:16.360
+realmente lo podemos quitar.
+
+bd99bc16-3227-4e00-95e6-c0f3be989ab5-0
+01:41:17.200 --> 01:41:28.967
+Y le podemos decir la I a este.
+La petición al agente de coundry termina
+
+bd99bc16-3227-4e00-95e6-c0f3be989ab5-1
+01:41:28.967 --> 01:41:38.800
+siempre con ajá sin poder saber cuál es
+el R investiga en R.
+
+47c52327-a6fb-474f-abad-a0b78409d30c-0
+01:41:41.400 --> 01:41:47.782
+Vamos a pedirle que investigue el error.
+Ahí pude también en vez de hacerlo en
+
+47c52327-a6fb-474f-abad-a0b78409d30c-1
+01:41:47.782 --> 01:41:51.659
+este chat,
+crear otro chat para que ya no tenga
+
+47c52327-a6fb-474f-abad-a0b78409d30c-2
+01:41:51.659 --> 01:41:57.557
+contexto y poder ahorrar tokens.
+Sí es importante poder ahorrar tokens o
+
+47c52327-a6fb-474f-abad-a0b78409d30c-3
+01:41:57.557 --> 01:42:04.020
+también le puedo dar compact con compact.
+Lo que hace es como eliminar contexto
+
+47c52327-a6fb-474f-abad-a0b78409d30c-4
+01:42:04.020 --> 01:42:08.301
+compactarlo,
+comprimirlo y después ya este hacer que
+
+47c52327-a6fb-474f-abad-a0b78409d30c-5
+01:42:08.301 --> 01:42:10.159
+se gasten menos tokens.
+
+de234d1a-665d-4ada-9794-3a43e5d6b880-0
+01:42:10.560 --> 01:42:14.892
+Por si tienes una línea de chat,
+yo te recomiendo que un chat,
+
+de234d1a-665d-4ada-9794-3a43e5d6b880-1
+01:42:14.892 --> 01:42:20.601
+una sesión de chat por tema o por error o
+por cosa que estés haciendo o K para que
+
+de234d1a-665d-4ada-9794-3a43e5d6b880-2
+01:42:20.601 --> 01:42:25.209
+tenga ese mismo contexto.
+Si ya vas a hacer otra cosa como ahorita
+
+de234d1a-665d-4ada-9794-3a43e5d6b880-3
+01:42:25.209 --> 01:42:29.267
+que hace un error,
+abre otra sesión de chat que ahorita no
+
+de234d1a-665d-4ada-9794-3a43e5d6b880-4
+01:42:29.267 --> 01:42:32.568
+lo hice,
+pero pues si ya vas a hacer otra cosa,
+
+de234d1a-665d-4ada-9794-3a43e5d6b880-5
+01:42:32.568 --> 01:42:38.002
+abre otra sesión de chat o cosa que no
+tenga nada que ver o k entonces vamos a
+
+de234d1a-665d-4ada-9794-3a43e5d6b880-6
+01:42:38.002 --> 01:42:39.240
+esperar, ahí está.
+
+baf4183b-efab-4fa3-b960-8dcac1af9c72-0
+01:42:39.760 --> 01:42:45.443
+Está investigando la Confederación para
+ver si está presente o K para ser
+
+baf4183b-efab-4fa3-b960-8dcac1af9c72-1
+01:42:45.443 --> 01:42:49.590
+identificado.
+El deployment necesario para invocar el
+
+baf4183b-efab-4fa3-b960-8dcac1af9c72-2
+01:42:49.590 --> 01:42:53.738
+agente existente ahora hace una consulta
+diagnóstica.
+
+baf4183b-efab-4fa3-b960-8dcac1af9c72-3
+01:42:53.738 --> 01:42:58.423
+Si llega ahí ahí el el agente está
+intentando resolver esto.
+
+baf4183b-efab-4fa3-b960-8dcac1af9c72-4
+01:42:58.423 --> 01:43:02.110
+¿Ya vieron así se hace? Pues ponía bien,
+o sea,
+
+baf4183b-efab-4fa3-b960-8dcac1af9c72-5
+01:43:02.110 --> 01:43:07.640
+y te das cuenta me tarde más en hacer el
+jardines que en lo que la I a.
+
+840d2ac7-d4b5-426c-9a18-f8b1186a7265-0
+01:43:07.960 --> 01:43:15.687
+En lo que mandarle a la ahí a pues a
+hacer las cosas, no, ahí está,
+
+840d2ac7-d4b5-426c-9a18-f8b1186a7265-1
+01:43:15.687 --> 01:43:24.209
+puede reproducir el 502, por tanto,
+no es un mensaje vacío. ¿Qué me faltó?
+
+840d2ac7-d4b5-426c-9a18-f8b1186a7265-2
+01:43:24.209 --> 01:43:31.141
+Yo sé que me faltó.
+¿Se acuerdan que les pedí que instalaran
+
+840d2ac7-d4b5-426c-9a18-f8b1186a7265-3
+01:43:31.141 --> 01:43:35.800
+esto el ashur? CL. ¿I faltó eso, por qué?
+
+a8cef57f-f7af-4938-8bf0-5f012cf24c7f-0
+01:43:36.840 --> 01:43:42.498
+Porque actualmente esta parte el agente
+ese 502 me dice que hay un error en el
+
+a8cef57f-f7af-4938-8bf0-5f012cf24c7f-1
+01:43:42.498 --> 01:43:48.444
+server y normalmente eso puede ser porque
+la petición está mal o no está llegando.
+
+a8cef57f-f7af-4938-8bf0-5f012cf24c7f-2
+01:43:48.444 --> 01:43:52.741
+Eso quiere, no, no, no,
+más bien algo está fallando arriba.
+
+a8cef57f-f7af-4938-8bf0-5f012cf24c7f-3
+01:43:52.741 --> 01:43:56.036
+¿Perdón,
+no era mejor hacerlo con Ask para no
+
+a8cef57f-f7af-4938-8bf0-5f012cf24c7f-4
+01:43:56.036 --> 01:44:01.122
+gastar tokens? No, aquí no,
+porque quiero que me arregle el error. Sí,
+
+a8cef57f-f7af-4938-8bf0-5f012cf24c7f-5
+01:44:01.122 --> 01:44:06.280
+también puede ser si sólo quiero una
+respuesta, puedes cambiarle a Ask.
+
+fddddd24-a878-464c-90ac-18f313a99578-0
+01:44:07.080 --> 01:44:14.791
+Aquí a este o ponerle literalmente o
+literal decirle a la gente no este no
+
+fddddd24-a878-464c-90ac-18f313a99578-1
+01:44:14.791 --> 01:44:20.548
+contestes, ajá, no,
+más bien no implementes nada, mira,
+
+fddddd24-a878-464c-90ac-18f313a99578-2
+01:44:20.548 --> 01:44:25.998
+encontré la causa de por qué no aparece
+el registro.
+
+fddddd24-a878-464c-90ac-18f313a99578-3
+01:44:25.998 --> 01:44:33.709
+Hay 2 en DPM Run de Ah es por eso o k uno
+está en la en el antiguo, o sea,
+
+fddddd24-a878-464c-90ac-18f313a99578-4
+01:44:33.709 --> 01:44:35.559
+uno está con este.
+
+dbdfb7f0-bf8c-42d6-b227-92cadbc89ba0-0
+01:44:36.200 --> 01:44:41.093
+¿Ya viste de dónde se toma ese valor?
+Ese valor,
+
+dbdfb7f0-bf8c-42d6-b227-92cadbc89ba0-1
+01:44:41.093 --> 01:44:48.382
+el del end point del Project Game Point
+es este, mira punto de conexión,
+
+dbdfb7f0-bf8c-42d6-b227-92cadbc89ba0-2
+01:44:48.382 --> 01:44:55.273
+éste lo copias, éste lo copias, ahí está,
+es este, abajo del nombre,
+
+dbdfb7f0-bf8c-42d6-b227-92cadbc89ba0-3
+01:44:55.273 --> 01:45:02.662
+detalles y es ese o K va perfecto.
+Ahí está escuchando el puerto, ese sí,
+
+dbdfb7f0-bf8c-42d6-b227-92cadbc89ba0-4
+01:45:02.662 --> 01:45:04.760
+muy bien, qué bonito.
+
+12bce6bc-faaf-4a87-af6b-80ea87f87371-0
+01:45:05.520 --> 01:45:11.297
+¿Qué agradable, sí,
+sí puede ser eso puede ser que tenga otro
+
+12bce6bc-faaf-4a87-af6b-80ea87f87371-1
+01:45:11.297 --> 01:45:18.659
+ahí otro Watch y No haya agarrado estos
+puede ser, pero también no tengo logs,
+
+12bce6bc-faaf-4a87-af6b-80ea87f87371-2
+01:45:18.659 --> 01:45:23.412
+o sea, no,
+aquí no estoy viendo que este qué es lo
+
+12bce6bc-faaf-4a87-af6b-80ea87f87371-3
+01:45:23.412 --> 01:45:28.537
+que está pasando? Ajá,
+porque puede ser otro problema.
+
+12bce6bc-faaf-4a87-af6b-80ea87f87371-4
+01:45:28.537 --> 01:45:31.520
+Hay muchas cosas que pueden ser.
+
+0ae50bc4-3b5e-4fe7-9933-8b1adb54022a-0
+01:45:33.720 --> 01:45:40.173
+Y así se crea una aplicación con I a para
+que vean que no es solo nada más. ¿Ah,
+
+0ae50bc4-3b5e-4fe7-9933-8b1adb54022a-1
+01:45:40.173 --> 01:45:46.785
+pues le mando texto, no? Y ya no, no, sí,
+este sí requieres hacer un poquito más y
+
+0ae50bc4-3b5e-4fe7-9933-8b1adb54022a-2
+01:45:46.785 --> 01:45:52.282
+para el despliegue todavía nos falta,
+de hecho no nada más es o sea,
+
+0ae50bc4-3b5e-4fe7-9933-8b1adb54022a-3
+01:45:52.282 --> 01:45:58.177
+ya tenemos el agente desplegador,
+entonces es darle todo lo necesario con
+
+0ae50bc4-3b5e-4fe7-9933-8b1adb54022a-4
+01:45:58.177 --> 01:46:02.480
+Asus CLIY listo,
+no puede desplegar esta cosa Solito.
+
+1e216a68-9733-4f6d-9eb1-4732b1a94b09-0
+01:46:04.040 --> 01:46:08.055
+Sí,
+tal cual me va a necesitar algo de ayuda,
+
+1e216a68-9733-4f6d-9eb1-4732b1a94b09-1
+01:46:08.055 --> 01:46:15.299
+pero de que lo pueda hacer lo puedo hacer.
+Y para que ustedes puedan usar el asure
+
+1e216a68-9733-4f6d-9eb1-4732b1a94b09-2
+01:46:15.299 --> 01:46:20.973
+CLI abren un CMD una terminal,
+lo que quieran ustedes, ahí está,
+
+1e216a68-9733-4f6d-9eb1-4732b1a94b09-3
+01:46:20.973 --> 01:46:25.075
+mira poner azure ya una vez que lo
+instalaron,
+
+1e216a68-9733-4f6d-9eb1-4732b1a94b09-4
+01:46:25.075 --> 01:46:29.352
+si aparece así que no hay nada,
+que no hay nada,
+
+1e216a68-9733-4f6d-9eb1-4732b1a94b09-5
+01:46:29.352 --> 01:46:32.320
+es que no se instaló o K entonces.
+
+a1378cbc-e570-461f-909b-ee2977f741d9-0
+01:46:32.680 --> 01:46:38.605
+Van a tener que descargar esto según yo
+lo tenía instalado, esta es mi máquina.
+
+a1378cbc-e570-461f-909b-ee2977f741d9-1
+01:46:38.605 --> 01:46:44.159
+¿Le vamos a agregar un Q a para que les
+salga desde un inicio también, EH?
+
+a1378cbc-e570-461f-909b-ee2977f741d9-2
+01:46:44.159 --> 01:46:47.418
+Es que te das cuenta,
+todavía faltan cosas,
+
+a1378cbc-e570-461f-909b-ee2977f741d9-3
+01:46:47.418 --> 01:46:51.269
+eso ya lo pueden agregar ustedes sí, sí,
+sí, o sea,
+
+a1378cbc-e570-461f-909b-ee2977f741d9-4
+01:46:51.269 --> 01:46:54.898
+yo lo hice a base nada más falta agregar,
+o sea,
+
+a1378cbc-e570-461f-909b-ee2977f741d9-5
+01:46:54.898 --> 01:46:59.786
+ustedes ya le pueden agregar más cosas,
+ya habrá algo. ¿Qué pasó,
+
+a1378cbc-e570-461f-909b-ee2977f741d9-6
+01:46:59.786 --> 01:47:01.120
+de dónde lo abrió?
+
+cac2c25f-7393-41d5-82fe-96ae1fcca5b4-0
+01:47:02.040 --> 01:47:12.134
+Ve abre el asure MCP va a investigar allá
+arriba en el asure o K ajá ve ahí está ya
+
+cac2c25f-7393-41d5-82fe-96ae1fcca5b4-1
+01:47:12.134 --> 01:47:20.186
+la ya le está resolviendo aquí.
+Entonces vamos a ver aquí tengo mi
+
+cac2c25f-7393-41d5-82fe-96ae1fcca5b4-2
+01:47:20.186 --> 01:47:26.676
+contraseña. A ver,
+espérenme con ajá es que tengo que
+
+cac2c25f-7393-41d5-82fe-96ae1fcca5b4-3
+01:47:26.676 --> 01:47:29.080
+iniciar sesión aquí.
+
+605a3f90-984d-4410-a6e3-67d8d558678b-0
+01:47:32.280 --> 01:47:41.460
+Y seguro me va a pedir ajá.
+Y éste es mi endpoint de conexión, dice.
+
+605a3f90-984d-4410-a6e3-67d8d558678b-1
+01:47:41.460 --> 01:47:48.246
+¿Qué arquitecto.
+Agent en una carpeta agents? Ajá,
+
+605a3f90-984d-4410-a6e3-67d8d558678b-2
+01:47:48.246 --> 01:47:51.439
+no solo esta aplicación.
+
+16c38d0b-c6ee-490f-9faf-9d29b93b57f7-0
+01:48:05.520 --> 01:48:09.705
+O k ahí está,
+ya le di como iniciar sesión se ejecutó
+
+16c38d0b-c6ee-490f-9faf-9d29b93b57f7-1
+01:48:09.705 --> 01:48:13.735
+que de hecho también lo puedes usar con
+el asure C,
+
+16c38d0b-c6ee-490f-9faf-9d29b93b57f7-2
+01:48:13.735 --> 01:48:19.857
+el I ajá con el Asure MCP así lo buscas
+HURMCP también lo puedes hacer de esta
+
+16c38d0b-c6ee-490f-9faf-9d29b93b57f7-3
+01:48:19.857 --> 01:48:23.732
+manera y simplemente puedes esperar este
+Adriana.
+
+16c38d0b-c6ee-490f-9faf-9d29b93b57f7-4
+01:48:23.732 --> 01:48:30.087
+El back en instructions está aquí en en
+la carpeta de instructions y el agents el
+
+16c38d0b-c6ee-490f-9faf-9d29b93b57f7-5
+01:48:30.087 --> 01:48:34.040
+otro, el arquitecto está aquí, mira, sí,
+ahí está.
+
+f834ca35-40e4-413f-b88c-b6fddb850b5c-0
+01:48:34.360 --> 01:48:39.231
+Encontré la causa,
+expiró el refresh token de Ashur CLI por
+
+f834ca35-40e4-413f-b88c-b6fddb850b5c-1
+01:48:39.231 --> 01:48:42.803
+inactividad aún mostraba a cuenta de
+caché.
+
+f834ca35-40e4-413f-b88c-b6fddb850b5c-2
+01:48:42.803 --> 01:48:48.485
+Bueno dice así o K necesitamos hacer eso.
+Yo ya sabía que me faltaba,
+
+f834ca35-40e4-413f-b88c-b6fddb850b5c-3
+01:48:48.485 --> 01:48:54.574
+necesitas aquí una vez que ya instalaste
+tu asure que me falta instalarlo,
+
+f834ca35-40e4-413f-b88c-b6fddb850b5c-4
+01:48:54.574 --> 01:48:59.932
+de hecho ahí está. Ajá.
+Creo que las instrucciones de Fronter and
+
+f834ca35-40e4-413f-b88c-b6fddb850b5c-5
+01:48:59.932 --> 01:49:01.799
+chat están incompletas.
+
+3f4d8e66-46e7-453a-8b27-5b0dddd45d94-0
+01:49:03.520 --> 01:49:07.305
+Pues sí, complétalas tú, pues sí,
+no te voy a dar todo.
+
+3f4d8e66-46e7-453a-8b27-5b0dddd45d94-1
+01:49:07.305 --> 01:49:12.916
+Hay hay que pensarle el necesario agregar
+a shosi el área las valores en tono para
+
+3f4d8e66-46e7-453a-8b27-5b0dddd45d94-2
+01:49:12.916 --> 01:49:17.243
+que jale en la terminal.
+A veces a veces puede pasar, EH, vaya,
+
+3f4d8e66-46e7-453a-8b27-5b0dddd45d94-3
+01:49:17.243 --> 01:49:21.705
+sí que me quedan dudas.
+Necesito repasar en documentos ejemplos y
+
+3f4d8e66-46e7-453a-8b27-5b0dddd45d94-4
+01:49:21.705 --> 01:49:25.288
+estacionales,
+porque las cosas y las constantes abre
+
+3f4d8e66-46e7-453a-8b27-5b0dddd45d94-5
+01:49:25.288 --> 01:49:29.479
+lecturas, no alcanzo a notar.
+No te preocupes, para eso está.
+
+139fbe37-c4d8-4795-a02e-392c3d16515f-0
+01:49:31.000 --> 01:49:37.696
+El este esta cosa,
+el el tutorial para que lo puedas ver qué
+
+139fbe37-c4d8-4795-a02e-392c3d16515f-1
+01:49:37.696 --> 01:49:46.587
+pasó expiró, sí como que algo expiró ahí.
+En caso de que no llegue a entregar el
+
+139fbe37-c4d8-4795-a02e-392c3d16515f-2
+01:49:46.587 --> 01:49:54.821
+proyecto afecta, no sé tú dime, ajá,
+qué onda no cargas tú que chafa a ver
+
+139fbe37-c4d8-4795-a02e-392c3d16515f-3
+01:49:54.821 --> 01:50:00.200
+vamos a ejecutarlo con administrador
+abrir como.
+
+2a9d9826-3fac-4901-b4e9-b16b4704a3e1-0
+01:50:01.760 --> 01:50:10.254
+¿Abrir no qué pasó?
+Bueno mostrar más opciones. Ah, sí,
+
+2a9d9826-3fac-4901-b4e9-b16b4704a3e1-1
+01:50:10.254 --> 01:50:21.327
+tal login, dónde descargo, Ah,
+dónde descargas tú buscas aquí, ahí está.
+
+2a9d9826-3fac-4901-b4e9-b16b4704a3e1-2
+01:50:21.327 --> 01:50:28.760
+Tú buscas aquí esto, ashur, CLI, Ashur,
+CLI o K.
+
+641e4da4-4ca9-40a3-9da7-eddd56573650-0
+01:50:29.000 --> 01:50:34.060
+Y te lo mando. De hecho,
+creo que ya lo he instalado,
+
+641e4da4-4ca9-40a3-9da7-eddd56573650-1
+01:50:34.060 --> 01:50:41.932
+pero yo yo la regué a Z sí, no era asher.
+Perdón es sólo a ZY aquí nada más me toca
+
+641e4da4-4ca9-40a3-9da7-eddd56573650-2
+01:50:41.932 --> 01:50:47.929
+hacerle a Z Login o K ya lo instalas,
+le pones a z o a Z Login.
+
+641e4da4-4ca9-40a3-9da7-eddd56573650-3
+01:50:47.929 --> 01:50:55.520
+¿Probablemente la no la primera vez si
+vas a necesitar que a este cómo se llama?
+
+6d65de34-08c5-4e8d-9d4a-c0fca5c50926-0
+01:50:56.040 --> 01:51:02.306
+Reiniciar tu visual Studio Code o tu
+terminal porque si no no va a jalar.
+
+6d65de34-08c5-4e8d-9d4a-c0fca5c50926-1
+01:51:02.306 --> 01:51:08.402
+O sea a veces pasa eso de que si de que
+debes de reiniciar tu terminal,
+
+6d65de34-08c5-4e8d-9d4a-c0fca5c50926-2
+01:51:08.402 --> 01:51:14.922
+pero si ahora escribes en la terminal
+Acetalogin o K acetalogin va y te va a
+
+6d65de34-08c5-4e8d-9d4a-c0fca5c50926-3
+01:51:14.922 --> 01:51:21.273
+abrir una ventanita como esta de aquí
+donde pones tu usuario y contraseña,
+
+6d65de34-08c5-4e8d-9d4a-c0fca5c50926-4
+01:51:21.273 --> 01:51:23.560
+aquí va a poner mi usuario.
+
+219180c6-5e68-4a07-a6a2-411ef1f67b95-0
+01:51:24.520 --> 01:51:35.240
+Aquí voy a poner la contraseña de tal vez
+les pida esto probar inicio de sesión
+
+219180c6-5e68-4a07-a6a2-411ef1f67b95-1
+01:51:35.240 --> 01:51:42.745
+todavía se puede probar desde el Apple
+Watch Jeje. ¿Ah,
+
+219180c6-5e68-4a07-a6a2-411ef1f67b95-2
+01:51:42.745 --> 01:51:50.920
+creo que no chale ni modo es el 72,
+ahí está listo entonces?
+
+8c65922a-5986-4141-ab9b-bbbfcf1324ed-0
+01:51:52.400 --> 01:51:59.568
+Le damos que no o si quiere darle que sí,
+adelante inicia sesión, ajá,
+
+8c65922a-5986-4141-ab9b-bbbfcf1324ed-1
+01:51:59.568 --> 01:52:06.635
+ahí está causas para la transformación,
+le damos enter, no pasa nada,
+
+8c65922a-5986-4141-ab9b-bbbfcf1324ed-2
+01:52:06.635 --> 01:52:12.490
+NPM run D aquí mismo lo ejecutas,
+va a pensar un poquito,
+
+8c65922a-5986-4141-ab9b-bbbfcf1324ed-3
+01:52:12.490 --> 01:52:20.971
+va a reiniciar el server chécate Ahorita
+ahí te va esto. Chance, ya lo podemos ver,
+
+8c65922a-5986-4141-ab9b-bbbfcf1324ed-4
+01:52:20.971 --> 01:52:21.879
+ahí está.
+
+118be07d-ce3b-4c00-8f71-8eeb226ae9e2-0
+01:52:23.040 --> 01:52:28.382
+Y ve, ah,
+mira como que como que se reinició,
+
+118be07d-ce3b-4c00-8f71-8eeb226ae9e2-1
+01:52:28.382 --> 01:52:36.627
+ahí está. ¿Sí se reinició esta cosa,
+se reinició el server ve ahí está
+
+118be07d-ce3b-4c00-8f71-8eeb226ae9e2-2
+01:52:36.627 --> 01:52:44.408
+reiniciando el server ya entró en un
+bucle, qué quiere decir esto?
+
+118be07d-ce3b-4c00-8f71-8eeb226ae9e2-3
+01:52:44.408 --> 01:52:50.680
+Otro error hay que buscarlo,
+ya viste Localhost 3000.
+
+971ac3c1-c4f4-47fc-b2ea-cfd1e0be6fa6-0
+01:52:51.520 --> 01:52:58.017
+Aquí como que ya entró en un bucle,
+eso puede pasar también.
+
+971ac3c1-c4f4-47fc-b2ea-cfd1e0be6fa6-1
+01:52:58.017 --> 01:53:04.195
+¿Qué necesitas hacer?
+Simplemente pedirle a la vez que lo
+
+971ac3c1-c4f4-47fc-b2ea-cfd1e0be6fa6-2
+01:53:04.195 --> 01:53:11.970
+corrija es importante, ahí está,
+ya tenemos esto, ya tenemos un mensaje,
+
+971ac3c1-c4f4-47fc-b2ea-cfd1e0be6fa6-3
+01:53:11.970 --> 01:53:19.640
+es porque no le estamos mandando API
+Version ajá y entonces Resuélvelo.
+
+c6fafff8-25fb-4e80-aec0-d773b263e40e-0
+01:53:20.640 --> 01:53:25.749
+¿Vamos a resolverlo? ¿Sí,
+así de sencillo no mandando este APP
+
+c6fafff8-25fb-4e80-aec0-d773b263e40e-1
+01:53:25.749 --> 01:53:32.074
+version que es este de acá donde se le
+manda se le manda la petición que está
+
+c6fafff8-25fb-4e80-aec0-d773b263e40e-2
+01:53:32.074 --> 01:53:36.129
+por aquí,
+eso ahorita lo vamos a ver y lo vamos a
+
+c6fafff8-25fb-4e80-aec0-d773b263e40e-3
+01:53:36.129 --> 01:53:42.617
+hacer y ya maestro dónde podemos cargar y
+comprar los archivos de la carpeta de
+
+c6fafff8-25fb-4e80-aec0-d773b263e40e-4
+01:53:42.617 --> 01:53:46.348
+egen?
+Estos se los se los voy a mandar en una
+
+c6fafff8-25fb-4e80-aec0-d773b263e40e-5
+01:53:46.348 --> 01:53:50.160
+ahí en un en un repositorio o k bien va a
+ser.
+
+62aaa4d9-57a6-40ec-a757-ae17ef268e8e-0
+01:53:50.880 --> 01:53:54.707
+¿Justo esto,
+el la ejecución de la API version lo
+
+62aaa4d9-57a6-40ec-a757-ae17ef268e8e-1
+01:53:54.707 --> 01:53:59.070
+vamos a tener que mandar y pero ya
+tenemos un resultado,
+
+62aaa4d9-57a6-40ec-a757-ae17ef268e8e-2
+01:53:59.070 --> 01:54:03.816
+el resultado es que no hay nada,
+pero yo se los voy a mandar,
+
+62aaa4d9-57a6-40ec-a757-ae17ef268e8e-3
+01:54:03.816 --> 01:54:09.250
+por qué yo les voy a mandar esto sí a ver,
+el SDK está instalado? Ajá.
+
+62aaa4d9-57a6-40ec-a757-ae17ef268e8e-4
+01:54:09.250 --> 01:54:13.920
+Todo está bien, perfecto,
+ya sabemos que algo está fallando.
+
+7d4b0d7e-42f5-42ef-8331-712a126b5d19-0
+01:54:14.480 --> 01:54:17.993
+Entonces aquí le pedimos a la I a analiza
+y todo.
+
+7d4b0d7e-42f5-42ef-8331-712a126b5d19-1
+01:54:17.993 --> 01:54:22.842
+Vamos a ver cuántos tokens vamos a 35%.
+Cuiden su consumo de tokens.
+
+7d4b0d7e-42f5-42ef-8331-712a126b5d19-2
+01:54:22.842 --> 01:54:26.496
+Como pueden ver,
+los puede consumir muy muy rápido,
+
+7d4b0d7e-42f5-42ef-8331-712a126b5d19-3
+01:54:26.496 --> 01:54:31.344
+a pesar de que estamos en auto y en
+balance. Si quieren algo rápido,
+
+7d4b0d7e-42f5-42ef-8331-712a126b5d19-4
+01:54:31.344 --> 01:54:35.279
+cambienlo a cambien esto a efficiency y
+ya con eso o K.
+
+5fc15e7d-4275-4a21-9e0e-a9d7fcdac5a2-0
+01:54:35.800 --> 01:54:40.472
+Pero si este si lo cambian,
+así como a la mitad de una sesión,
+
+5fc15e7d-4275-4a21-9e0e-a9d7fcdac5a2-1
+01:54:40.472 --> 01:54:46.406
+puede causar que consuman más tokens.
+Al igual que si cambian de nuevo el este,
+
+5fc15e7d-4275-4a21-9e0e-a9d7fcdac5a2-2
+01:54:46.406 --> 01:54:52.192
+el modelo puede causar que consuma más
+tokens porque el modelo tiene que leer
+
+5fc15e7d-4275-4a21-9e0e-a9d7fcdac5a2-3
+01:54:52.192 --> 01:54:56.197
+otra vez todo.
+¿Qué fecha es la entrega del proyecto?
+
+5fc15e7d-4275-4a21-9e0e-a9d7fcdac5a2-4
+01:54:56.197 --> 01:55:00.944
+¿4 de noviembre? Sí,
+entonces vamos a ver si ahora, si lo hace,
+
+5fc15e7d-4275-4a21-9e0e-a9d7fcdac5a2-5
+01:55:00.944 --> 01:55:02.280
+el valor ahí está.
+
+89bf8547-e17d-477d-b039-a53988991ae1-0
+01:55:02.800 --> 01:55:06.709
+O sea,
+que los toquen se reinician al siguiente
+
+89bf8547-e17d-477d-b039-a53988991ae1-1
+01:55:06.709 --> 01:55:10.701
+mes. Sí,
+exactamente exactamente se reinician al
+
+89bf8547-e17d-477d-b039-a53988991ae1-2
+01:55:10.701 --> 01:55:15.018
+siguiente mes.
+Aquí puedes ver la fecha de reinicio,
+
+89bf8547-e17d-477d-b039-a53988991ae1-3
+01:55:15.018 --> 01:55:20.312
+30 de septiembre, ajá.
+Ahí está ahí entrando configurado esto lo
+
+89bf8547-e17d-477d-b039-a53988991ae1-4
+01:55:20.312 --> 01:55:24.874
+vamos a quitar,
+esto no sirve y simplemente esperamos y
+
+89bf8547-e17d-477d-b039-a53988991ae1-5
+01:55:24.874 --> 01:55:29.680
+ya básicamente a veces es mucho iteración.
+Es que la guía.
+
+e9bab589-8794-473d-bb4b-5b423f77c2fd-0
+01:55:30.120 --> 01:55:33.927
+Haga bien su trabajo.
+Puedo cambiarle el el punto agent,
+
+e9bab589-8794-473d-bb4b-5b423f77c2fd-1
+01:55:33.927 --> 01:55:37.734
+el compile instruction,
+puedo cambiarle todo eso para ir
+
+e9bab589-8794-473d-bb4b-5b423f77c2fd-2
+01:55:37.734 --> 01:55:43.077
+mejorando e ir afinando poco a poco lo
+que está haciendo la I a o K pero quiero
+
+e9bab589-8794-473d-bb4b-5b423f77c2fd-3
+01:55:43.077 --> 01:55:47.418
+que se queden con esto.
+Necesitan un buen arnés de seguridad que
+
+e9bab589-8794-473d-bb4b-5b423f77c2fd-4
+01:55:47.418 --> 01:55:52.227
+es este de acá Ah el 6 de noviembre.
+Perdón me confundí con las fechas,
+
+e9bab589-8794-473d-bb4b-5b423f77c2fd-5
+01:55:52.227 --> 01:55:57.771
+este necesitan un buen arnés que es este
+de acá para que la I a no empiece a hacer
+
+e9bab589-8794-473d-bb4b-5b423f77c2fd-6
+01:55:57.771 --> 01:55:58.840
+cosas y aún así.
+
+e65059f2-7ec0-4b8a-a7e3-9040d8e330a0-0
+01:55:59.920 --> 01:56:06.556
+Las puede causar o KY puede hacer cosas.
+Tendrás más de nuevo, sí,
+
+e65059f2-7ec0-4b8a-a7e3-9040d8e330a0-1
+01:56:06.556 --> 01:56:13.094
+pero tendrás que esperar hasta que se te
+renueven los toques. Sí,
+
+e65059f2-7ec0-4b8a-a7e3-9040d8e330a0-2
+01:56:13.094 --> 01:56:18.344
+aún así la I a puede este hacer problemas
+como esto.
+
+e65059f2-7ec0-4b8a-a7e3-9040d8e330a0-3
+01:56:18.344 --> 01:56:23.000
+Esto al parecer ya se está ciclando,
+es decir.
+
+45ad88e4-965a-4c2f-ac86-231af548d0b7-0
+01:56:23.280 --> 01:56:28.558
+Como que ya hizo algo y luego no sirvió e
+intentó otra cosa y así y así y así y eso
+
+45ad88e4-965a-4c2f-ac86-231af548d0b7-1
+01:56:28.558 --> 01:56:33.397
+te puede gastar muchos más tokens y
+también puede no terminar nunca y de ahí
+
+45ad88e4-965a-4c2f-ac86-231af548d0b7-2
+01:56:33.397 --> 01:56:37.608
+lo puedes dejar esperando.
+Intenta resolver el problema con la I a
+
+45ad88e4-965a-4c2f-ac86-231af548d0b7-3
+01:56:37.608 --> 01:56:41.756
+intenta preguntarle, Oye,
+necesito saber si está cayendo el loop,
+
+45ad88e4-965a-4c2f-ac86-231af548d0b7-4
+01:56:41.756 --> 01:56:45.526
+necesito saber cuál es el problema. ¿Ah,
+pues se hace esto,
+
+45ad88e4-965a-4c2f-ac86-231af548d0b7-5
+01:56:45.526 --> 01:56:50.680
+si ves que está tardando demasiado a ver
+20 minutos pueden ser normales en serio?
+
+71eb82b3-a2a4-428c-bd72-7b6ce2c02b2e-0
+01:56:51.120 --> 01:56:56.585
+Pero si ves que esto tardando demasiado y
+de repente ya y capturó por ejemplo
+
+71eb82b3-a2a4-428c-bd72-7b6ce2c02b2e-1
+01:56:56.585 --> 01:57:02.051
+captura esta otra vez y como que este
+error lo mandó otra vez y demás ya está
+
+71eb82b3-a2a4-428c-bd72-7b6ce2c02b2e-2
+01:57:02.051 --> 01:57:06.396
+entrando un looper,
+entonces ahí sí puedes apagarlo el agente
+
+71eb82b3-a2a4-428c-bd72-7b6ce2c02b2e-3
+01:57:06.396 --> 01:57:10.811
+y volverlo a encender.
+Si quieres verlo así o k le das aquí en
+
+71eb82b3-a2a4-428c-bd72-7b6ce2c02b2e-4
+01:57:10.811 --> 01:57:14.034
+apagar.
+Aquí lo detienes y ya dudas preguntas
+
+71eb82b3-a2a4-428c-bd72-7b6ce2c02b2e-5
+01:57:14.034 --> 01:57:18.800
+pues ya para irnos todo bien, todo claro,
+esto se los voy a mandar.
+
+c965653f-fc72-4d77-99c5-be6d6f6539a4-0
+01:57:19.120 --> 01:57:24.389
+Para que ustedes lo pueden revisar,
+yo no voy a dar clase,
+
+c965653f-fc72-4d77-99c5-be6d6f6539a4-1
+01:57:24.389 --> 01:57:30.997
+tengo que preocupar por tomar lista,
+no con lo que estás aquí estás bien,
+
+c965653f-fc72-4d77-99c5-be6d6f6539a4-2
+01:57:30.997 --> 01:57:35.909
+dudas, todo,
+por eso les voy a mandar este para que lo
+
+c965653f-fc72-4d77-99c5-be6d6f6539a4-3
+01:57:35.909 --> 01:57:41.535
+revisen, para que lo vean,
+para que lo chequen. ¿Ajá, va bien,
+
+c965653f-fc72-4d77-99c5-be6d6f6539a4-4
+01:57:41.535 --> 01:57:48.680
+entonces este pues ya me voy otra vez
+dónde le pico para no gastar? Ah, puedes.
+
+4bbc7f2f-a24d-4007-93a7-ab3092801e8b-0
+01:57:48.960 --> 01:57:55.085
+Crear otra sesión,
+otro nuevo chat o compactar esta con
+
+4bbc7f2f-a24d-4007-93a7-ab3092801e8b-1
+01:57:55.085 --> 01:58:00.553
+compact ajá.
+Puedes hacer diagonal compact guiado
+
+4bbc7f2f-a24d-4007-93a7-ab3092801e8b-2
+01:58:00.553 --> 01:58:09.522
+compactos o k lo mandará en MD les voy a
+mandar todo esto sí y lo voy a mandar en
+
+4bbc7f2f-a24d-4007-93a7-ab3092801e8b-3
+01:58:09.522 --> 01:58:16.960
+este cómo se llama en PDF no en MD bien,
+yo puedo editar mi cuenta.
+
+ef7c0866-ac27-4f8b-bff4-36678c704018-0
+01:58:18.440 --> 01:58:22.200
+Cuenta pendiente oy sí, es que sí,
+hay que intenta no,
+
+ef7c0866-ac27-4f8b-bff4-36678c704018-1
+01:58:22.200 --> 01:58:26.028
+si hay que mandar a a soporte eso porque
+ya es como de,
+
+ef7c0866-ac27-4f8b-bff4-36678c704018-2
+01:58:26.028 --> 01:58:31.224
+hay que reiniciar la cuenta y todo eso sí
+es un poquito más complejo o K va
+
+ef7c0866-ac27-4f8b-bff4-36678c704018-3
+01:58:31.224 --> 01:58:34.506
+perfecto,
+siguiente clase vamos a hacer examen,
+
+ef7c0866-ac27-4f8b-bff4-36678c704018-4
+01:58:34.506 --> 01:58:38.334
+vamos a hacer otras prácticas y pues todo
+esto va bien,
+
+ef7c0866-ac27-4f8b-bff4-36678c704018-5
+01:58:38.334 --> 01:58:42.505
+vamos a dejar que la gente piense y que
+se cicle así solito,
+
+ef7c0866-ac27-4f8b-bff4-36678c704018-6
+01:58:42.505 --> 01:58:45.240
+ya les voy a decir si es que sirve o no.
+
+6882910b-557d-45ee-ac32-80e47d740c3c-0
+01:58:45.480 --> 01:58:49.418
+Y ya muchísimas gracias por sus
+felicitaciones y buenos deseos.
+
+6882910b-557d-45ee-ac32-80e47d740c3c-1
+01:58:49.418 --> 01:58:54.527
+Espero que estén muy bien, cuídense mucho,
+yo les voy a mandar esto en un rato más
+
+6882910b-557d-45ee-ac32-80e47d740c3c-2
+01:58:54.527 --> 01:58:58.896
+para que lo puedan revisar a su ritmo les
+voy a mandar el la, el Este.
+
+6882910b-557d-45ee-ac32-80e47d740c3c-3
+01:58:58.896 --> 01:59:01.666
+El PDF también viene como un código
+ejemplo,
+
+6882910b-557d-45ee-ac32-80e47d740c3c-4
+01:59:01.666 --> 01:59:06.466
+pero no le hagan caso porque la I a puede
+generarles otro código bien. Bueno,
+
+6882910b-557d-45ee-ac32-80e47d740c3c-5
+01:59:06.466 --> 01:59:10.590
+que estén muy bien, descansen, adiós,
+bye besos, los quiero mucho,
+
+6882910b-557d-45ee-ac32-80e47d740c3c-6
+01:59:10.590 --> 01:59:14.159
+muchas gracias por sus buenos deseos,
+que estén muy bien.
+
+b7baa6b5-5e2a-49b8-86c0-178b3ddeb2f7-0
+01:59:14.640 --> 01:59:20.421
+¿Y nos vemos el miércoles o K va perfecto
+que estén muy bien,
+
+b7baa6b5-5e2a-49b8-86c0-178b3ddeb2f7-1
+01:59:20.421 --> 01:59:26.855
+adiós y vamos a acabar esto ya el
+miércoles bye nos vemos a ah mira,
+
+b7baa6b5-5e2a-49b8-86c0-178b3ddeb2f7-2
+01:59:26.855 --> 01:59:32.916
+creo que ya lo corrigió,
+espérame según esto ya lo corrigió, no,
+
+b7baa6b5-5e2a-49b8-86c0-178b3ddeb2f7-3
+01:59:32.916 --> 01:59:38.511
+no lo ha corregido,
+ya luego les digo cuál fue el problema?
+
+b7baa6b5-5e2a-49b8-86c0-178b3ddeb2f7-4
+01:59:38.511 --> 01:59:42.334
+Va,
+nos vemos adiós a ver porque no está
+
+b7baa6b5-5e2a-49b8-86c0-178b3ddeb2f7-5
+01:59:42.334 --> 01:59:43.360
+escuchando.
+
+a6ae3f4e-4a92-4c1e-aad3-2316657c55d9-0
+01:59:43.960 --> 01:59:44.720
+Manserver.

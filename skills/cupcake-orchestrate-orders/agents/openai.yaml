@@ -1,0 +1,4 @@
+interface:
+  display_name: "Orquestar pedidos CUP&CAKE"
+  short_description: "Coordina agentes y estados del pedido"
+  default_prompt: "Use $cupcake-orchestrate-orders para coordinar una solicitud de pedido de CUP&CAKE."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Revisar comprobante CUP&CAKE"
+  short_description: "Analiza OCR y escala revisión humana"
+  default_prompt: "Use $cupcake-review-payment-proof para analizar un comprobante sin confirmar el pago."

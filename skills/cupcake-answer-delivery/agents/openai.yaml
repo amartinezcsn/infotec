@@ -1,0 +1,4 @@
+interface:
+  display_name: "Responder entregas CUP&CAKE"
+  short_description: "Responde entregas con RAG y citas"
+  default_prompt: "Use $cupcake-answer-delivery para responder una consulta de entrega con evidencia."
