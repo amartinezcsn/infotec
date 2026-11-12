@@ -1,0 +1,42 @@
+[
+  {
+    "source_id": "kyte-demo-pastel-001",
+    "name": "Pastel creativo personalizado",
+    "category": "pasteles-personalizados",
+    "description": "Pastel elaborado sobre pedido con tema, colores y dedicatoria personalizados.",
+    "base_price": "850.00",
+    "currency": "MXN",
+    "variants": [{"name": "Porciones", "value": "15", "price_delta": 0}, {"name": "Porciones", "value": "25", "price_delta": 350}],
+    "image_url": "https://placehold.co/640x420/f6d5df/5c2434?text=Pastel+CUP%26CAKE",
+    "product_url": "https://cupcake.kyte.site/en/c/pastel-personalizado/1662993677637-NSn1t",
+    "published": true,
+    "source_updated_at": "2026-11-11T09:00:00-06:00"
+  },
+  {
+    "source_id": "kyte-demo-cupcakes-001",
+    "name": "Cupcakes decorados",
+    "category": "cupcakes",
+    "description": "Cupcakes temáticos preparados sobre pedido, con decoración coordinada al evento.",
+    "base_price": "420.00",
+    "currency": "MXN",
+    "variants": [{"name": "Cantidad", "value": "12 piezas", "price_delta": 0}, {"name": "Cantidad", "value": "24 piezas", "price_delta": 380}],
+    "image_url": "https://placehold.co/640x420/f8e9d2/6c4226?text=Cupcakes+CUP%26CAKE",
+    "product_url": "https://cupcake.kyte.site/",
+    "published": true,
+    "source_updated_at": "2026-11-11T09:00:00-06:00"
+  },
+  {
+    "source_id": "kyte-demo-galletas-001",
+    "name": "Galletas decoradas",
+    "category": "galletas-decoradas",
+    "description": "Galletas personalizadas con tema, colores y mensaje elegidos por el cliente.",
+    "base_price": "360.00",
+    "currency": "MXN",
+    "variants": [{"name": "Cantidad", "value": "12 piezas", "price_delta": 0}, {"name": "Cantidad", "value": "24 piezas", "price_delta": 320}],
+    "image_url": "https://placehold.co/640x420/e4d6f3/4a2d68?text=Galletas+CUP%26CAKE",
+    "product_url": "https://cupcake.kyte.site/en/c/galletas/1662993682682-NSn1t",
+    "published": true,
+    "source_updated_at": "2026-11-11T09:00:00-06:00"
+  }
+]
+

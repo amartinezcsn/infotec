@@ -1,0 +1,8 @@
+using './main.bicep'
+
+param prefix = 'cupcakeai'
+param location = 'mexicocentral'
+param environment = 'dev'
+param enableFoundry = true
+param sqlAdminPassword = 'REEMPLAZAR_CON_PARAMETRO_SEGURO'
+

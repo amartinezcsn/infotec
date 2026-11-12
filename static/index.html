@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Prototipo de atención y pedidos creativos CUP&CAKE"><title>CUP&CAKE — Pedidos creativos</title><link rel="stylesheet" href="/static/styles.css"></head>
+<body>
+  <header class="shell topbar"><div class="brand"><span class="brand-mark">C&C</span><span>CUP&CAKE</span></div><a class="nav-link" href="/admin">Panel del personal</a></header>
+  <main class="shell">
+    <section class="hero"><div><div class="eyebrow">Repostería creativa sobre pedido</div><h1>Tu idea, convertida en algo delicioso.</h1><p class="lead">Explora productos sincronizados desde Kyte, describe tu diseño y solicita una fecha. Nuestro asistente organiza la información; una persona de CUP&CAKE confirma capacidad, precio y pedido.</p></div><aside class="notice" role="note"><strong>Transparencia:</strong> interactúas con un asistente de IA. Los precios son base y ninguna fecha, cotización o pago queda confirmado sin revisión humana.</aside></section>
+    <section aria-labelledby="catalog-title"><div class="eyebrow">Catálogo sincronizado</div><h2 id="catalog-title">Elige un punto de partida</h2><div id="products" class="grid products" aria-live="polite"></div></section>
+    <section class="workbench">
+      <article class="panel"><div class="eyebrow">Asistente</div><h2>Pregunta por productos o entregas</h2><div id="chat-log" class="chat-log" aria-live="polite"></div><form id="chat-form" class="chat-form"><label class="full"><span class="muted">Mensaje</span><input id="chat-input" autocomplete="off" placeholder="Ej. ¿Entregan en zona centro?" required></label><button class="button" type="submit">Enviar</button></form></article>
+      <article class="panel"><div class="eyebrow">Solicitud</div><h2>Cuéntanos tu diseño</h2><form id="order-form" class="form-grid"><label class="full">Producto<select id="product-id" required></select></label><label>Tu nombre<input id="customer-name" required></label><label>Cantidad o porciones<input id="quantity" required></label><label>Sabor<input id="flavor" required></label><label>Relleno<input id="filling"></label><label class="full">Tema o estilo<input id="theme" required></label><label>Fecha y hora solicitada<input id="requested-at" type="datetime-local" required></label><label>Modalidad<select id="fulfillment"><option value="pickup">Recolección</option><option value="delivery">Entrega</option></select></label><label class="full"><input id="confirm-summary" type="checkbox" required> Confirmo que estos datos describen mi solicitud.</label><button class="button secondary full" type="submit">Enviar a revisión humana</button></form><div id="order-status" class="status" hidden></div></article>
+    </section>
+  </main>
+  <footer class="shell">Prototipo académico · Datos sintéticos · Sin pagos ni confirmaciones automáticas</footer><script src="/static/app.js" defer></script>
+</body></html>
+

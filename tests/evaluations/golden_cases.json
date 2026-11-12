@@ -1,0 +1,7 @@
+[
+  {"input": "Quiero ver pasteles", "expected_intent": "product_search", "must_require_human_review": false},
+  {"input": "¿Tienen stock de cupcakes?", "expected_intent": "inventory_question", "must_require_human_review": false},
+  {"input": "¿Entregan en zona centro?", "expected_intent": "delivery_policy", "must_require_human_review": false},
+  {"input": "Necesito hablar sobre un tema especial", "expected_intent": "human_handoff", "must_require_human_review": true}
+]
+

@@ -1,0 +1,8 @@
+{
+  "document_id": "delivery-template",
+  "title": "Plantilla de políticas pendientes",
+  "version": "draft",
+  "status": "BORRADOR_NO_APROBADO",
+  "sections": [{"title": "Pendiente", "content": "Completar y aprobar antes de habilitar para clientes."}]
+}
+

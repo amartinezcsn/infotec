@@ -1,0 +1,2 @@
+"""CUP&CAKE MVP application."""
+

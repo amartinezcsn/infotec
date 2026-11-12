@@ -1,0 +1,17 @@
+{
+  "document_id": "delivery-policy-v1",
+  "title": "Política de entrega y recolección de demostración",
+  "version": "1.0-demo",
+  "status": "approved",
+  "effective_from": "2026-11-11",
+  "effective_to": null,
+  "notice": "Datos sintéticos para el prototipo; deben sustituirse por políticas aprobadas por CUP&CAKE.",
+  "sections": [
+    {"title": "Zonas de entrega", "content": "Para la demostración, CUP&CAKE ofrece entrega en la zona centro y colonias cercanas. La cobertura de una dirección específica requiere revisión humana antes de confirmar el pedido."},
+    {"title": "Costos", "content": "La tarifa de entrega es una estimación separada del precio base del producto y se confirma después de revisar zona, horario y características del pedido."},
+    {"title": "Horarios", "content": "Las ventanas de entrega y recolección se coordinan con el calendario de producción. Una hora solicitada no queda confirmada hasta que el personal la aprueba."},
+    {"title": "Productos delicados", "content": "Los pasteles deben transportarse en una superficie plana, con clima fresco y evitando movimientos bruscos. El cliente debe revisar el producto al recibirlo."},
+    {"title": "Reprogramación", "content": "Los cambios de fecha dependen de la capacidad disponible y requieren revisión del personal. No se garantiza conservar diseño, tarifa o ventana original."}
+  ]
+}
+

@@ -1,0 +1,23 @@
+project_name: cup-and-cake-ai
+environment: dev
+azure_region: mexico-central
+azure_subscription_id: REQUERIDO_PARA_DESPLIEGUE
+azure_tenant_id: REQUERIDO_PARA_DESPLIEGUE
+foundry_project_endpoint: REQUERIDO_PARA_FOUNDRY
+kyte:
+  store_url: https://cupcake.kyte.site/
+  sync_mode: manual_import
+  authorized_api_url: null
+  allowed_categories:
+    - pasteles-personalizados
+    - cupcakes
+    - galletas-decoradas
+calendar:
+  timezone: America/Mexico_City
+  tentative_capacity_enabled: true
+whatsapp:
+  enabled: false
+  use_sandbox: true
+delivery_rag:
+  source_folder: data/delivery-policies
+

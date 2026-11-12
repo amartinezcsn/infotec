@@ -1,0 +1,22 @@
+{
+  "store_name": "cup&cake",
+  "store_url": "https://cupcake.kyte.site/",
+  "canonical_locale_url": "https://cupcake.kyte.site/en",
+  "verified_at": "2026-11-11",
+  "allowed_product_families": {
+    "pasteles-personalizados": [
+      "https://cupcake.kyte.site/en/c/pastel-personalizado/1662993677637-NSn1t",
+      "https://cupcake.kyte.site/en/c/pastel-moldeado/1712512544530-NSn1t"
+    ],
+    "cupcakes": [
+      "https://cupcake.kyte.site/en/c/basicos/1662825817203-NSn1t",
+      "https://cupcake.kyte.site/en/c/gourmet/1662825270676-NSn1t",
+      "https://cupcake.kyte.site/en/c/premium/1678137254173-NSn1t",
+      "https://cupcake.kyte.site/en/c/personalizados/1663014070374-NSn1t"
+    ],
+    "galletas-decoradas": [
+      "https://cupcake.kyte.site/en/c/galletas/1662993682682-NSn1t"
+    ]
+  },
+  "integration_note": "La raíz y categorías se verificaron públicamente. Los productos y precios del archivo synthetic/catalog.json siguen siendo datos de demostración hasta contar con una exportación o API autorizada de Kyte."
+}
